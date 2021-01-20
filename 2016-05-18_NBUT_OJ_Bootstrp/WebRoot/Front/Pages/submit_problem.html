@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>问题提交</title>
+<link rel="stylesheet" type="text/css" href="../../Common/bootstrap/bootstrap.min.css">
+
+<link rel="Shortcut Icon" href="../../favicon.ico" >
+<script type="text/javascript" src="../../Common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../Scripts/submit_problem.js"></script>
+<script language="Javascript" type="text/javascript" src="../../Common/editarea/edit_area/edit_area_full.js"></script>
+<script language="Javascript" type="text/javascript">
+	// initialisation
+	editAreaLoader.init({
+		id : "problem_code" // id of the textarea to transform		
+		,
+		start_highlight : true // if start with highlight
+		,
+		allow_resize : "both",
+		allow_toggle : true,
+		word_wrap : true,
+		language : "en",
+		syntax : "php"
+	});
+
+	// callback functions
+	function my_save(id, content) {
+		alert("Here is the content of the EditArea '" + id
+				+ "' as received by the save callback function:\n" + content);
+	}
+
+	function my_load(id) {
+		editAreaLoader
+				.setValue(id,
+						"The content is loaded from the load_callback function into EditArea");
+	}
+
+	function test_setSelectionRange(id) {
+		editAreaLoader.setSelectionRange(id, 100, 150);
+	}
+
+	function test_getSelectionRange(id) {
+		var sel = editAreaLoader.getSelectionRange(id);
+		alert("start: " + sel["start"] + "\nend: " + sel["end"]);
+	}
+
+	function test_setSelectedText(id) {
+		text = "[REPLACED SELECTION]";
+		editAreaLoader.setSelectedText(id, text);
+	}
+
+	function test_getSelectedText(id) {
+		alert(editAreaLoader.getSelectedText(id));
+	}
+
+	function editAreaLoaded(id) {
+		if (id == "example_2") {
+			open_file1();
+			open_file2();
+		}
+	}
+
+	function open_file1() {
+		var new_file = {
+			id : "to\\ é # € to",
+			text : "$authors= array();\n$news= array();",
+			syntax : 'php',
+			title : 'beautiful title'
+		};
+		editAreaLoader.openFile('example_2', new_file);
+	}
+
+	function open_file2() {
+		var new_file = {
+			id : "Filename",
+			text : "<a href=\"toto\">\n\tbouh\n</a>\n<!-- it's a comment -->",
+			syntax : 'html'
+		};
+		editAreaLoader.openFile('example_2', new_file);
+	}
+
+	function close_file1() {
+		editAreaLoader.closeFile('example_2', "to\\ é # € to");
+	}
+
+	function toogle_editable(id) {
+		editAreaLoader.execCommand(id, 'set_editable', !editAreaLoader
+				.execCommand(id, 'is_editable'));
+	}
+</script>
+</head>
+<body>
+<div class="container">
+	<div id="head"></div>
+	<center id="content"
+		style="width: 80%; margin: 0 auto; background-color: rgb(238, 238, 238); border-radius: 1px">
+		<p>
+			题号：<strong id="problem_id"></strong>
+		</p>
+		<p>
+			语言： <select id="problem_language">
+				<option>C</option>
+				<option>C++</option>
+			</select>
+		</p>
+		<p>
+			<textarea style="width: 700px; height: 200px;" id="problem_code"></textarea>
+		</p>
+		<p>
+		<div>
+			<span>输入</span>
+			<textarea style="width: 300px; height: 100px"></textarea>
+			<span>输出</span>
+			<textarea style="width: 300px; height: 100px"></textarea>
+		</div>
+		</p>
+		</br>
+		<div>
+			<button onclick="submitcode(editAreaLoader.getValue('problem_code'))">
+				提交</button>
+			<button>测试运行</button>
+			<span>状态</span>
+			<button>重置</button>
+
+		</div>
+	</center>
+</div>
+	<script type="text/javascript" src="../Scripts/load.js"></script>
+</body>
+</html>

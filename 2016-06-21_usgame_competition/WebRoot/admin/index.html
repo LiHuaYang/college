@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>后台首页</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<!-- <script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script> -->
+<!-- <script type="text/javascript" src="../common/easyui/jquery.easyui.min.js"></script> -->
+<link rel="stylesheet" type="text/css" href="../common/easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="../common/easyui/themes/icon.css">
+
+</head>
+
+<body>
+
+
+<div id="cc" class="easyui-layout" data-options="fit:true">  
+
+	<!-------------------------------------- 顶部开始 ----------------------------------------->
+    <div data-options="region:'north',split:false, border:true" style="height:80px;">
+    <h1>这里是公司名称</h1>
+    </div>  
+    <!-------------------------------------- 顶部结束 ----------------------------------------->
+    
+    <!-------------------------------------- 底部开始 ----------------------------------------->
+    <div data-options="region:'south',split:false" style="height:50px;">
+    <h1>这里是公司信息</h1>
+    </div>
+    <!-------------------------------------- 底部结束 ----------------------------------------->
+    
+    <!-------------------------------------- 西部开始 ----------------------------------------->
+    <div data-options="region:'west',title:'导航栏',split:true, border:true" style="width:200px;">
+   	    <!-------------------------------------- 导航栏开始 ----------------------------------------->
+		<div id="aa" 
+			class="easyui-accordion"
+			data-options="fit:false, animate:false" style="height:400px;">
+			
+			<div title = "赛事" 
+				data-options = "selected:true"
+				style = "padding:10px;">
+				
+				<a href="#" >赛事列表</a> </br></br>
+				
+				<a href="#" >增加赛事</a></br></br>
+				
+				<a href="#" >订单列表</a>
+				
+			</div>
+			<div title = "基本配置"
+				data-options = ""
+				style = "padding:10px;">
+				<a href="/2016-06-21_usgame_competition/index.jsp" >微信首页</a> </br></br>
+			</div>
+				
+			<div title="分类3"
+				style = "padding:10px;">
+				3333
+			</div>
+		</div>
+		<!-------------------------------------- 导航栏结束 ----------------------------------------->
+		
+    </div>   
+    <!-------------------------------------- 西部结束 ----------------------------------------->
+    
+     <!-------------------------------------- 中间开始 ----------------------------------------->  
+    <div data-options="region:'center', title:'正文', border:true" style="padding:8px;">
+		<div 
+			id="tabsID" 
+			class="easyui-tabs" 
+			style="text-align:center"
+			data-options="plain:true,border:false,selected:-1,fit:true">   
+	</div>
+	</div>   
+	<!-------------------------------------- 中间结束 ----------------------------------------->
+</div> 
+
+</body>
+<!-- <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script> -->
+
+<script src="../common/jquery-1.11.1.min.js" ></script>
+<script src="../common/easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../common/easyui/easyui-lang-zh_CN.js"></script>   
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,145 @@
+@CHARSET "UTF-8";
+ body{
+    width:300px;
+	height:300px;
+    margin:0px;
+  }
+   .menu{
+     width:97%;
+	 height:12%;
+	 padding-left:2%;
+	 background:#104E8B;
+   }
+   .abox{
+     width:24%;
+	 height:80%;
+     font-size:15px;
+     letter-spacing:4px;
+	 line-height:80%;
+	 text-align:center;
+	 color: #5CACEE;
+	 background:#104E8B;
+   }
+   
+   input{
+     border:0px;
+   }
+   #user{
+    font-size:20px;
+	color:#87CEFF;
+	line-height:100%;
+   }
+   .navigation{
+    width:99%;
+	height:11%;
+	padding-top:3%;
+	padding-left:;
+	border-bottom:1px solid #CDCDB4;
+	background:#FAFAFA;
+  }
+  .nav{
+    width:100%;
+	height:100%;
+  }
+  
+  input{
+    width:70%;
+    border:0px;
+	font-size:12px;
+  }
+  .box{
+	   padding:5px;
+	   border:1px solid #CDCDB4	;
+	   border-radius:6px;
+	   margin-left:5px;
+	   margin-right:10px;
+	   background:white;
+  }
+   #colation{
+    font-size:23px;
+	line-height:100%;
+  }
+  .asort{
+    width:98.5%;
+	height:9%;
+	margin-bottom:3%;
+	box-shadow:0px 1px 5px #CDCDB4;
+  }
+  .akey{
+    width:31%;
+	height:80%;
+    float:left;
+	letter-spacing:1px;
+	margin-left:2%;
+	margin-top:1%;
+	font-size:12px;
+  }
+  #all{
+    font-size:12px;
+	padding-right:8%;
+    border-right:1px solid #CDCDB4;
+  }
+  #title{
+    font-size:12px;
+	padding-right:9%;
+    border-right:1px solid #CDCDB4;
+  }
+  #three{
+    font-size:12px;
+	padding-right:;
+
+  }
+  .goods{
+    width:100%;
+	height:60%;
+	background:;
+  }
+  .can{
+  width:43%;
+  height:50%;
+  margin-left:5%;
+  border:;
+  float:left;
+  background:url("../image/lpe.png");
+  webkit-fiter:blur(40px);
+  background-size:100% 100%;
+}
+ .foot{
+    width:100%;
+	height:30%;
+	letter-spacing:5px;
+	background: #EEEEE0;
+
+  
+  }
+  .last{
+    margin-left:5%;
+	font-size:13px;
+  }
+  .white{
+    width:100%;
+	height:30%;
+    line-height:30px;
+    background:white;
+	border-top:0.5px solid  #EDEDED;
+	color:#3686a6;
+  }
+   .sort{
+    width:100%;
+	height:15%;
+	
+  }
+  .key{
+    width:24%;
+	height:80%;
+    float:left;
+	letter-spacing:1px;
+	text-align:center;
+	margin-top:3%;
+
+	font-size:11px;
+	border-right:1px solid;
+  }
+  #help{
+    border-right:0px;
+  }

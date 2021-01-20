@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+
+.icon {
+	display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 0px;
+    cursor:pointer;
+    border:1px solid #F3F3F3;
+}
+.icon:hover {
+	 border:1px solid #AFEEEE;
+}
+
+.page {
+	background-color:#F3F3F3;
+}
+
+.page_left {
+	float:left;
+}
+
+.page_right {
+	float:right;
+	line-height: 35px;
+	font-size:0.78em;
+	font-weight:bold;
+}
+
+.page_font {
+	font-size:10px;
+	cursor: pointer;
+	
+}
+
+.pagination-btn-separator {
+	float: left;
+    height: 24px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #fff;
+    margin: 3px 1px;
+    display:block;
+}
+
+.pagination-first {
+	background:url('../../Common/image/pagination_icons.png') no-repeat 0px center;
+}
+
+.pagination-prev {
+	background:url('../../Common/image/pagination_icons.png') no-repeat -16px center;
+}
+.pagination-next {
+	background:url('../../Common/image/pagination_icons.png') no-repeat -32px center;
+}
+.pagination-last {
+	background:url('../../Common/image/pagination_icons.png') no-repeat -48px center;
+}
+.pagination-load {
+	background:url('../../Common/image/pagination_icons.png') no-repeat -64px center;
+}

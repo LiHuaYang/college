@@ -1,0 +1,217 @@
+@CHARSET "UTF-8";
+
+
+body {
+	font-family:Microsoft YaHei;
+}
+
+/**************************************\
+	页面头部导航操作条样式
+\**************************************/
+/* 操作按钮样式  */
+.op-button{
+	width:90px;
+	background-color:#00796B;
+	border-radius: 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	text-align: center;
+	font-size: 0.78em;
+	display: inline-block;
+	line-height:30px;
+	outline:none;
+}
+
+/**************************************\
+	页面右侧查询导航样式
+\**************************************/
+
+.navbar-content {
+	width:100%;
+	height:100%;
+	max-height:1500px;  
+}
+
+/* TODO:Margin-left和left有什么区别  */
+/* TODO:和bottom-top是一样的  */
+.top-wrap {
+	width:100%;
+	height:auto;
+	left:20px;
+}
+.buttom-wrap {		
+	width:100%;
+	/*设为100%*/
+	height:auto;
+}
+.condition-title {	
+	height:40px;
+	background-color:#00796B;
+	text-align:left;
+	color:white;
+}
+.condition-title p {
+	margin-left:20px;
+	padding-left:5px;
+	font-size:0.8em;
+	font-weight:bold;
+	line-height:40px;
+	text-align:left;
+	margin:0px;
+}
+.navbar {
+	width:100%;
+	height:auto;
+	list-style:none;
+}
+.navbar ul{
+	height:auto;
+	padding:0px;
+}
+.navbar li {
+	float:left;
+	list-style:none;
+	font-size:14px;
+	margin-left:20px;
+	list-style:none;
+	text-align:left;
+	color:black;
+}
+/**************************************\
+	页面右侧操作数据样式
+\**************************************/
+
+/* TODO: 只有当设置width：1000px 的时候才能显示平铺 */
+.mrtruediv {
+	height:auto;
+	width:100%;
+}
+.mrtruediv td {
+	cursor:pointer;
+	border-bottom:1px dotted #CCC;
+	border-left:1px dotted #CCC;
+	font-size:0.7125em;
+	text-align:left;
+	width:900px;
+}
+.property td{
+	font-size:14px;
+	font-weight:bold; 
+	width:900px;
+	height:30px;
+	border-bottom:3px solid #CCC;
+}
+
+#data_tab {
+	height:60%;
+}
+/**************************************\
+	分页样式
+\**************************************/
+.fenye { 
+	margin-top:10px;
+	height:40px;
+	margin:0 auto;
+}
+.fenye ul {
+	width:400px;
+	padding:0px;
+	font-size:12px;
+	text-algin:center;
+	clear:both;
+	float:none;
+	overflow:hidden;
+	margin:0 auto;
+}
+.fenye ul li { 
+	float:left;
+	width:70px;
+	cursor:pointer; 
+	color:#999;
+	list-style:none;
+	line-height:25px;
+	border:1px solid #CCC;
+	border-radius:2px;
+}
+
+
+/**************************************\
+	弹框样式
+\**************************************/
+.showpage {
+    width: 600px;
+	height: 500px;
+	margin-top: 15%;
+	margin-left: 30%;
+	background: white;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.pagehead { 
+    width: 100%;
+	padding-top: 5px;
+	height: 25px;
+	background: #00796B;
+	text-indent: 10px;
+	color: white;
+}
+
+.shadow {
+	position: absolute;
+	top:0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.1);
+}
+
+.closepage {
+    cursor: pointer;
+	margin-top: -3px;
+	margin-right: 5px;
+	width: 25px;
+	height: 25px;
+	float: right;
+	background-size: 25px 25px;
+	-moz-background-size: 25px 25px;
+	-moz-background-size: 25px 25px;
+	-o-background-size: 25px 25px;
+}
+
+/**************************************\
+	电话帮助页面css
+\**************************************/
+
+.login {
+	margin-top:40px;
+	border: 1px solid #CCC;
+	border-radius:10px;
+	width: 50%;
+	height: 200px;
+	margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+#login_input {
+	margin-top:20px;
+	margin-left: 25%;
+}
+#login_span {
+	margin-left:55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

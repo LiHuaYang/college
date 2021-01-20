@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	
+	xmlns:context="http://www.springframework.org/schema/context"
+	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+	 
+	 <bean id="test_defalut_create" class="com.ioc_create_object.TestBean1"></bean>
+	 <bean id="teat_factroy_create_bean1" class="com.ioc_create_object.BeanFactory" factory-method="getTeatBean1"></bean>  
+	 <bean id="test_when_create" class="com.ioc_create_object.TestBean1" lazy-init="true"></bean>
+	 
+</beans>

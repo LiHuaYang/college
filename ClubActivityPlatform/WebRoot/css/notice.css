@@ -1,0 +1,236 @@
+@CHARSET "UTF-8";
+body{
+margin:0px;
+  font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #565a5c;
+background: url("../img/noticeb.png");
+background-repeat: no-repeat;
+background-size:100%; 
+}
+
+.notice{
+	    border: 1px solid #E5E5E5;
+	background:white;
+width: 996px;
+margin: auto;
+min-height: 400px;
+    height: auto!important;
+    height: 400px;
+
+}
+.noticebelong{
+width: 100%;
+height: 90px;
+background: #F3F5F8;
+}
+.noticebelong-pic{
+width: 120px;
+height: 120px;
+position: relative;
+top:-40px;
+background: url('../img/school.jpg');
+background-repeat: no-repeat;
+background-size:110px 110px;
+background-position: 5px 5px;
+background-color: white;
+border:1px solid #DADCDF;
+left: 40px;
+display: inline-block;
+}
+.noticebelong-right{
+float: right;
+height: 100%;
+ width:800px;
+}
+.noticebelong-name{
+padding-top:20px;
+float:left;
+width: 200px;
+font-size: 25px;
+}
+.page,.page1{
+
+height: 30px;
+padding:10px; 
+border-top:1px solid rgb(200,200,200);
+border-bottom:1px solid rgb(200,200,200);
+background: rgb(230,230,230);
+}
+.notice-list{
+background: rgb(246,246,246);
+}
+.notice-list-left{
+width: 746px;
+vertical-align:top;
+display: inline-block;
+border-right:1px solid rgb(200,200,200);
+border-left:1px solid rgb(200,200,200);
+
+}
+.notice-list-right{
+width: 244px;
+vertical-align:top;
+display: inline-block;
+
+
+}
+.notice-title{
+	padding-top: 10px;
+	height: 45px;
+	font-size: 20px;
+	border-bottom: 1px solid rgb(158,157,167);
+	text-indent: 2em;
+	background: white;
+}
+
+#bc{
+font-size: 20px;
+color: #f47920;
+}
+.notice-more{
+		background: white;
+padding: 30px;
+min-height: 300px;
+    height: auto!important;
+    height: 300px;
+    padding-bottom: 100px;
+
+}
+.np{
+width: 600px;
+height: 400px;
+background-size:100% 100%;
+margin: auto;
+
+}
+
+.comment-one{
+background: #FBFbFd;
+min-height: 350px;
+    height: auto!important;
+    height: 350px;
+border-top:1px solid rgb(200,200,200);
+}
+.comment-one-left{
+width: 196px;
+height:300px;
+display: inline-block;
+vertical-align:top;
+}
+.comment-one-right{
+	vertical-align:top;
+	width: 506px;
+	display: inline-block;
+    padding: 20px;
+    min-height: 310px;
+    height: auto!important;
+    height: 310px;
+    background: white;
+   
+}
+.commenter-pic{
+width: 120px;
+height: 120px;
+margin-top: 40px;
+margin-left: 35px;
+background-size:120px 120px;
+
+border:1px solid rgb(200,200,200);
+border-radius:50%;
+background-color:white;
+background-image: url('../img/user/tou.jpg')
+}
+.commenter-name{
+text-align: center;
+}
+.bu-one{
+	
+text-align: left;
+font-size: 14px;
+cursor: pointer;
+}
+.bu-one:HOVER {
+	text-decoration: underline;
+	color: #f47920;
+}
+.commentout{
+width: 100%;
+height: 300px;
+background:#F3f3f3;
+}
+.commentout-out{
+padding-top: 30px;
+padding-left:30px;
+font-size: 20px;
+font-weight: bold;
+}
+.comment-in{
+width: 700px;
+height: 200px;
+margin-left:30px;
+margin-top:10px;
+background:#Fafafa;
+border:1px solid rgb(200,200,200);
+}
+.up{
+width: 100%;
+height: 50px;
+
+}
+.committext{
+	width: 660px;
+	margin-left: 20px;
+	height: 130px;
+	border-top: 1px solid rgb(150,150,150);
+	border-left: 1px solid rgb(150,150,150);
+	border-bottom: 1px solid rgb(200,200,200);
+	border-right: 1px solid rgb(200,200,200);
+	margin-top: 0px;  
+	overflow-x:hidden; 
+}
+.committext .np{
+width: 60px;
+height: 40px;
+background-size:60px 40px;
+margin: 1px;
+}
+.up-button{
+width: 130px;
+position:relative;
+left:15px;
+top:5px;
+font-size:17px;
+display:inline-block;
+text-align: center;
+cursor: pointer;
+
+}
+.comment-one .np{
+	display:inline-block;
+	margin:0px;
+width: 200px;
+height: 200px;
+}
+
+.outs{
+ width: 90px;
+ padding-top:5;
+  margin-top:10px;
+  margin-right:20px;
+   float:right;
+ height:25px;
+ color: white;
+ display: inline-block;
+ text-align: center;
+ background: #f47920;
+   border-radius:0 2px 2px 0;
+   box-shadow:0 1px 1px #f47920;
+   cursor: pointer;
+
+}
+.outs:hover{
+background: #faa755;
+}
+.outs:active{
+background: #f15a22;
+}

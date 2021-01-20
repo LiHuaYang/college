@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+
+<hibernate-mapping package="org.hibernate.tutorial.domain">
+
+
+<!-- 
+	用来描述一个需要持久化的类 
+	name 类的全名
+	table 可以不写，默认值和类名一样	
+	catalog 数据库的名称 
+-->
+<class name="com.hibernate_base.Person">
+	
+	<!-- 描述标识属性，一般是数据库的主键 -->
+	<id name="pid" column="id" length="10" type="java.lang.Long" >
+		<!-- 主键的产生器：通知hibernate产生主键的方式 -->
+		<generator class="increment"></generator>
+	</id>
+		
+	<!-- 描述类的一般属性 -->
+	<property name="name" column="name" type="java.lang.String" length="20"></property>	
+</class>
+
+</hibernate-mapping>

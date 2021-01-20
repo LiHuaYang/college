@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+
+
+
+body {
+	font-family: "微软雅黑","microsoft yahei",verdana,lucida,arial,sans-serif,"黑体";
+}
+
+.contest_detail_info{
+	margin-top:10px;
+	margin-bottom:40px;
+	padding:0px;
+	display:block;
+	overflow:hidden;
+	width:1000px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.info_text{
+	line-height: 2em;
+	font-size: 14px;
+	margin-left: 78px;
+}
+
+.info_list strong{
+	font-size: 14px;
+	line-height: 2em;
+	float:left;
+}
+
+.info_list{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.info{
+	margin: 0 70px;
+}
+
+.info_title_bar{
+	width:1000px;
+	height:80px;
+	overflow: hidden;
+	z-index: 2;
+	clear: both;
+	padding-top: 24px;
+	text-align: center;
+}
+
+.info_title{
+	float: left;
+	color: #127bab;
+	margin-top: 6px;
+}
+
+.info_title_more{
+	float: left;
+	margin-left: 20px;
+	margin-top: 26px;
+	font-size: 13px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0px;
+	padding: 0px;
+}
+
+.info_t{
+	display: inline-block;
+	
+}

@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+body{
+margin:0px;
+  font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #565a5c;
+}
+.npic{
+height: 600px;
+width: 100%;
+background: url('../img/noticebac.jpg');
+background-repeat:no-repeat;
+background-size:100% ;
+}
+.npictext{
+width: 100%;
+text-align: center;
+color: white;
+padding-top: 175px;
+font-size: 40px;
+font-weight: bold;
+font-family:KaiTi;
+height: 90px;
+}
+.npic-block{
+background: rgba(0,0,0,0.7);
+width: 600px;
+height: 70px;
+margin: auto;
+padding:20px;
+border-radius:2px;
+    margin-bottom: 185;
+}
+.corporationsearch-button{
+
+    width: 90px;
+    padding-top: 9px;
+    margin-left: -4px;
+    height: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background: #f47920;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 1px 1px #f47920;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.corporationsearch-button:hover{
+background: #faa755;
+}
+.corporationsearch-button:active{
+background: #f15a22;
+}
+.noticeinput-name{
+padding: 10px;
+height: 40px;
+border: none;
+width: 250px;
+}
+.noticeinput-starttime{
+padding: 10px;
+height: 40px;
+border: none;
+width: 130px;
+}
+.noticeinput-endtime{
+padding: 10px;
+height: 40px;
+border: none;
+width: 130px;
+}
+.hotbulltinb{
+width: 996px;
+margin: auto;
+}
+.hotbulltinb-title{
+
+width: 300px;
+font-size:20px;
+height: 40px;
+color: white;
+float: right;
+position:relative;
+}
+.sab{
+	padding-left:20px;
+	padding-right:20px;
+	width: 244px;
+	height: 33px;
+	padding-top: 7px;
+	background: rgba(0,0,0,0.7);
+	float: left;
+	border-radius: 2px 0 0 0 ;
+}
+.sab2{
+height:24px;
+width:16px;
+	background: rgba(0,0,0,0.7);
+position:relative;
+float: right;
+top:16px; 
+}
+.hotbulltinb-title:after {
+content:"";
+display:block; /*伪元素默认是行内元素，所以如果要设定宽高，这必须显性设置为block*/
+
+border-width:0 16px 16px 0; /*设置边框宽度*/
+border-color:#fff rgba(0,0,0,0) rgba(0,0,0,0.9) transparent;
+background:transparent;
+border-style:solid; /*设置边框为固体的*/
+width:0; /*设定新创建的元素*/
+position:absolute; /*相对于父容器绝对定位，设置偏移父容器边框距离*/
+top:0;
+right:0;
+-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+-moz-box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+box-shadow:0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+}
+.notice-row{
+width: 996px;
+margin: auto;
+height: 800px;
+
+}
+.notice-row-left{
+width: 696px;
+height: 100%;
+float: left;
+}
+.notice-row-right{
+width: 300px;
+height: 100%;
+float: left;
+}
+.notice-row-right-more{
+width: 258px;
+padding: 20px;
+height: 300px;
+border: 1px solid rgb(220, 224, 224);
+}
+.notice-row-title{
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+width: 90%;
+border-bottom: 1px solid rgb(220,224,224);
+}
+#na{
+font-size: 18px;
+}
+#nc{
+font-size:20px;
+color: #f58220;
+}
+.notice-row-left-list{
+width: 100%;
+height: 650px;
+
+}
+.notice-row-left-page{
+width: 250px;
+height: 40px;
+
+margin: auto;
+}
+.prev,.next{
+width: 80px;
+height: 29px;
+padding-top: 10px;
+text-align: center;
+background: #f58220;
+border-bottom: 1px solid #ef5b9c;
+cursor:pointer;
+color: white;
+}
+
+.bu-one{
+	
+text-align: left;
+font-size: 14px;
+cursor: pointer;
+}
+.bu-one:HOVER {
+	text-decoration: underline;
+	color: #f47920;
+}
+.noticeone{
+width: 586;
+padding: 10px 20px;
+height: 20px;
+font-size: 14px;
+padding: 
+}
+.noticeone-title{
+float: left;
+}
+.noticeone-time{
+float: right;
+}
+.pagecount font{
+cursor: pointer;
+}
+.noticeone-title:hover{
+cursor: pointer;
+color:  #f47920;
+}
+.mainend{
+width: 100%;
+padding-top:20px;
+height: 230px;
+background:url("../img/mainend.jpg");
+background-size:100% ;
+background-position: -690 -30px;
+}
+.mainend-row{
+width: 996px;
+height: 100%;
+margin: auto;
+}
+.say1{
+font-size:30px;
+color: white;
+}
+.say2{
+font-size:30px;
+color: white;
+text-align: center;
+}
+.say3{
+font-size:30px;
+color: white;
+text-align: right;
+}
+.bordershow{
+width: 600px;
+border-bottom: 1px solid white;
+margin: auto;
+height: 20px;
+}
+.dm501{
+text-align: center;
+color: white;
+margin-top: 10px;
+font-size: 20px;
+}
+#write{
+font-size: 25px;
+
+}
+

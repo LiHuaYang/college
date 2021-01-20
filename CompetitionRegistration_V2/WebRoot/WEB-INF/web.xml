@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAccountServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.LoginAccountServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserRegisterServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangeNikeNameServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserChangeNikeNameServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.ServletWeb.test</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>UserCreateServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UserCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>test1</servlet-name>
+    <servlet-class>com.ServletWeb.test1</servlet-class>
+  </servlet>
+  <servlet>
+  
+    <servlet-name>UserSearchByNameServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UserSearchByNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserSearchSingelInfoServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UserSearchSingelInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserSearchInfoServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UserSearchInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainContestNewsInfo</servlet-name>
+    <servlet-class>com.ServletAndroid.MainContestNewsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserSearchSingelCompetitionInfoServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UserSearchSingelCompetitionInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContestReleaseServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ContestReleaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContestChangeStateServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ContestChangeStateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserSearchBasicInfo</servlet-name>
+    <servlet-class>com.ServletAndroid.UserSearchBasicInfo</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangeContactsPhoneServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserChangeContactsPhoneServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CompetitionNewsServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.CompetitionNewsServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangeSexServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserChangeSexServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangeGradeServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserChangeGradeServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangePasswordServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyUser</servlet-name>
+    <servlet-class>com.ServletWeb.ModifyUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContestSearchInfoServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ContestSearchInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContestCreateServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ContestCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.ServletWeb.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EnrollmentCompetition</servlet-name>
+    <servlet-class>com.ServletAndroid.EnrollmentCompetition</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchScoreServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.SearchScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryFinishedContestServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.QueryFinishedContestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserInfobyIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserInfobyIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetContestInfobyNameObjectSubjectServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestInfobyNameObjectSubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainNewsServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.MainNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetContestInfobyIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestInfobyIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetContestCommitInfoServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestCommitInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOrganizationInfo</servlet-name>
+    <servlet-class>com.ServletWeb.GetOrganizationInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCountbyCopetiitonIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCountbyCopetiitonIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComBasicAddMoneyServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.ComBasicAddMoneyServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNumberCompetitionServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetNumberCompetitionServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllCompetitionUserServlet</servlet-name>
+    <servlet-class>com.ServletWeb.QueryAllCompetitionUserServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryStuedntByComnaSubServlet</servlet-name>
+    <servlet-class>com.ServletWeb.QueryStuedntByComnaSubServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryALLCompetitionServlet</servlet-name>
+    <servlet-class>com.ServletWeb.QueryALLCompetitionServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryAllSubByCompetitionNameServlet</servlet-name>
+    <servlet-class>com.ServletWeb.QueryAllSubByCompetitionNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetContestObjectServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestObjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetContestSubjectServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestSubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetStudentScore</servlet-name>
+    <servlet-class>com.ServletWeb.GetStudentScore</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCompetitionInfo</servlet-name>
+    <servlet-class>com.ServletWeb.GetCompetitionInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImportUserInfo</servlet-name>
+    <servlet-class>com.ServletWeb.ImportUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetJoinerInfo</servlet-name>
+    <servlet-class>com.ServletWeb.GetJoinerInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchAllNewsServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.SearchAllNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchTopNewsServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.SearchTopNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSingleNewsbyIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetSingleNewsbyIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminAddnews</servlet-name>
+    <servlet-class>com.ServletWeb.AdminAddnews</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewsbyNameState</servlet-name>
+    <servlet-class>com.ServletAndroid.GetNewsbyNameState</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewsAccountServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetNewsAccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyAUserServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ModifyAUserServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.ServletWeb.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CalculationCommitRankAverage</servlet-name>
+    <servlet-class>com.ServletAndroid.CalculationCommitRankAverage</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCompetitionNameServlet</servlet-name>
+    <servlet-class>com.ServletWeb.AddCompetitionNameServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetUserInfoByIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetUserInfoByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeUserInfoServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.ChangeUserInfoServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  
+
+
+  <servlet>
+    <servlet-name>Publish</servlet-name>
+    <servlet-class>com.ServletWeb.Publish</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchTestNameTimeInfo</servlet-name>
+    <servlet-class>com.ServletAndroid.SearchTestNameTimeInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTestPaperPictureById</servlet-name>
+    <servlet-class>com.ServletAndroid.GetTestPaperPictureById</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectCreateServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.CollectCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCollectInfoByUseridServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCollectInfoByUseridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelCollenctStateServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.CancelCollenctStateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCompetitionProjectServlet</servlet-name>
+    <servlet-class>com.ServletWeb.AddCompetitionProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCompetitionObjectServlet</servlet-name>
+    <servlet-class>com.ServletWeb.AddCompetitionObjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryTestPaperSearchServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.QueryTestPaperSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetScoreByUseridServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetScoreByUseridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminDelete</servlet-name>
+    <servlet-class>com.ServletWeb.AdminDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ContenderList</servlet-name>
+    <servlet-class>com.ServletWeb.ContenderList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserSearchServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UserSearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllNewsListServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetAllNewsListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetNewsByNewsIdServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetNewsByNewsIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyNewsServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ModifyNewsServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionNameServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetCompetitionNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionProjectServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetCompetitionProjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionObjectServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetCompetitionObjectServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>EnterScore</servlet-name>
+    <servlet-class>com.ServletWeb.EnterScore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>upload</servlet-name>
+    <servlet-class>com.ServletWeb.upload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddContender</servlet-name>
+    <servlet-class>com.ServletWeb.AddContender</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommitCreateServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.CommitCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCountEnrollmentByCompetiitonId</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCountEnrollmentByCompetiitonId</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyNewsStateServlet</servlet-name>
+    <servlet-class>com.ServletWeb.ModifyNewsStateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetWeekCountEnrollmentByCompetiitonId</servlet-name>
+    <servlet-class>com.ServletAndroid.GetWeekCountEnrollmentByCompetiitonId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetEnrollComByUseridServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetEnrollComByUseridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryTextNumberServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.QueryTextNumberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionNamebyNameIDServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCompetitionNamebyNameIDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionProjectbyProjectId</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCompetitionProjectbyProjectId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionObjectbyObjectIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCompetitionObjectbyObjectIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionAreabyAreaIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCompetitionAreabyAreaIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectStateJudgeServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.CollectStateJudgeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelCollectServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.CancelCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryScoreByUserid</servlet-name>
+    <servlet-class>com.ServletWeb.QueryScoreByUserid</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchPapaer</servlet-name>
+    <servlet-class>com.ServletAndroid.SearchPapaer</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WeekNumber</servlet-name>
+    <servlet-class>com.ServletWeb.WeekNumber</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCompetitionTestServlet</servlet-name>
+    <servlet-class>com.ServletWeb.AddCompetitionTestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpTestPictureServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UpTestPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpTestAnsWerPictureServlet</servlet-name>
+    <servlet-class>com.ServletWeb.UpTestAnsWerPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveTestPaperPicServlet</servlet-name>
+    <servlet-class>com.ServletWeb.SaveTestPaperPicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetContestMoneybyId</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestMoneybyId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOrganizationServelet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetOrganizationServelet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBasicPictureDataServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetBasicPictureDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegisterNewServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserRegisterNewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTestYearServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetTestYearServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeUserPictureServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.ChangeUserPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSearchTestParperCountServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.GetSearchTestParperCountServlet</servlet-class>
+  </servlet>
+<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name> GetCompetitionPictureServlet</servlet-name>
+    <servlet-class>com.ServletWeb.GetCompetitionPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name> AddCompetitiompicServlet</servlet-name>
+    <servlet-class>com.ServletWeb.AddCompetitiompicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckSMSNumber</servlet-name>
+    <servlet-class>com.ServletAndroid.CheckSMSNumber</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTestPaperYearbyObjectId</servlet-name>
+    <servlet-class>com.ServletAndroid.GetTestPaperYearbyObjectId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryContestIdServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.QueryContestIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyUserPic</servlet-name>
+    <servlet-class>com.EntityAndroid.ModifyUserPic</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetCompetitionInfoEnrollmenting</servlet-name>
+    <servlet-class>com.ServletAndroid.GetCompetitionInfoEnrollmenting</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCompetitionInfoEnrollmentbefore</servlet-name>
+    <servlet-class>com.ServletAndroid.QueryCompetitionInfoEnrollmentbefore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddOrganizationInfoServlet</servlet-name>
+    <servlet-class>com.ServletWeb.AddOrganizationInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetContestPicUrlbyCompetitionId</servlet-name>
+    <servlet-class>com.ServletAndroid.GetContestPicUrlbyCompetitionId</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeUserAddressServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.ChangeUserAddressServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryCompetitionNameServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.QueryCompetitionNameServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainServlet</servlet-name>
+    <servlet-class>com.ServletWX.MainServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NotifyServlet</servlet-name>
+    <servlet-class>com.ServletWX.NotifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TopayServlet</servlet-name>
+    <servlet-class>com.ServletWX.TopayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyHeadpicServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.ModifyHeadpicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadCompetitionPic</servlet-name>
+    <servlet-class>com.ServletWeb.UpLoadCompetitionPic</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoundBackPassWord</servlet-name>
+    <servlet-class>com.ServletAndroid.FoundBackPassWord</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.HelloServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JudgeEnrollOrNotServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.JudgeEnrollOrNotServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>ExitLoginServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.ExitLoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JudgeUserPhoneServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.JudgeUserPhoneServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserChangePasswordByUserphoneServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UserChangePasswordByUserphoneServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCompetition</servlet-name>
+    <servlet-class>com.Servlet.V2.AddCompetition</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCompetitionDetailServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.GetCompetitionDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCompetitonListServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.GetCompetitonListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>首页Servlet</display-name>
+    <servlet-name>GetRecentCompetitionServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.GetRecentCompetitionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCompetitionNumberServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.GetCompetitionNumberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCompetitionNameByCompetitionState</servlet-name>
+    <servlet-class>com.Servlet.V2.GetCompetitionNameByCompetitionState</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetWebBasicInfo</servlet-name>
+    <servlet-class>com.Servlet.V2.GetWebBasicInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>根据年级拿比赛列表Servlet</display-name>
+    <servlet-name>GetCompetitionListByGradeServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.GetCompetitionListByGradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WxNativePayNotifyServlet</servlet-name>
+    <servlet-class>com.ServletWX.WxNativePayNotifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WxNativePayToPayServlet</servlet-name>
+    <servlet-class>com.ServletWX.WxNativePayToPayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>通过输入信息查询成绩</description>
+    <display-name>SearchScoreByInfoServlet</display-name>
+    <servlet-name>SearchScoreByInfoServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.SearchScoreByInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpLoadExcel</servlet-name>
+    <servlet-class>com.Servlet.V2.UpLoadExcel</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>UpdataUserName</display-name>
+    <servlet-name>UpdataUserName</servlet-name>
+    <servlet-class>com.ServletAndroid.UpdataUserName</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>UpdateUserSchoolServlet</display-name>
+    <servlet-name>UpdateUserSchoolServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UpdateUserSchoolServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateIdNumberServlet</servlet-name>
+    <servlet-class>com.Servlet.V2.UpdateIdNumberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>UpdateContactManServlet</display-name>
+    <servlet-name>UpdateContactManServlet</servlet-name>
+    <servlet-class>com.ServletAndroid.UpdateContactManServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>OpenCheckScore</display-name>
+    <servlet-name>OpenCheckScore</servlet-name>
+    <servlet-class>com.Servlet.V2.OpenCheckScore</servlet-class>
+  </servlet>
+  <servlet>
+    <display-name>ClearScoreCache</display-name>
+    <servlet-name>ClearScoreCache</servlet-name>
+    <servlet-class>com.Servlet.V2.ClearScoreCache</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PayResultHandle</servlet-name>
+    <servlet-class>com.ServletWX.PayResultHandle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEnrollmentDetail</servlet-name>
+    <servlet-class>com.Servlet.V2.GetEnrollmentDetail</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginAccountServlet</servlet-name>
+    <url-pattern>/LoginAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegisterServlet</servlet-name>
+    <url-pattern>/UserRegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangeNikeNameServlet</servlet-name>
+    <url-pattern>/UserChangeNikeNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCreateServlet</servlet-name>
+    <url-pattern>/UserCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test1</servlet-name>
+    <url-pattern>/test1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSearchByNameServlet</servlet-name>
+    <url-pattern>/UserSearchByNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSearchSingelInfoServlet</servlet-name>
+    <url-pattern>/UserSearchSingelInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSearchInfoServlet</servlet-name>
+    <url-pattern>/UserSearchInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainContestNewsInfo</servlet-name>
+    <url-pattern>/MainContestNewsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSearchSingelCompetitionInfoServlet</servlet-name>
+    <url-pattern>/UserSearchSingelCompetitionInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContestChangeStateServlet</servlet-name>
+    <url-pattern>/ContestChangeStateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContestReleaseServlet</servlet-name>
+    <url-pattern>/ContestReleaseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSearchBasicInfo</servlet-name>
+    <url-pattern>/UserSearchBasicInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangeContactsPhoneServlet</servlet-name>
+    <url-pattern>/UserChangeContactsPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CompetitionNewsServlet</servlet-name>
+    <url-pattern>/CompetitionNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangeSexServlet</servlet-name>
+    <url-pattern>/UserChangeSexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangeGradeServlet</servlet-name>
+    <url-pattern>/UserChangeGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangePasswordServlet</servlet-name>
+    <url-pattern>/UserChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUser</servlet-name>
+    <url-pattern>/ModifyUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContestSearchInfoServlet</servlet-name>
+    <url-pattern>/ContestSearchInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContestCreateServlet</servlet-name>
+    <url-pattern>/ContestCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnrollmentCompetition</servlet-name>
+    <url-pattern>/EnrollmentCompetition</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryFinishedContestServlet</servlet-name>
+    <url-pattern>/QueryFinishedContestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchScoreServlet</servlet-name>
+    <url-pattern>/SearchScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfobyIdServlet</servlet-name>
+    <url-pattern>/UserInfobyIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetContestInfobyNameObjectSubjectServlet</servlet-name>
+    <url-pattern>/GetContestInfobyNameObjectSubjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainNewsServlet</servlet-name>
+    <url-pattern>/MainNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetContestInfobyIdServlet</servlet-name>
+    <url-pattern>/GetContestInfobyIdServlet</url-pattern> 
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetContestCommitInfoServlet</servlet-name>
+    <url-pattern>/GetContestCommitInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrganizationInfo</servlet-name>
+    <url-pattern>/GetOrganizationInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCountbyCopetiitonIdServlet</servlet-name>
+    <url-pattern>/GetCountbyCopetiitonIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComBasicAddMoneyServlet</servlet-name>
+    <url-pattern>/ComBasicAddMoneyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNumberCompetitionServlet</servlet-name>
+    <url-pattern>/GetNumberCompetitionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllCompetitionUserServlet</servlet-name>
+    <url-pattern>/QueryAllCompetitionUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryStuedntByComnaSubServlet</servlet-name>
+    <url-pattern>/QueryStuedntByComnaSubServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryALLCompetitionServlet</servlet-name>
+    <url-pattern>/QueryALLCompetitionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryAllSubByCompetitionNameServlet</servlet-name>
+    <url-pattern>/QueryAllSubByCompetitionNameServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>GetContestSubjectServlet</servlet-name>
+    <url-pattern>/GetContestSubjectServlet</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>GetContestObjectServlet</servlet-name>
+    <url-pattern>/GetContestObjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetStudentScore</servlet-name>
+    <url-pattern>/GetStudentScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionInfo</servlet-name>
+    <url-pattern>/GetCompetitionInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImportUserInfo</servlet-name>
+    <url-pattern>/ImportUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJoinerInfo</servlet-name>
+    <url-pattern>/GetJoinerInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchAllNewsServlet</servlet-name>
+    <url-pattern>/SearchAllNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchTopNewsServlet</servlet-name>
+    <url-pattern>/SearchTopNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSingleNewsbyIdServlet</servlet-name>
+    <url-pattern>/GetSingleNewsbyIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddnews</servlet-name>
+    <url-pattern>/AdminAddnews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewsbyNameState</servlet-name>
+    <url-pattern>/GetNewsbyNameState</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewsAccountServlet</servlet-name>
+    <url-pattern>/GetNewsAccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyAUserServlet</servlet-name>
+    <url-pattern>/ModifyAUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CalculationCommitRankAverage</servlet-name>
+    <url-pattern>/CalculationCommitRankAverage</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddCompetitionNameServlet</servlet-name>
+    <url-pattern>/AddCompetitionNameServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Publish</servlet-name>
+    <url-pattern>/Publish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchTestNameTimeInfo</servlet-name>
+    <url-pattern>/SearchTestNameTimeInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTestPaperPictureById</servlet-name>
+    <url-pattern>/GetTestPaperPictureById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectCreateServlet</servlet-name>
+    <url-pattern>/CollectCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCollectInfoByUseridServlet</servlet-name>
+    <url-pattern>/GetCollectInfoByUseridServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelCollenctStateServlet</servlet-name>
+    <url-pattern>/CancelCollenctStateServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddCompetitionProjectServlet</servlet-name>
+    <url-pattern>/AddCompetitionProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCompetitionObjectServlet</servlet-name>
+    <url-pattern>/AddCompetitionObjectServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>QueryTestPaperSearchServlet</servlet-name>
+    <url-pattern>/QueryTestPaperSearchServlet</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>GetScoreByUseridServlet</servlet-name>
+    <url-pattern>/GetScoreByUseridServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDelete</servlet-name>
+    <url-pattern>/AdminDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ContenderList</servlet-name>
+    <url-pattern>/ContenderList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSearchServlet</servlet-name>
+    <url-pattern>/UserSearchServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>GetAllNewsListServlet</servlet-name>
+    <url-pattern>/GetAllNewsListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNewsByNewsIdServlet</servlet-name>
+    <url-pattern>/GetNewsByNewsIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyNewsServlet</servlet-name>
+    <url-pattern>/ModifyNewsServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>GetCompetitionNameServlet</servlet-name>
+    <url-pattern>/GetCompetitionNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionProjectServlet</servlet-name>
+    <url-pattern>/GetCompetitionProjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionObjectServlet</servlet-name>
+    <url-pattern>/GetCompetitionObjectServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>EnterScore</servlet-name>
+    <url-pattern>/EnterScore</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>upload</servlet-name>
+    <url-pattern>/Admin/NewsManage/jsp/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddContender</servlet-name>
+    <url-pattern>/AddContender</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommitCreateServlet</servlet-name>
+    <url-pattern>/CommitCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCountEnrollmentByCompetiitonId</servlet-name>
+    <url-pattern>/GetCountEnrollmentByCompetiitonId</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ModifyNewsStateServlet</servlet-name>
+    <url-pattern>/ModifyNewsStateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetWeekCountEnrollmentByCompetiitonId</servlet-name>
+    <url-pattern>/GetWeekCountEnrollmentByCompetiitonId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEnrollComByUseridServlet</servlet-name>
+    <url-pattern>/GetEnrollComByUseridServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserInfoByIdServlet</servlet-name>
+    <url-pattern>/GetUserInfoByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUserInfoServlet</servlet-name>
+    <url-pattern>/ChangeUserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryTextNumberServlet</servlet-name>
+    <url-pattern>/QueryTextNumberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionNamebyNameIDServlet</servlet-name>
+    <url-pattern>/GetCompetitionNamebyNameIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionProjectbyProjectId</servlet-name>
+    <url-pattern>/GetCompetitionProjectbyProjectId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionObjectbyObjectIdServlet</servlet-name>
+    <url-pattern>/GetCompetitionObjectbyObjectIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionAreabyAreaIdServlet</servlet-name>
+    <url-pattern>/GetCompetitionAreabyAreaIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectStateJudgeServlet</servlet-name>
+    <url-pattern>/CollectStateJudgeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelCollectServlet</servlet-name>
+    <url-pattern>/CancelCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryScoreByUserid</servlet-name>
+    <url-pattern>/QueryScoreByUserid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchPapaer</servlet-name>
+    <url-pattern>/SearchPapaer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WeekNumber</servlet-name>
+    <url-pattern>/WeekNumber</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCompetitionTestServlet</servlet-name>
+    <url-pattern>/AddCompetitionTestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpTestPictureServlet</servlet-name>
+    <url-pattern>/Admin/CompetitionManage/jsp/UpTestPictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpTestAnsWerPictureServlet</servlet-name>
+    <url-pattern>/Admin/CompetitionManage/jsp/UpTestAnsWerPictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveTestPaperPicServlet</servlet-name>
+    <url-pattern>/SaveTestPaperPicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetContestMoneybyId</servlet-name>
+    <url-pattern>/GetContestMoneybyId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrganizationServelet</servlet-name>
+    <url-pattern>/GetOrganizationServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBasicPictureDataServlet</servlet-name>
+    <url-pattern>/GetBasicPictureDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegisterNewServlet</servlet-name>
+    <url-pattern>/UserRegisterNewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTestYearServlet</servlet-name>
+    <url-pattern>/GetTestYearServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUserPictureServlet</servlet-name>
+    <url-pattern>/ChangeUserPictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSearchTestParperCountServlet</servlet-name>
+    <url-pattern>/GetSearchTestParperCountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name> GetCompetitionPictureServlet</servlet-name>
+    <url-pattern>/Admin/BasicManage/jsp/GetCompetitionPictureServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name> AddCompetitiompicServlet</servlet-name>
+    <url-pattern>/AddCompetitiompicServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name> CheckSMSNumber</servlet-name>
+    <url-pattern>/CheckSMSNumber</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTestPaperYearbyObjectId</servlet-name>
+    <url-pattern>/GetTestPaperYearbyObjectId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryContestIdServlet</servlet-name>
+    <url-pattern>/QueryContestIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyUserPic</servlet-name>
+    <url-pattern>/ModifyUserPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionInfoEnrollmenting</servlet-name>
+    <url-pattern>/GetCompetitionInfoEnrollmenting</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryCompetitionInfoEnrollmentbefore</servlet-name>
+    <url-pattern>/QueryCompetitionInfoEnrollmentbefore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddOrganizationInfoServlet</servlet-name>
+    <url-pattern>/AddOrganizationInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetContestPicUrlbyCompetitionId</servlet-name>
+    <url-pattern>/GetContestPicUrlbyCompetitionId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUserAddressServlet</servlet-name>
+    <url-pattern>/ChangeUserAddressServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>QueryCompetitionNameServlet</servlet-name>
+    <url-pattern>/QueryCompetitionNameServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>MainServlet</servlet-name>
+    <url-pattern>/MainServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NotifyServlet</servlet-name>
+    <url-pattern>/NotifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TopayServlet</servlet-name>
+    <url-pattern>/TopayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyHeadpicServlet</servlet-name>
+    <url-pattern>/Web/User/jsp/ModifyHeadpicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadCompetitionPic</servlet-name>
+    <url-pattern>/Admin/CompetitionManage/jsp/UpLoadCompetitionPic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoundBackPassWord</servlet-name>
+    <url-pattern>/FoundBackPassWord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JudgeEnrollOrNotServlet</servlet-name>
+    <url-pattern>/JudgeEnrollOrNotServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitLoginServlet</servlet-name>
+    <url-pattern>/ExitLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JudgeUserPhoneServlet</servlet-name>
+    <url-pattern>/JudgeUserPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserChangePasswordByUserphoneServlet</servlet-name>
+    <url-pattern>/UserChangePasswordByUserphoneServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCompetition</servlet-name>
+    <url-pattern>/AddCompetition</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionDetailServlet</servlet-name>
+    <url-pattern>/GetCompetitionDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitonListServlet</servlet-name>
+    <url-pattern>/GetCompetitonListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetRecentCompetitionServlet</servlet-name>
+    <url-pattern>/GetRecentCompetitionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionNumberServlet</servlet-name>
+    <url-pattern>/GetCompetitionNumberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionNameByCompetitionState</servlet-name>
+    <url-pattern>/GetCompetitionNameByCompetitionState</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetWebBasicInfo</servlet-name>
+    <url-pattern>/GetWebBasicInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCompetitionListByGradeServlet</servlet-name>
+    <url-pattern>/GetCompetitionListByGradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WxNativePayNotifyServlet</servlet-name>
+    <url-pattern>/WxNativePayNotifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WxNativePayToPayServlet</servlet-name>
+    <url-pattern>/WxNativePayToPayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchScoreByInfoServlet</servlet-name>
+    <url-pattern>/SearchScoreByInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadExcel</servlet-name>
+    
+    <url-pattern>/Admin/CompetitionManage/jsp/UpLoadExcel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdataUserName</servlet-name>
+    <url-pattern>/UpdataUserName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserSchoolServlet</servlet-name>
+    <url-pattern>/UpdateUserSchoolServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateIdNumberServlet</servlet-name>
+    <url-pattern>/UpdateIdNumberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateContactManServlet</servlet-name>
+    <url-pattern>/UpdateContactManServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OpenCheckScore</servlet-name>
+    <url-pattern>/OpenCheckScore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClearScoreCache</servlet-name>
+    <url-pattern>/ClearScoreCache</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayResultHandle</servlet-name>
+    <url-pattern>/PayResultHandle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEnrollmentDetail</servlet-name>
+    <url-pattern>/GetEnrollmentDetail</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <!--<welcome-file>Web/Main/jsp/Main.jsp</welcome-file>-->
+     <welcome-file>Web/Main/jsp/MyJsp.jsp</welcome-file>
+    
+  </welcome-file-list>
+</web-app>

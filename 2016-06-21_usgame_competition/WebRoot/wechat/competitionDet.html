@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=0">
+<script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//获取competitionId
+	var strHref = window.document.location.href;
+	var intPos = strHref.indexOf("=");
+	var strRight = strHref.substr(intPos + 1);
+	$.post("../CompetitionServlet", {
+		method : "detail",
+		type : "2",
+		competitionId :strRight
+	}, function(json) {
+		var data = JSON.parse(json);
+		if(data.msg==true) {
+			$('#des').html(data.data);
+		}
+		else {
+			alert("无法加载数据！");
+		}
+	});
+})
+</script>
+<link rel="stylesheet" type="text/css" href="../common/weui.min.css">
+<title>比赛详细描述</title>
+</head>
+<body>
+	<div class="article">
+		<article class="weui_article">
+		<pre id="des"></pre>
+    </article>
+	</div>
+</body>
+</html>

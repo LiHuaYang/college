@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body{
+	width:100%;
+	height:100%;
+	 margin: 0px;
+}
+
+
+.QR{
+	width: 100%;
+	height: 100%;
+}
+
+.head {
+	width: 100%;
+	height: auto;
+	background: #0075c4;
+	padding-top: 1.5%;
+}
+.logo{
+	line-height: 2.5em;
+}
+#size {
+	margin-left: 3%;
+	margin-top: 15%;
+	font-size: 100%;
+	color: white;
+}
+.dasai {
+	-moz-box-flex: 1;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	margin-right:40%;
+	float:right;
+	font-family:"微软雅黑";
+	font-weight:bold;
+}
+
+.QRpicture{
+	width: 8em;
+	height: 8em;
+	margin: 0 auto;
+	background-image: url("../image/QRcode.jpg");
+	background-size:100% 100%;
+	margin-top: 10em;
+}
+

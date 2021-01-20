@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#309DD3;
+	font-family: Microsoft YaHei;
+}
+#head{
+	width:100%;
+	height:100px;
+	margin:0 auto;
+	text-align:center;
+	margin-top:60px;
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#wrap{
+	margin-top:50px;
+}
+
+#login_mod{
+	height:25px;
+	width:540px;
+	
+	margin-bottom:5px;
+	margin:0 auto;
+	margin-top:20px;
+}
+
+/*输入框的大小*/
+.input-size
+{
+    height:46px;
+	width:540px;
+	margin:0 auto;
+	text-align:left;
+	margin-top:10px;
+}
+
+/*邮箱输入框*/
+#content_mail{
+}
+/*密码输入框*/
+#content_pwd{
+	
+}
+/*状态*/
+#content_status{
+	height:25px;
+	width:540px;
+	
+	margin:0 auto;
+	margin-top:10px;
+}
+
+/*按钮*/
+#content_btn_login{
+
+}
+/*按钮样式*/
+.btn-style
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    height:40px;
+	width:540px;
+	background-color:#D5E7DC;
+	display:block;
+	
+    color:#309DD3; 
+    font-family: Microsoft YaHei;
+    margin:0 auto;
+	margin-top:20px;
+}
+
+.font{
+	height:36px;
+	width:60px;
+	
+	font-size:15px;
+	float:left;
+	background-color:#FFFFFF;
+	padding-left:10px;
+	padding-top:10px;
+	color:#666666;
+	
+}
+.head_font{
+	margin-top:10px;
+		
+	font-family: Microsoft YaHei;
+	font-size:14px;
+	font-weight:lighter;
+	color:#FFFFFF;
+}
+#login_mod a{
+	font-size:13px;
+	text-decoration: none;
+	color:#FFFFFF;
+	font-family:Microsoft YaHei;
+	margin-left:10px;
+	
+}
+#login_mod a:hover
+{
+    text-decoration:underline;
+}
+.div-input
+{
+    height:46px;
+    width:470px;
+    float:right;
+}
+.input-style
+{
+    height:46px;
+    width:460px;
+    font-size:14px;
+    border:none;
+    border-left:1px solid grey;
+    padding-left:10px;
+    color:#666666;
+    letter-spacing:1px;
+}
+/*登录状态选择*/
+#content_status
+{
+    color:#ffffff;
+    font-size:10px;
+    padding-top:5px;
+    padding-left:20px;
+    padding-right:10px;
+}
+
+#remeberme
+{
+    width:60px;
+    border-right:2px solid #ffffff; 
+    float:left;
+}
+#forget
+{
+    border-right:2px solid #ffffff; 
+    width:60px;
+    
+    float:left;
+    padding-left:10px
+    }
+#forget a
+{
+    color:#ffffff;
+    text-decoration:none;
+}
+#forget a:hover
+{
+    text-decoration:underline;
+}
+
+/*测试用的边框*/
+
+.border-test
+{
+   
+}

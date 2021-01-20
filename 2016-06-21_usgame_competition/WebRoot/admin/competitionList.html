@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>addCompetition.html</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+</head>
+
+
+<body>
+
+<div style="padding: 10px 60px 20px 60px; text-align:center;width:1100px;margin:0 auto "> 
+<table class="easyui-datagrid" style="width:1000px;;" id="competition"
+url="../CompetitionServlet?method=list&type=1"
+		data-options="align:'center',
+					title : '列表',
+					border:true, 
+					fitColumns:true, 
+					striped:true, 
+					singleSelect:true,
+					pagination:true,
+					toolbar:[{
+								iconCls: 'icon-edit',
+								handler: function(){toadd()}
+							},'-',
+							{
+								iconCls: 'icon-remove',
+								handler: function(){deleteCompetition(getSelect())}
+							},'-',
+							{
+								iconCls: 'icon-help',
+								handler: function(){alert('帮助按钮')}
+							}]">
+			<thead>
+				<tr>
+					<th data-options="field:'competitionId', width:40">编号</th>
+					<th data-options="field:'competitionName', width:200">名称</th>
+					<th data-options="field:'competitionSubject', width:80">科目</th>
+					<th data-options="field:'competitionApplyStartTime', width:80">报名开始时间</th>
+					<th data-options="field:'competitionApplyEndTime', width:80">结束时间</th>
+					<th data-options="field:'competitionType', width:100">类型</th>
+					<th data-options="field:'competitionMoney', width:100">费用</th>
+					<th data-options="field:'methodWay', width:100">操作</th>
+				</tr>
+			</thead>
+		</table>
+
+	</div>
+	<script type="text/javascript"> 
+$('#competition').datagrid({ pageSize: 30});
+function revise(obj) {
+	$.post("../CompetitionServlet", {
+		method : "reviseState",
+		competitionId :getSelect(),
+		competitionState : $(obj).val()
+	}, function(json) {
+		var data = JSON.parse(json);
+		alert(data.other);
+	});
+}
+</script>
+</body>
+
+</html>

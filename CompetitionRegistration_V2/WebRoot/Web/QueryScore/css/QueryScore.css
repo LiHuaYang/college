@@ -1,0 +1,325 @@
+@CHARSET "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+.all{
+	width:100%;
+	height:auto;
+	margin-top:5%;
+}
+.query_frame{
+    width: 676px;
+    height: auto;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 10px #999;
+}
+.close_frame{
+	height:10px;
+	margin-top:10px;
+	float:right;
+	margin-right:25px;
+	cursor:pointer;
+}
+.name_sex_pic{
+	width:80%;
+	height:auto;
+	margin:auto;
+	margin-top:35px;
+	    border-bottom: 1px dashed #000;
+}
+.contest_info{
+	width:80%;
+	height:auto;
+	margin:auto;
+	    border-bottom: 1px dashed #000;
+	
+	
+}
+.pic_left{
+	    width: 99%;
+    /* height: 100px; */
+    display: inline-block;
+    vertical-align: top;
+}
+.pic{
+	width:22%;
+	height:100px;
+	display:inline-block;
+	vertical-align:top;
+}
+.pic_right{
+	width:100%;
+	height:100px;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.name_frame{
+	width: 89%;
+    margin-left: 11%;
+}
+.name_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.name_div{
+	width:auto;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+	color:    #FA7B27;
+}
+.ticket_number{
+	width: 89%;
+    margin-left: 11%;
+	margin-top:5px;
+}
+.sex_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.sex_div{
+	width:auto;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+	    color: #FA7B27;
+}
+
+.contest_name_frame{
+	width: 89%;
+    margin-left: 11%;
+	height:40px;
+	margin-top:5px;
+}
+.contest_name_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.contest_name_div{
+	width:auto;
+	height:40px;
+	font-size:18px;
+	color:#0A0A0A;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+
+
+.contest_rank_frame{
+	width: 89%;
+    margin-left: 11%;
+	height:40px;
+	margin-top:5px;
+}
+.contest_rank_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.contest_rank_div{
+	width:auto;
+	height:40px;
+	font-size:18px;
+	color:#0A0A0A;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.contest_type_frame{
+	width: 89%;
+    margin-left: 11%;
+	height:40px;
+	margin-top:5px;
+}
+.contest_type_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.contest_type_div{
+	width:auto;
+	height:40px;
+	font-size:18px;
+	color:#0A0A0A;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+
+.others{
+    width: 80%;
+    height: auto;
+    margin: auto;
+     border-bottom: 1px dashed #000; 
+
+
+}
+.total_score_frame{
+	width: 89%;
+    margin-left: 11%;
+	height:40px;
+	margin-top:5px;
+}
+.total_score_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.total_score_div{
+	width:auto;
+	height:40px;
+	font-size:18px;
+	color:#0A0A0A;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+
+.others_frame{
+	width: 89%;
+    margin-left: 11%;
+	height:auto;
+	margin-top:5px;
+}
+.others_font{
+	width:23%;
+	height:40px;
+	font-size:18px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	line-height:40px;
+	display:inline-block;
+	vertical-align:top;
+}
+.others_div{
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    color: #0A0A0A;
+    font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+ "Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+ sans-serif !important;
+    line-height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+.logo_info{
+	width: 80%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 35px;
+    overflow: hidden;
+	
+}
+.logo{  
+        width: 150px;
+    height: 60px;
+    background-image: url("../../image/Logo.png");
+    background-size: 100% 100%;
+    vertical-align: -23px;
+    float: left;
+    margin-top: 9%;
+    margin-left: 11%;
+    
+    }
+.final_right{
+	    width: 33%;
+    height: 150px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 15px;
+}
+.final_pic{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../../image/er.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.final_download{
+	width: 90%;
+    height: 20px;
+    font-size: 14px;
+    color: #343434;
+    font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+ "Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+ sans-serif !important;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 9px;
+}

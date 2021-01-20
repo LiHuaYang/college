@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>登录</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="../common/weui.min.css">
+<script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/denglu.js"></script>
+<style>
+.button_sp_area {
+	padding: 10px 0;
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	font-size: 0;
+}
+.font_color {
+  font-size: 15px;
+  color: #FF6347;
+  margin-left:50px;
+}
+.font_color_two {
+  font-size: 15px;
+  color: #FF6347;
+  margin-left:170px;
+}
+.weui_label,.weui_input {
+	font-size:15px;
+}
+</style>
+</head>
+<body>
+	<div></div>
+	<br />
+	<br />
+	<div class="weui_cells">
+	<div class="weui_cell">
+		<div class="weui_cell_hd">
+			<label class="weui_label">手机号码</label>
+		</div>
+		<div class="weui_cell_bd weui_cell_primary">
+			<input id="phonenumber" class="weui_input" type="number" pattern="[0-9]*"
+				placeholder="请输入手机号码">
+		</div>
+	</div>
+	<div class="weui_cell">
+		<div class="weui_cell_hd">
+			<label class="weui_label">密码</label>
+		</div>
+		<div class="weui_cell_bd weui_cell_primary">
+			<input id="password" class="weui_input" type="password" placeholder="请输入密码">
+		</div>
+	</div>
+		</div>
+		<br /> 
+		<br />
+	
+	<div class=button_sp_area>
+		<a class="weui_btn weui_btn_primary" href="javascript:login()">登录</a>
+	</div>
+	<div ><a href="javascript:tozhuce();" class="font_color" >注册</a><a href="javascript:tofindpw();" class="font_color_two" >找回密码</a></div>	
+<div class="weui_dialog_alert" id="dialog2" style="display: none;">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">登录提示框</strong></div>
+        <div class="weui_dialog_bd">登录失败！请重新登录！</div>
+        <div class="weui_dialog_ft">
+            <a href="javascript:todenglu();" class="weui_btn_dialog primary">确定</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

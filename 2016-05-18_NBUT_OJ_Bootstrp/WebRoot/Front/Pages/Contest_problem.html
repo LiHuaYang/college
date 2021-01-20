@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>竞赛作业题目</title>
+<link rel="stylesheet" type="text/css" href="../../Common/bootstrap/bootstrap.min.css">
+<link rel="Shortcut Icon" href="../../favicon.ico" >
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed"
+						data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+						aria-controls="navbar">
+						<span class="sr-only"> Toggle navigation </span> <span
+							class="icon-bar"></span> <span class="icon-bar"></span> <span
+							class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="problem_list.html"> NBUT-HUSTOJ </a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="javascript:to_problem();">问题</a></li>
+						<li><a href="javascript:to_solution();">状态</a></li>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+			<!--/.container-fluid -->
+		</nav>
+			<h2 id="contest_title" align="center"></h2>
+			<h3 id="contest_description" align="center"></h3>
+			<p align="center">
+				<span>开始时间：</span> <span style="color: #993399" id="start_time"></span>
+				<span>结束时间：</span> <span style="color: #993399" id="end_time"></span>
+			</p>
+			<p align="center">
+				<span>现在时间：</span> <span style="color: #993399" id="current_time"></span>
+				<span>Status：</span> <span id="Status"></span>
+			<table class="table table-bordered table-striped"  id="problem">
+			</table>
+			<p align="center">
+				<button onclick="nextPage(this)" value="pre">上一页</button>
+				<button onclick="nextPage(this)" value="next">下一页</button>
+			</p>
+		</div>
+	<script type="text/javascript" src="../../Common/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../Scripts/contest_load.js"></script>
+	<script type="text/javascript" src="../Scripts/contest_problem.js"></script>
+	<script type="text/javascript" src="../Scripts/load.js"></script>
+</body>
+</html>

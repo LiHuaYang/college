@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+<!-- 	
+	<import resource="com/ioc_create_object/applicationContext.xml" />
+	<import resource="com/di_set/applicationContext.xml" />
+	<import resource="com/di_annotition/applicationContext.xml" />  
+
+	<import resource="com/ioc_annotition/applicationContext.xml" /> 
+	
+	<import resource="com/aop/person_test_spring/applicationContext.xml" /> 
+
+	<import resource="com/spring_jdbc/applicationContext.xml"/>
+	
+	<import resource="com/spring_jdbc_transaction/applicationContext.xml"/>
+	-->
+	
+	<import resource="com/spring_jdbc_transaction/applicationContext.xml"/>
+</beans>

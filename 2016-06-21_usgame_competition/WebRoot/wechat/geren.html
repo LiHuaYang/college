@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>个人主页</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="../common/weui.min.css">
+
+<style>
+.weui_cells {
+	font-size: 13px;
+}
+
+.button_sp_area {
+	padding: 10px 0;
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	font-size: 0;
+}
+
+.weui_cell_hd_pic {
+	width: 10%;
+	height: 10%;
+	border: thin solid #d9d9d9;
+	padding: 4%;
+}
+
+.info_list strong {
+	line-height: 2em;
+	float: left;
+}
+
+.info_list {
+	font-size: 13px;
+}
+
+.weui_cells {
+	padding: 3%;
+}
+
+.weui_label {
+	color: #000；
+}
+</style>
+</head>
+<body>
+	<div class="weui_panel weui_panel_access"
+		style="background-color: rgb(234, 235, 236)">
+		<div class="weui_panel weui_panel_access">
+		<a href="ziliao.html" class="weui_media_box weui_media_appmsg">
+                <div class="weui_media_hd">
+                    <img class="weui_media_appmsg_thumb" src="./images/icon_nav_cell.png">
+                </div>
+                <div class="weui_media_bd">
+                    <h4 class="weui_media_title" id="name"></h4>
+                    <p class="weui_media_desc" >注册号码:  <label id="phonenumber"></label></p>
+                </div>
+            </a>
+            </div>
+		
+		<div class="weui_panel weui_panel_access">
+			<a href="baoming.html">
+				<div class="weui_media_box weui_media_text weui_panel_ft">
+					<label class="weui_label">报名的比赛</label>
+				</div>
+			</a>
+		</div>
+		
+		</div>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<div class="weui_btn_area">
+			<a class="weui_btn weui_btn_warn" href="javascript:logout()">退出登录</a>
+		</div>
+	
+
+<div class="weui_dialog_alert" id="dialog3" style="display: none;">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">退出提示</strong></div>
+        <div class="weui_dialog_bd">退出失败！</div>
+        <div class="weui_dialog_ft">
+            <a href="javascript:togeren();" class="weui_btn_dialog primary">确定</a>
+        </div>
+    </div>
+</div>
+	<div class="weui_tabbar">
+		<a href="javascript:tocompetition();" class="weui_tabbar_item">
+			<div class="weui_tabbar_icon">
+				<img src="./images/icon_nav_article.png" alt="">
+			</div>
+			<p class="weui_tabbar_label">大赛</p>
+		</a> <a href="javascript:tome();" class="weui_tabbar_item">
+			<div class="weui_tabbar_icon">
+				<img src="./images/icon_nav_cell.png" alt="">
+			</div>
+			<p class="weui_tabbar_label">我</p>
+		</a>
+	</div>
+<script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../common/common.js"></script>
+<script type="text/javascript" src="js/geren.js"></script>
+</body>
+</html>

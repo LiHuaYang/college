@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../Common/jquery-1.11.1.min.js"></script>
+<script charset="utf-8" src="../Common/kindeditor/kindeditor-all.js"></script>
+<script type="text/javascript">
+	var editor1;
+	$(function(){
+		// KindEditor.ready(function (){
+			editor1 = KindEditor.create('#describe',{allowImageUpload:false,resizeType : 1,afterBlur: function(){this.sync();} });
+		// });
+	});
+</script>
+<script type="text/javascript" src="addContest.js"></script>
+</head>
+<body>
+  <h1>Add a Contest</h1>
+  <p>
+     Title:<input  id="title" style="width: 500px;">
+ </p>
+ <p>
+     Start Time:
+ </p>
+ <p>
+  Year:<input id="startyear" style="width: 50px;"> Month:<input id="startmonth" style="width: 50px;"> Day:<input id="startday" style="width: 50px;"> Hour:<input id="starthour" style="width: 50px;"> Minute:<input id="startminute" style="width: 50px;"> 
+ </p>
+ <p>
+     End Time:
+ </p>
+ <p>
+  Year:<input id="endyear" style="width: 50px;"> Month:<input id="endmonth" style="width: 50px;"> Day:<input id="endday" style="width: 50px;"> Hour:<input id="endhour" style="width: 50px;"> Minute:<input id="endminute" style="width: 50px;"> 
+ </p><br />
+ <p> 
+   Public:<select id="privilege">
+			<option value='0'>Public</option>
+			<option value='1'>Private</option>
+		</select>
+   Password:<input id="password" type="password" />
+   Language:<select id="language">
+			<option value='0'>C</option>
+			<option value='1'>C++</option>
+			<option value='2'>Pascal</option>
+			<option value='3'>Java</option>
+			<option value='4'>Ruby</option>
+			<option value='5'>Bash</option>
+			<option value='6'>Python</option>
+			<option value='7'>PHP</option>
+			<option value='8'>Perl</option>
+			<option value='9'>C#</option>
+			<option value='10'>Obj-C</option>
+			<option value='11'>FreeBasic</option>
+			<option value='12'>Schema</option>
+			<option value='13'>Clang</option>
+			<option value='14'>Clang++</option>
+			<option value='15'>Lua</option>
+			<option value='16'>Swift</option>
+		</select>	
+ </p><br /><br />
+ <p>
+ Problem:<input style="width: 600px;" id="problemName">
+ </p>
+ <p>
+	Description： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="describe"></textarea>
+</p>
+<p>
+User:<textarea style="width: 200px; height: 300px;" id="users"></textarea> 
+</p>
+<p>*可以将学生学号从Excel整列复制过来，然后要求他们用学号做UserID注册，就能进去Private的比赛作为作业和测验。</p>
+<button onclick="Submit()">Submit</button>
+<button onclick="Reset()">Reset</button>
+ <br />
+ </body>
+</html>

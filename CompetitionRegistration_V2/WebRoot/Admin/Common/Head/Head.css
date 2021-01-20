@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+#head {
+	height: 65px;
+	background-color:#309DD3;
+	max-width: 2000px;
+	min-width:1200px;
+}

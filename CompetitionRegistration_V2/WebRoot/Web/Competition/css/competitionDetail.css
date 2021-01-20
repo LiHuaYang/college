@@ -1,0 +1,682 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	
+	font-family:"微软雅黑";
+}
+
+.all {
+	width: 100%;
+	height: auto;
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+}
+
+.more_info{
+	color: #FFA54F;
+	margin-left: 300px;
+	cursor: pointer;
+}
+
+
+.more_info:hover{
+	text-decoration: underline;
+}
+
+.pic {
+	width: 100%;
+	height: 461px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.goleft {
+	width: 7%;
+	height: 461px;
+	float: left;
+	line-height: 461px;
+	text-align: center;
+}
+
+#goleft_1 {
+	font-size: 42px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#goleft_1:HOVER {
+	color: white;
+}
+
+.goright {
+	width: 7%;
+	height: 461px;
+	float: right;
+	line-height: 461px;
+	text-align: center;
+}
+
+#goright_1 {
+	font-size: 42px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#goright_1:HOVER {
+	color: white;
+}
+
+.middle_1 {
+	width: 98%;
+	height: auto;
+	margin-top: 9px;
+	margin-left: 1%;
+	margin-bottom: 9px;
+	overflow: hidden;
+}
+
+.main_pic {
+	width: 200px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	float: left;
+	border:1px solid #CCC;
+	border-radius:6px;
+}
+
+
+
+
+.main_info {
+	width: 68%;
+	height: auto;
+	/* display: inline-block; */
+	float: right;
+}
+
+
+.middle {
+	width: 69%;
+	/* height: 150px; */
+	display: inline-block;
+	box-shadow: 0 0 10px #999;
+	margin-top: -90px;
+	background-color: #FFFFFF;
+}
+
+.com_detail {
+	width: 99%;
+	height: auto;
+	margin-left: 1%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.enroll {
+	width: 308px;
+	height: 200px;
+	display: inline-block;
+	margin-top: 8px;
+	vertical-align: top;
+	margin-left: 20px;
+	/* border-bottom: 1px solid #141414; */
+	/* border-left: 1px solid #141414; */
+	/* border-right: 1px solid #141414; */
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #999;
+}
+
+.com_detail_first {
+	width: 100%;
+	height: auto;
+}
+
+.com_detail_second {
+	width: 70%;
+	height: 60px;
+	margin-top: 10px;
+	margin-left: 15%;
+}
+
+.com_detail_left {
+	width: 12%;
+	height: 55px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #698B22;
+	float: right;
+}
+
+#com_total {
+	font-size: 17px;
+	color: white;
+	height: 50%;
+	font-weight: bold;
+	text-align: center;
+}
+
+.com_score {
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.com_type_first {
+	width: auto;
+	font-size: 28px;
+	color: black;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.com_detail_right {
+	width: 86%;
+	display: inline-block;
+	vertical-align: top;
+}
+/*
+	赛事届数
+*/
+.com_session {
+	width: 50px;
+	font-size: 17px;
+	border: 1px solid #CFCBCB;
+	border-radius: 13px;
+	text-align: center;
+	height: 29px;
+	display:inline-block;
+	margin-left:10px;
+}
+
+.com_session div {
+	display: inline-block;
+}
+
+.icon_datail {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#icon1,#icon2,#icon3,#icon4 {
+	color: #282828;
+	font-size: 43px;
+}
+
+.icon_text,.icon_comment,.icon_more {
+	width: 50px;
+	height: 50px;
+	margin-left: 70px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.com_hot {
+	width: 70%;
+	height: auto;
+	font-size: 18px;
+	color: #292929;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.com_week {
+	width: 70%;
+	height: auto;
+	font-size: 18px;
+	color: #292929;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.com_all {
+	width: 70%;
+	height: auto;
+	font-size: 18px;
+	color: #292929;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.com_enroll {
+	width: 70%;
+	height: 35px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button_enroll {
+	width: 100%;
+	height: 35px;
+	font-size: 17px;
+	background-color: #0083bf;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1px solid;
+	-moz-border-radius: 25px; /* Old Firefox */
+}
+
+.button_enroll1 {
+	width: 100%;
+	height: 35px;
+	font-size: 17px;
+	background-color: #9E9E9E;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1px solid;
+	-moz-border-radius: 25px; /* Old Firefox */
+	text-align: center;
+	line-height: 35px;
+}
+
+.com {
+	width: 94%;
+	height: auto;
+	margin-left: 3%;
+}
+
+/**
+	赛事简介
+**/
+.com_bref_box {
+	margin-top: 13px;
+	font-size: 14px;
+	position:relative;
+}
+
+.com_bref_box strong {
+	position: absolute;
+	left:0px;
+}
+
+.com_bref_box div {
+}
+
+.com_bref_font {
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3B3B3B;
+	margin-top: 10px;
+}
+
+.com_bref {
+	width: 99.6%;
+	height: auto;
+	margin-top: 14px;
+	color: #565a5c;
+	font-size: 19px;
+	line-height: 25px;
+	color: #FFA54F;
+}
+
+.com_sub {
+	width: 100%;
+	height: auto;
+	color: #292929;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #9E9E9E;
+}
+
+.com_sub div {
+	display: inline-block;
+}
+
+.com_type {
+	width: 100%;
+	height: auto;
+	color: #292929;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #9E9E9E;
+}
+
+.com_type div {
+	display: inline-block;
+}
+
+.com_obj {
+	width: 100%;
+	height: auto;
+	color: #292929;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #9E9E9E;
+}
+
+.com_obj div {
+	display: inline-block;
+}
+
+.com_time_first {
+	width: 100%;
+	height: auto;
+	color: #292929;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #9E9E9E;
+}
+
+.com_time_first div {
+	display: inline-block;
+}
+
+.com_time_again {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	color: #292929;
+	padding-bottom: 10px;
+}
+
+.com_time_again div {
+	display: inline-block;
+}
+
+.text_downloadBox {
+	width: auto;
+	height: auto;
+}
+
+.text_download {
+	width: 30%;
+	height: auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3B3B3B;
+	margin-top: 10px;
+}
+
+.download_big {
+	width: 100%;
+	height: auto;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #9E9E9E;
+}
+
+.download_each {
+	width: 50%;
+	height: auto;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #292929;
+	cursor: pointer;
+}
+
+.download_each:hover {
+	text-decoration: underline;
+}
+
+.comment_big {
+	width: 100%;
+	height: auto;
+	padding-bottom: 45px;
+	border-bottom: 1px solid #9E9E9E;
+}
+
+.comm_font_div {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+.comment_font {
+	width: 19%;
+	height: auto;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3B3B3B;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.comment_font div {
+	display: inline-block;
+}
+
+.comm_my {
+	width: 14%;
+	height: auto;
+	float: right;
+	font-size: 20px;
+	color: #3B3B3B;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.comm_my:hover {
+	text-decoration: underline;
+}
+
+.comment_each {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.eachcomment {
+	margin-bottom: 16px;
+	border-bottom: 1px solid #9E9E9E;
+	padding-bottom: 19px;
+	width: 94%;
+	margin-left: 3%;
+}
+
+.comment_pic {
+	width: 55px;
+	height: 55px;
+	border-radius: 78.5px 78.5px 78.5px 78.5px;
+	margin-left: 1%;
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(../../image/headgirl.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.comment_right {
+	width: 89%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1%;
+}
+
+.comm_name_div {
+	width: 99%;
+	height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 5px;
+}
+
+.comm_name {
+	width: 30%;
+	height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	color: #0083bf;
+}
+
+.comm_time {
+	width: auto;
+	height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+	color: #0083bf;
+	float: right;
+}
+
+.comm_score {
+	width: 5%;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #698B22;
+	margin-left: 21px;
+	color: white;
+	line-height: 30px;
+	font-size: 15px;
+	float: right;
+	text-align: center;
+}
+
+.comment {
+	width: 99%;
+	height: auto;
+	font-size: 16px;
+	color: #565a5c;
+	/* margin-top: 10px; */ /* border: 1px solid #9E9E9E; */
+	/* text-indent: 2em; */
+	margin-left: 5px;
+	line-height: 25px;
+}
+
+.comm_page {
+	width: auto;
+	height: 35px;
+	float: right;
+}
+
+.comm_page_num {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background-color: #EDEDED;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #DEDEDE;
+}
+
+.s {
+	width: 100%;
+	height: 30px;
+}
+
+.want_commit {
+	background-color: #E8E9EE;
+}
+
+.want_font {
+	display: inline-block;
+	font-size: 17px;
+}
+
+#want_score {
+	width: 17px;
+	background-color: #E8E9EE;
+	border: 0px;
+	text-align: center;
+	color: #6E6969;
+}
+
+#want_font_style {
+	color: #6E6969;
+}
+
+.want_commit_1 {
+	width: 90%;
+	height: 270px;
+	margin-left: 5%;
+	padding-bottom: 20px;
+	padding-top: 25px;
+}
+
+.content {
+	height: 100px;
+	width: 100%;
+	padding: .5em 0.5em;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.submit {
+	width: 10%;
+	height: 35px;
+	border: 0px;
+	border-radius: 10px;
+	float: right;
+	background-color: #0083bf;
+	font-size: 17px;
+	letter-spacing: 2px;
+	color: white;
+}
+
+.confirm {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+/*
+.font_type {
+	color: #0083bf;
+}
+
+.font_type_Detail {
+	float: right;
+	color: #999;
+	cursor: pointer;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.info-dl {
+	position:relative;
+}
+
+
+.info-dl dd {
+	 padding:9px 0px 9px 95px; 
+	 border-bottom:1px dotted #ccc;
+	 color:#0083bf;
+}
+
+.info-dl dd strong {
+	left:0px; 
+	position:absolute;
+	color:black;	
+}
+

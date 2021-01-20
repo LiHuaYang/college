@@ -1,0 +1,254 @@
+@CHARSET "UTF-8";
+body{
+	margin: 0;
+	/*background-image: url("../../image/enrobackground.jpg");*/
+	background:#dedee0;
+	background-size:100% 100%;
+	font-family:微软雅黑;
+}
+.Enrollmentall{
+	margin:0;
+	width: 100%;
+	height: auto;
+	
+}
+.Enrollmentmessage{
+	width: 740px;
+	height:auto;
+	margin: auto;
+	padding-left:25px;
+	margin-top: 30px;
+	background:white;
+}
+.Enrollmentmessageall{
+	width: 60%;
+	margin: auto;
+	padding:10px 10px 10px 10px;
+	border: 1px solid #cdcdcd;
+}
+.CompetitionTitle{
+	font-size: 20px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+	padding-top:15px;
+	color: #4b4b4b;
+	
+}
+
+.ParticipantTitle{
+	font-size: 20px;
+	margin-left: 5px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	color: #4b4b4b;
+}
+
+.Competitioninfo{
+	margin-left: 100px;
+}
+.CompetitioninfoName{
+	padding-bottom: 10px;
+	
+	
+}
+.CominfoName{
+	display: inline-block;
+	    line-height: 29px;
+}
+.CominfoNametext{
+	display: inline-block;
+	height: 30px;
+	width: 390px;
+	border:1px solid #8F8F8F;
+	line-height:30px;
+	font-size:15px;
+	color:#4F4F4F;
+	text-align: left;
+	padding-left:10px;
+}
+.CominfoRank{
+	display: inline-block;
+}
+.CominfoRanktext{
+	padding-left:10px;
+	height: auto;
+	width: 400px;
+	padding-top:7px;
+	padding-bottom:7px;
+	font: 13.3333px Arial;
+	line-height:30px;
+}
+.CominfoType{
+	display: inline-block;
+	line-height: 29px;
+}
+.CominfoTypetext{
+	padding-left:10px;
+	height: auto;
+	width: 400px;
+	padding-top:7px;
+	padding-bottom:7px;
+	font: 13.3333px Arial;
+}
+.CominfoPrice{
+	display: inline-block;
+	line-height: 29px;
+}
+.CominfoPricetext{
+	padding-left:10px;
+	height: 16px;
+	width: 390px;
+	border:1px solid #8F8F8F;
+	line-height:30px;
+	text-align: left;
+	padding-left:10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	font: 13.3333px Arial;
+}
+.CominfoMechanism{
+	display: inline-block;
+	line-height: 29px;
+}
+.CominfoMechanismtext{
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+
+.ParticipantinfoName{
+	padding-bottom: 10px;
+}
+
+.ParinfoName{
+	display: inline-block;
+	line-height: 29px;
+}
+.ParinfoNametext{
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.ParinfoSex{
+	display: inline-block;
+	line-height: 29px;
+}
+.ParinfoSextext{
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.ParinfoIDNumber{
+	display: inline-block;
+	line-height: 29px;
+}
+.ParinfoIDNumbertext{
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.ParinfoSchool{
+	display: inline-block;
+	line-height: 29px;
+}
+.ParinfoSchooltext{
+	display: inline-block;
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.ParinfoGread{
+	display: inline-block;
+	line-height: 29px;
+}
+.ParinfoGreadtext{
+	display: inline-block;
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.ParinfoAdress{
+	display: inline-block;
+	line-height: 29px;
+}
+.ParinfoAdresstext{
+	display: inline-block;
+	padding-left:10px;
+	height: 50px;
+	width: 400px;
+}
+.GuainfoName{
+	display: inline-block;
+	line-height: 29px;
+}
+.GuainfoNametext{
+	display: inline-block;
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.GuainfoPhone{
+	display: inline-block;
+	line-height: 29px;
+}
+.GuainfoPhonetext{
+	display: inline-block;
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+.GuainfoTeacher{
+	display: inline-block;
+	line-height: 29px;
+}
+.GuainfoTeachertext{
+	display: inline-block;
+	padding-left:10px;
+	font-size:14px;
+	height: 30px;
+	width: 400px;
+}
+.GuainfoTeacherPhone{
+	display: inline-block;
+	line-height: 29px;
+}
+.GuainfoTeacherPhonetext{
+	display: inline-block;
+	padding-left:10px;
+	height: 30px;
+	width: 400px;
+}
+
+.Participantinfo{
+	margin-left: 100px;
+}
+
+.AddChoice{
+	display: inline-block;
+	margin-bottom: 10px
+}
+
+.AddChoice div{
+	display: inline-block;
+}
+
+.enrollmentButton{
+	margin-top: 25px;
+	margin-left: 100px;
+	
+}
+.enrollmentButtonSave{
+	width: 100px;
+	height: 30px;
+	margin-bottom: 30px;
+}
+
+.messageCompetition a{
+	margin-top: 15px;
+	width: 70px;
+}
+
+th{
+	font-size: 15px;
+	font-weight: normal;
+}

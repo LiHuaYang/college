@@ -1,0 +1,706 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+.white{
+	width:100%;
+	height:61px;
+	background:white;
+}
+.grey{
+	width:100%;
+	height:1330px;
+	background:#EDEFED;
+	overflow:hidden;
+}
+.white3{
+	width:61px;
+	height:61px;
+	float:left;
+}
+.white1{
+	width:61px;
+	height:61px;
+	background:url("../../img/airbnb.png");
+	background-size:55%;
+	background-repeat: no-repeat;
+	background-position:15px 15px; 
+	cursor:pointer;
+}
+.white3:hover{
+	background:#EDEFED;
+}
+.white2:hover{
+	background:#EDEFED;
+}
+.white4:hover{
+	background:#EDEFED;
+}
+.white5:hover{
+	background:#EDEFED;
+}
+.white7:hover{
+	background:#EDEFED;
+}
+.white2{
+	width:100px;
+	height:61px;
+	float:right;
+	text-align:center;
+	line-height:61px;
+	font-size:14px;
+	color:#565a5c;
+	cursor:pointer;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+.white4{
+	width:100px;
+	height:61px;
+	float:right;
+	text-align:center;
+	line-height:61px;
+	font-size:14px;
+	color:#565a5c;
+	cursor:pointer;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	border-left:2px solid #EDEFED;
+	border-right:2px solid #EDEFED;
+}
+.white5{
+	width:100px;
+	height:61px;
+	float:right;
+	text-align:center;
+	line-height:61px;
+	font-size:14px;
+	color:#565a5c;
+	cursor:pointer;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	border-left:2px solid #EDEFED;
+}
+.white6{
+	width:120px;
+	height:61px;
+	float:right;
+}
+.white7{
+	width:80px;
+	height:30px;
+	margin:auto;
+	margin-top:15px;
+	text-align:center;
+	line-height:30px;
+	font-size:14px;
+	color:#565a5c;
+	cursor:pointer;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	border:2px solid #aaa;
+}
+.div1{
+	width:1050px;
+	height:1300px;
+	margin:auto;
+	margin-top:40px;
+}
+.div1_1{
+	width:530px;
+	height:1255px;
+	float:left;
+}
+.div1_2{
+	width:300px;
+	height:auto;
+	margin-left:150px;
+	padding-bottom:50px;
+	float:left;
+	background:white;
+}
+.pay{
+	width:250px;
+	height:50px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color:#565a5c;
+	font-size:30px;
+}
+.country{
+	width:50px;
+	height:20px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:10px;
+}
+.select1{
+	width:250px;
+	height:39px;
+	color:#565a5c;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	line-height:45px;
+	margin-top:12px;
+}
+.payway{
+	width:60px;
+	height:20px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:6px;
+}
+.payway1{
+	width:500px;
+	height:75px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color:#565a5c;
+	font-size:14px;
+	margin-top:6px;
+}
+.payway2{
+	width:250px;
+	height:45px;
+	float:left;
+}
+.select2{
+	width:250px;
+	height:39px;
+	color:#565a5c;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	line-height:45px;
+}
+.payway3{
+	width:225px;
+	height:65px;
+	float:left;
+	margin-left:20px;
+}
+.picture1{
+	width:50px;
+	height:30px;
+	background:url("../..//img/bank.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	float:left;
+	border:1px solid #aaa;
+	margin-top:5px;
+}
+.picture2{
+	width:50px;
+	height:30px;
+	background:url("../..//img/card.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin-top:5px;
+	float:left;
+	border:1px solid #aaa;
+	margin-left:5px;
+}
+.picture3{
+	width:50px;
+	height:30px;
+	background:url("../..//img/visa.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin-top:5px;
+	float:left;
+	border:1px solid #aaa;
+	margin-left:5px;
+}
+.picture4{
+	width:50px;
+	height:30px;
+	background:url("../..//img/xin.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin-top:5px;
+	float:left;
+	border:1px solid #aaa;
+	margin-left:5px;
+}
+.picture5{
+	width:50px;
+	height:30px;
+	background:url("../..//img/yin.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin-top:5px;
+	float:left;
+	border:1px solid #aaa;
+}
+.card{
+	width:60px;
+	height:20px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:3px;
+}
+.card1{
+	width:212px;
+	height:38px;
+  	font-size:20px;
+  	background:white;
+  	float:left;
+  	padding-left:8px;
+}
+.card2{
+	width:250px;
+	height:40px;
+	margin-top:5px;
+}
+.card3{
+	width:29px;
+	height:38px;
+	background: url("../..//img/lock.jpg");
+  	background-repeat: no-repeat;
+  	background-size:140%;
+  	border-top:1px solid #aaa;
+  	border-right:1px solid #aaa;
+  	border-bottom:1px solid #aaa;
+  	float:left;
+  	background-position:-7px -3px;
+  	cursor:pointer;
+}
+.date{
+	width:350px;
+	height:20px;
+	margin-top:5px;
+}
+.date1{
+	width:220px;
+	height:20px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;	
+	color:#565a5c;
+	font-size:15px;
+	float:left;
+}
+.date2{
+	width:60px;
+	height:20px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-left:50px;
+	float:left;
+}
+.date3{
+	width:430px;
+	height:45px;
+	margin-top:10px;
+}
+.date4{
+	width:112px;
+	height:45px;
+	float:left;
+}
+.date8{
+	width:112px;
+	height:45px;
+	float:left;
+	margin-left:20px;
+}
+.select3{
+	width:112px;
+	height:38px;
+	color:#565a5c;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	line-height:45px;
+}
+.select4{
+	width:112px;
+	height:38px;
+	color:#565a5c;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	line-height:45px;
+}
+.date5{
+	width:155px;
+	height:45px;
+	margin-left:20px;
+	float:left;
+}
+.date6{
+	width:112px;
+	height:38px;
+  	font-size:20px;
+  	background:white;
+  	float:left;
+}
+.date7{
+	width:40px;
+	height:37px;
+	background: url("../../img/help.png");
+  	background-repeat: no-repeat;
+  	background-size:70%;
+  	border-top:1px solid #aaa;
+  	border-right:1px solid #aaa;
+  	border-bottom:1px solid #aaa;
+  	float:left;
+  	cursor:pointer;
+  	background-position:5px 5px;
+}
+.save{
+	width:320px;
+	height:40px;
+	margin-top:7px;
+	color:#565a5c;
+	font-size:14px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+.forget1{
+	width:20px;
+	height:20px;
+	background:white;
+}
+.bill{
+	width:500px;
+	height:300px;
+	border-top:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	margin-top:5px;
+}
+.bill_1{
+	width:500px;
+	height:70px;
+	margin-top:5px;
+}
+.inbill_1{
+	width:235px;
+	height:60px;
+	float:left;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  	color:#565a5c;
+  	font-size:15px;
+}
+.inbill_3{
+	width:227px;
+	height:38px;
+	margin-top:7px;
+	padding-left:8px;
+}
+.inbill_4{
+	width:75px;
+	height:38px;
+	margin-top:7px;
+}
+.inbill_5{
+	width:235px;
+	height:60px;
+	float:left;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  	color:#565a5c;
+  	font-size:15px;
+}
+.inbill_8{
+	width:227px;
+	height:38px;
+	margin-top:7px;
+	padding-left:8px;
+}
+.introduce{
+	width:500px;
+	height:280px;
+	border-bottom:1px solid #aaa;
+}
+.introduce1{
+	width:300px;
+	height:50px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color:#565a5c;
+	font-size:30px;
+}
+.introduce2{
+	width:440px;
+	height:20px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:5px;
+}
+.introduce3{
+	width:300px;
+	height:70px;
+	margin-top:16px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:14px;
+}
+.introduce4{
+	width:500px;
+	height:110px;
+}
+.introduce4_1{
+	width:100px;
+	height:110px;
+	float:left;
+	background: url("../..//img/contact.jpg");
+  	background-repeat: no-repeat;
+  	background-size:100%;
+  	cursor:pointer;
+}
+.textarea1{
+	font-size:15px;
+	width:360px;
+	height:80px;
+	float:left;
+	margin-left:20px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	padding:5px;
+}
+.help{
+	width:480px;
+	height:44px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	line-height:22px;
+	margin-top:20px;
+}
+.help1{
+	width:480px;
+	height:60px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	line-height:20px;
+	margin-top:8px;
+}
+.a2,.a3,.a4,.a5{
+	color:#ff5a5f;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size:15px;
+	text-decoration:none;
+}
+.a2:hover{
+	text-decoration:underline;
+}
+.a3:hover{
+	text-decoration:underline;
+}
+.a4:hover{
+	text-decoration:underline;
+}
+.a5:hover{
+	text-decoration:underline;
+}
+.goon{
+	width:400px;
+	height:50px;
+	margin-top:20px;
+}
+.goon1{
+	width:85px;
+	height:50px;
+	float:left;
+}
+.button{
+	width:85px;
+	height:50px;
+	background:#ff5a5f;
+	color:white;
+	font-size:16px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	cursor:pointer;
+}
+.button:hover{
+	background:#ff7e82;
+}
+.pic{
+	width:300px;
+	height:220px;
+	background-size:300px 220px;
+	background-repeat: no-repeat;
+}
+.word{
+	width:280px;
+	height:80px;
+	border-bottom:1px solid #aaa;
+	margin:auto;
+	margin-top:20px;
+}
+.word1{
+	width:240px;
+	height:30px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:5px;
+	margin:auto;
+	font-weight:bold;
+	font-size:17px;
+}
+.word2{
+	width:270px;
+	height:45px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:5px;
+	margin:auto;
+	font-size:14px;
+	line-height:22.5px;
+}
+.inword3_1{
+	width:270px;
+	height:30px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:5px;
+	font-size:14px;
+	margin:auto;
+	font-weight:bold;
+}
+.inword3_2{
+	width:270px;
+	height:45px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	margin-top:5px;
+	margin:auto;
+	font-size:14px;
+	line-height:22.5px;
+	font-weight:bold;
+}
+.word4{
+	width:230px;
+	height:25px;
+}
+.inword4_1{
+	width:40px;
+	height:20px;
+	float:right;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#ff5a5f;
+	font-size:15px;
+	cursor:pointer;
+}
+.inword4_2{
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	width:100px;
+	height:20px;
+	float:left;
+}
+.inword4_1:hover{
+	text-decoration:underline;
+}
+.inword4_3{
+	width:65px;
+	height:20px;
+	float:right;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#ff5a5f;
+	font-size:15px;
+	cursor:pointer;
+}
+.inword4_3:hover{
+	text-decoration:underline;
+}
+.inword4_4{
+	width:20px;
+	height:20px;
+	float:right;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+}
+.price{
+	width:280px;
+	height:auto;
+	border-bottom:1px solid #aaa;
+	margin:auto;
+	margin-top:20px;
+	padding-bottom: 10px;
+}
+.price1{
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	width:100px;
+	height:20px;
+	float:left;
+}
+.price2{
+	height:20px;
+	float:right;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	width:40px;
+}
+.price3{
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	width:50px;
+	height:20px;
+	float:left;
+}
+.price4{
+	height:20px;
+	float:right;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:15px;
+	width:30px;
+}
+.price5{
+	width:85px;
+	height:20px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#ff5a5f;
+	font-size:15px;
+	cursor:pointer;
+}
+.price5:hover{
+	text-decoration:underline;
+}
+.total{
+	width:280px;
+	height:60px;
+	border-bottom:1px solid #aaa;
+	margin:auto;
+}
+.total_1{
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:22px;
+	width:100px;
+	height:60px;
+	float:left;
+	line-height:60px;
+}
+.total_2{
+	width:100px;
+	height:60px;
+	float:right;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+	font-size:22px;
+	line-height:60px;
+}
+.final{
+	width:280px;
+	height:60px;
+	margin:auto;
+	margin-top:10px;
+	font-size:10px;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	color:#565a5c;
+}
+.a6{
+	color:#ff5a5f;
+	font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	font-size:10px;
+	text-decoration:none;
+}
+.a6:hover{
+	text-decoration:underline;
+}

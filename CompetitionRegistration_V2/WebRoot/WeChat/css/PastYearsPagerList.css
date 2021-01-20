@@ -1,0 +1,166 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	
+}
+/*标题栏*/
+.titlebar{
+	background:#0075c3;
+	width:100%;
+	height:3em;
+   padding-top: 8px;
+	display:inline-block;
+	text-align: center;
+}
+.backbtn{
+	color:#ffffff;
+	float:left;
+	display:inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top:3%;
+}
+#left {
+    font-size: 1.2em;
+}
+/*搜索框*/
+.searchstyle{
+	width:100%;
+	height:3em;
+	background:#0075c3;
+	border:1px solid #0075c3;
+}
+.searchEdit{
+	padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    border: 1px solid #CDCDB4;
+    border-radius: 6px;
+    background: white;
+    display: inline-block;
+    width: 70%;
+	height:70%;
+}
+#subject_choose,#competition_choose,#grade_choose{
+	width:auto;
+	height:83%;
+	font-size:0.7em;
+	display:inline-block;
+	float:left;
+	margin-left:0.3em;
+	padding-top:0.8em;
+}
+#input{
+	width:100%;
+	height:100%;
+	display:inline-block;
+	color:#000000;
+	font-size:1em;		
+}
+
+.iconstyle{
+	width:auto;
+	height:auto;
+	float:left;
+	margin-right:0.7em;
+	margin-top:0.4em;
+	display:inline-block;
+}
+.find{
+	width:13%;
+	float:right;
+	font-size:1em;
+	color:#ffffff;
+	padding-top:0.7em;
+	 font-family: "微软雅黑";
+}
+/*条件选择栏*/
+.choosebar{
+	width:100%;
+	height:2.4em;
+	background:#ececec;
+	display:inline-block;
+}
+.choosebaritem{
+	width:32%;
+	height:100%;
+	display:inline-block;
+	float:left;
+}
+.choosebatitem_tip1,.choosebatitem_tip2,.choosebatitem_tip3{
+	width:40%;
+	height:auto;
+	font-size:0.8em;
+	padding-left:0.8em;
+	padding-top:0.8em;
+	color:#000000;
+	float:left;
+	display:inline-block;
+}
+.subject,.grade,.competion{
+	width:50%;
+	height:70%;
+	font-size:0.6em;
+	margin-top:0.4em;
+	color:#000000;
+	float:left;
+	display:inline-block;
+}
+.subject_item{
+	width:100%;
+	height:100%;
+	font-size:0.8em;
+	color:#000000;
+}
+/*试题列表*/
+.pagerTitle{
+	display:inline-block;
+	margin-left:0.4em;
+	font-weight:bold;
+	font-size:1em;
+	margin-top:0.3em;
+	    font-family: "微软雅黑";
+}
+.pagerdifficult{
+	display:inline-block;
+	margin-right:1em;
+	float:right;
+	font-weight:bold;
+	font-size:0.8em;
+	margin-top:0.3em;
+	color:#ff3131;
+	    font-family: "微软雅黑";
+}
+.pagertime{
+	display:inline-block;
+	margin-left:0.4em;
+	font-weight:bold;
+	font-size:1em;
+	margin-top:0.3em;
+	    font-family: "微软雅黑";
+}
+/*出错处理界面*/
+.error_page{
+	width:auto;
+	height:auto;
+	color:#ececec;
+	font-size:1.5em;
+	margin-top:3em;
+	text-align:center;
+}
+#pagerlist{
+	width:100%;
+	height:100%;
+}
+/*没有更多*/
+#more{
+	width:auto;
+	height:auto;
+	margin-top:2em;
+	margin-bottom:2em;
+	text-align:center;
+	font-size:0.8em;
+	
+}

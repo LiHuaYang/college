@@ -1,0 +1,124 @@
+@CHARSET "UTF-8";
+body{
+margin:0px;
+  font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #565a5c;
+
+}
+.basic{
+width: 100%;
+height: 350px;
+padding-top: 100px;
+}
+.basic-row{
+width: 998px;
+margin: auto;
+height: 100%;
+}
+.basic-title{
+width: 100%;
+text-align: center;
+border-bottom:1px solid rgb(200,200,200); 
+}
+.changebasic{
+	padding-top:5px;
+	padding-right:10px;
+float: right;
+font-size: 13px;
+}
+.changebasic:hover{
+color: #f58220;
+cursor: pointer;
+}
+.activitysc{
+width: 100%;
+height: 350px;
+padding-top: 30px;
+background: #EDEFED;
+}
+.activityti{
+width: 100%;
+height: 450px;
+padding-top: 30px;
+
+}
+.activestages{
+height: 400px;
+width: 100%;
+overflow-x:hidden; 
+}
+
+.activestage{
+	border-left: 1px solid rgb(220, 224, 224);
+border-right: 1px solid rgb(220, 224, 224);
+width: 100%;
+height: 120px;
+padding-top:10px;
+background: white;
+border-bottom:1px solid rgb(200,200,200);
+}
+.activestage-pic{
+	width: 120px;
+	height: 120px;
+	background-size: 110px 110px;
+	background-image: url("../img/activity/yanchu.jpg");
+background-repeat: no-repeat;
+background-position: 10px 0 ;
+float: left;
+}
+.activestage-more{
+width: 800px;
+float: left;
+height: 120px;
+}
+.activestage-title{
+width: 750;
+margin-left:20px;
+height: 20px;
+font-size: 14px;
+border-bottom: 1px solid rgb(200,200,200);
+}
+.activity-plan{
+width: 100%;
+height: 350px;
+padding-top: 30px;
+background: #EDEFED;
+}
+.basica-row{
+height: 350px;
+padding-top: 30px;
+width: 998px;
+margin: auto;
+}
+.part-list{
+height: 330px;
+width: 100%;
+overflow-x:hidden; 
+}
+.psbac{
+width: 100%;
+height: 90%;
+padding-top:10%;
+position: fixed;
+top: 0;
+background: rgba(0,0,0,0.7)
+   
+}
+.psw{
+margin: auto;
+padding:10px;
+width: 200px;
+height: 300px;
+background: white;
+border-radius:8px; 
+}
+.ap-one{
+width: 100%;
+height: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+font-size: 12px;
+}
+.ap-one div{
+display: inline-block;
+}

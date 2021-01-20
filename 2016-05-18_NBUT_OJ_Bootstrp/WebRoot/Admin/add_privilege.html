@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加权限</title>
+</head>
+<body>
+
+
+<div style="margin: 0 auto; text-align:center" >
+
+<div id="header"></div>
+
+<h1>添加权限</h1>
+	<form action="../PrivilegeActionServlet">
+		<input type="hidden" name="method" value="add">
+		用户ID<input type="text" id="user_id" name="user_id"/></br></br>
+		权限
+		<select name="pri_name">
+			<option value="contest_creator">contest_creator</option>
+			<option value="administrator">administrator</option>
+			<option value="problem_editor">problem_editor</option>
+			<option value="source_browser">source_browser</option>
+			<option value="http_judge">http_judge</option>
+			<option value="password_setter">password_setter</option>
+		</select>
+		<input type="submit" value="增加">
+	</form>
+</div>
+
+</body>
+</html>

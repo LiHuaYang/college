@@ -1,0 +1,384 @@
+@CHARSET "UTF-8";
+
+#detailcompetition {
+	width: 700px;
+	height: 50px;
+}
+
+/**************************************\
+下拉框css
+\**************************************/
+#down-competition {
+	width: 82px;
+	height: 20px;
+	background-color: white;
+	border: 1px solid rgb(140, 140, 140);
+	border-radius: 2px;
+}
+
+.pos {
+	background-color: white;
+	display: none;
+	border: 1px solid rgb(30, 144, 255);
+	max-height: 100px;
+	overflow: auto;
+}
+
+.down2_ul {
+	margin: 0;
+	padding: 0;
+}
+
+.down2_ul li {
+	list-style-type: none;
+	font-size: 5px;
+	height: 19px;
+	line-height: 16px;
+	width: 50px;
+	padding-left: 4px;
+}
+
+.down2_ul li:hover {
+	background-color: rgb(30, 144, 255);
+	color: white;
+	cursor: pointer
+}
+
+/**************************************\
+下拉框css
+\**************************************/
+	/**************************************\
+	页面
+
+#mainright {
+	float:left;
+	border:1px solid black;
+	height:500px;
+	margin-left:20px;
+	margin-top:20px;
+	width:78%;
+}
+\**************************************/
+	/**************************************\
+	页面右侧样式
+
+.right-head {
+	height:30px;
+	line-height:30px;	
+	border:1px solid #95B8E7;
+	background-color:#F5F9FB;
+	padding-left:10px;
+}
+
+\**************************************/
+	/**************************************\
+	页面
+
+h4 {
+	margin:0px;
+	color:#0E2D5F;
+}
+
+h5 {
+	margin:0px;
+	color:#0E2D5F;
+	font-size:13px;
+}
+\**************************************/
+	/**************************************\
+	数据面板样式
+
+.data-panel {
+	margin:5px;
+	width:100%;
+	margin:0px;
+}
+
+.panel-title {
+	height:30px;
+	line-height:30px;
+	margin-top:6px;
+	background-color:#F5F9FB;
+	border:1px solid #95B8E7;
+	padding-left:10px;
+}
+\**************************************/
+	/**************************************\
+	数据表格样式
+
+.data-table {
+	border:1px solid red;
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:0px;
+	font-size:0.82em;
+	cursor: pointer;
+}
+
+.data-title {
+	font-size:0.78em;
+	font-weight:bold;
+	border-bottom:3px solid #CCC;
+}
+
+.data-table td {
+	height:30px;
+	border:1px solid #CCC;
+}
+
+
+.odd {
+	background-color:#F3F3F3;
+}
+\**************************************/
+	/**************************************\
+	弹窗样式
+\**************************************/
+.bodymiddle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.middleClose {
+	margin-top: 8px;
+}
+
+.middleFrame {
+	margin: auto;
+	margin-top: 10%;
+	width: 280px;
+	height: auto;
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #cdcdcd;
+	padding: 0 20px 20px 20px;
+}
+
+.middleClose {
+	width: 100%;
+	height: auto;
+	text-align: right;
+}
+
+.iconfont {
+	width: 100%;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+.Frameinformation {
+	margin: auto;
+	margin-top: 10px;
+	width: 90%;
+	height: auto;
+}
+
+.Frameinput {
+	border-bottom: 1px solid #0595c7;
+}
+
+.Phonetext {
+	width: 100%;
+	height: 30px;
+	padding-left: 8px;
+	margin-top: 10px;
+}
+
+.Verficationtext {
+	width: 70%;
+	height: 30px;
+	display: inline-block;
+	padding-left: 8px;
+}
+
+.Verificationget {
+	width: 26%;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 25px;
+	vertical-align: 1px;
+	text-align: center;
+	border: 1px solid #588cb3;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.inputVerification {
+	width: 100%;
+	height: auto;
+}
+
+.Verificationselect {
+	width: 100%;
+	height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.Verificationselect_subject{
+	width: 100%;
+	height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.Frameclick {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.clickButton {
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ButtonRigest {
+	width: 100%;
+	height: 40px;
+	border: none;
+	font-size: 16px;
+	font-family: 幼圆;
+	font-weight: 500;
+	border-radius: 5px;
+	background-color: #5dafd9;
+	color: white;
+	cursor: pointer;
+}
+
+.ButtonRigest:HOVER {
+	background-color: #3bb2d9;
+}
+
+.clickText {
+	width: 100%;
+	text-align: right;
+}
+
+.clickText div {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.Textlogin {
+	color: fa7c28;
+	cursor: pointer;
+}
+
+.Textlogin:HOVER {
+	text-decoration: underline;
+}
+
+/**************************************\
+	增加大赛界面冬天添加的数据表格样式
+\**************************************/
+
+.lf {
+	float: left;
+	width:90px;
+	height:50px;
+}
+
+.lh5 {
+	line-height:50px;	
+	border-right: 1px solid #CCC;
+	margin:0 auto;
+}
+.lf div {
+	font-size: 0.78em;
+	font-weight:lighter;
+	width:100%;
+	padding-left:10px;
+	margin-bottom:5px;
+}
+
+#subject_info_panel .cl-info {
+	width:70%;
+	height:auto;
+	border:1px solid #CCC;
+	float:left;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+.cl-info td {
+	border:1px solid #CCC;
+	height:20px;
+}
+#subject_info_panel .cl-opr {
+	border:1px solid #CCC;
+	float:left;
+}
+
+
+ul, li{
+	margin:0px;
+	padding:0px;
+}
+#subject_info_panel select {
+	width:80px;
+	height:30px;
+	/*border-right:3px solid blue;*/
+}
+
+.grade-style {
+	margin-top:15px;
+	width:100%;
+	border:1px solid #CCC;
+	font-size:13px;
+	
+}
+
+#subject_info_panel table {
+	font-size:0.87em;
+}
+
+/**************************************\
+	增加大赛界面冬天添加的数据表格样式
+\**************************************/
+.opera-form {
+	border-spacing: 0px;
+	border:1px solid #CCC;
+	width:900px;
+}
+
+.opera-form td {
+	border:1px solid #CCC;
+	font-weight:bold;
+	font-size:0.87em;
+}
+.opera-form td textarea,select{
+	font-weight:normal;
+	width:100%;
+}
+.opera-form input{
+	font-weight:normal;
+	height:37px;
+}
+
+.checkClass{
+	margin-left:23%;
+}
+
+.checkClass1{
+	margin-left:16%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

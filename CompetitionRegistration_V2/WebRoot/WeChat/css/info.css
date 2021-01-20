@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 100%;
+	height: 100%;
+	 margin: 0px;
+}
+
+.ww {
+	width: 100%;
+	height: 25%;
+}
+.ww2 {
+	width: 100%;
+    margin-top:5%;
+    margin-left:2.5%;
+    font-size:1.2em;
+    font-family:"微软雅黑";
+}
+.ww3 {
+	width: 100%;
+	height: 20em;
+    margin-top:2.5%;
+    margin-left:2.5%;
+}
+.user {
+	border: 0.1em;
+	width: 60%;
+	height: 100%;
+	padding-left: 4%;
+	display: inline-block;
+}
+
+.user-pic {
+	border: 0.1em;
+	width: 23%;
+	height: 100%;
+	margin-left: 2%;
+	background:url(../image/touxiang.png) center no-repeat;
+	display: inline-block;
+}
+
+input {
+	font-size: 1.15em;
+	letter-spacing: 0.2em;
+	background: #FFFFFF;
+	display: inline-block;
+	font-family:"微软雅黑";
+}
+
+#on {
+	width: 98%;
+	height: 40%;
+	float: right;
+	border-bottom: 0.1em solid #edefec;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+	
+	margin-right: 0px;
+	margin-top: 5%;
+}
+#size {
+	margin-left: 3%;
+	margin-top: 15%;
+	font-size: 100%;
+	color: white;
+}
+#in {
+	width: 98%;
+	height: 3em;;
+	border-bottom: 0.1em solid #edefec;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+	margin-top: 5%;
+	display: inline-block;
+}
+
+.on-info{
+	font-size: 1.2em;
+	color: #0075c4;
+	margin-top: 8%;
+	width:30%;
+	display: inline-block;
+	font-family:"微软雅黑";
+}
+.in-info{
+	color: #0075c4;
+	width:31%;
+	display: inline-block;
+	font-family:"微软雅黑";
+}
+
+.box {
+	width: 50%;
+	height: 70%;
+	margin-top: 4%;
+	border: none;
+	display: inline-block;
+}
+.box-info {
+	width: 60%;
+	height: 70%;
+	margin-top: 4%;
+	border: none;
+	display: inline-block;
+	font-size:0.9em;
+}
+
+
+.head {
+	width: 100%;
+	height: 8%;
+	background: #0075c4;
+	padding-top: 1.5%;
+}
+.last {
+	width: 100%;
+	background: #FFFFFF;
+	height:35em;
+}
+
+.logo {
+	width: 100%;
+	height: 80%;
+	display: block;
+	margin-top:2%;
+}
+
+.dasai {
+	-moz-box-flex: 1;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	margin-left: 90px;
+	font-family:"微软雅黑";font-weight:bold;
+}
+.submit {
+	width: 85%;
+	height: 26%;
+	border-radius: 0.4em;
+	margin-left: 7%;
+	margin-bottom: 5%;
+	background-color: #0075c4;
+	font-size: 1.2em;
+	color: white;
+	font-family:"微软雅黑";
+}
+.ContestSubjectinfo{
+	width:65%;
+	display: inline-block;
+}
+.ContestObject{
+	width:50%;
+	display: inline-block;
+}
+select{
+    width:77%;	
+    display: inline-block;
+    font-family:"微软雅黑";
+}
+.CominfoPricetext{
+	width:50%;
+	height:auto;
+	font-size:1em;
+	border: none;
+}
+
+.CominfoMechanismtext{
+    width:50%;
+	height:auto;
+}
+
+.red{
+    color:red;
+    font-size:0.7em;
+    font-family:"微软雅黑";
+}

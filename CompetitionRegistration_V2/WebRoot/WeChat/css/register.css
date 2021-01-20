@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+ body{
+    width:320px;
+	height:480px;
+	margin:0px;
+  }
+
+  .ww {
+	border:0px;
+	width:100%;
+	height:30%;
+	background::;
+  }
+  .user{
+    border:1px;	
+    width:99%;
+	height:90%;
+	padding-left:2%;
+	padding-top:;
+	border-bottom:1px solid #edefec;
+	background:#FFFFFF;
+  }
+input{
+  font-size:11.5px;
+  letter-spacing:2px;
+  color: #292929;
+  background:#FFFFFF;
+}
+#on{
+  width:98%;
+  height:30%;
+  float:right;	
+  border-bottom:1px solid #edefec;
+  margin-bottom:;
+  font-size:13px;
+  letter-spacing:2px;
+  color: #292929;
+  vertical-align:;
+}
+#behind{
+  width:98%;
+  height:42%;
+  padding-left:2%;
+  line-height:;
+  font-size:13px;
+  letter-spacing:;
+  color:#292929;
+  vertical-align:;
+}
+.box{
+   width:46%;
+   height:40%;
+   border:0px;
+   margin-top:4%;
+   vertical-align:;
+ }
+ .bbox{
+   width:60%;
+   height:40%;
+   border:0px;
+   margin-top:4%;
+   vertical-align:;
+ }
+#identify{
+  width:30%;
+  float:right;
+  height:68%;
+  margin-right:5%;
+  margin-top:2%;
+  border:1px solid #3686a6;
+  border-radius:15px;
+  color:#3686a6;
+}
+.submit{
+  width:85%;
+  height:26%;
+  border:0px;
+  border-radius:25px;
+  margin-left:7%;
+  margin-bottom:5%;
+  background-color:#3686a6;
+  font-size:18px;
+  color:white;
+}
+.mail{
+  width:100%;
+  height:30%;
+  border:1px solid #3686a6;
+  letter-spacing:2px;
+  border-radius:25px;
+  margin-left:;
+  margin-bottom:5%;
+  background:white;
+  font-size:18px;
+  color:#3686a6;
+}
+
+.foot{
+    width:100%;
+	height:25%;
+	letter-spacing:5px;
+	background: #EEEEE0;
+
+  
+  }
+  fieldset{
+    width:84%;
+	height:100%;
+    border:0px;
+	padding-top:5%;
+	margin-left:5%;
+	border-top:1px solid #DBDBDB;
+  }
+  legend{
+    font-size:11px;
+    margin-left:43%;
+	padding-left:5%;
+	padding-right:5%;
+	color:#CDC0B0;
+  }
+  .item{
+    margin-left:5%;
+    margin-bottom:5%;
+	font-size:12px;
+	letter-spacing:2px;
+
+  }
+  #circle{
+    
+    background:#B3EE3A;
+	padding:1%;
+    font-size:12px;
+	border-radius:50%;
+	color:white;
+  }
+  .blue{
+    color:blue;
+  }
+  .last{
+    margin-left:5%;
+	font-size:13px;
+  }
+  .white{
+    width:100%;
+	height:30%;
+    line-height:30px;
+    background:white;
+	border-top:0.5px solid  #EDEDED;
+	color:#3686a6;
+  }
+   .sort{
+    width:100%;
+	height:15%;
+	
+	
+  }
+  .key{
+    width:24%;
+	height:80%;
+    float:left;
+	letter-spacing:1px;
+	text-align:center;
+	margin-top:3%;
+
+	font-size:11px;
+	border-right:1px solid;
+  }
+  #help{
+    border-right:0px;
+  }
+.head{
+    width:100%;
+	height:6%;
+	background: #3686a6;
+	padding-top:1.5%;
+  }
+  #size{
+    margin-left:3%;
+	margin-top:15%;
+    font-size:100%;
+	color:white;
+  }

@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<link href="Admin/Common/Page/Page.css" rel="stylesheet" type="text/css" />
+<div class="page">
+	<div class="page_left">
+		<table>
+			<tbody>
+				<tr>
+					<td style="width: 80px">
+						<span class="page_font" onclick="checkAll(false)">取消</span>
+						<span class="page_font" onclick="checkAll(true)">全选</span>
+					</td>
+					<td>
+						<select>
+							<option>
+								1
+							</option>
+							<option>
+								2
+							</option>
+							<option>
+								3
+							</option>
+							<option>
+								4
+							</option>
+						</select>
+					</td>
+					<td>
+						<div class="pagination-btn-separator"></div>
+					</td>
+					<td>
+						<span class="icon pagination-first"></span>
+					</td>
+					<td>
+						<span class="icon pagination-prev" id="btn_pre_page"></span>
+					</td>
+					<td>
+						<div class="pagination-btn-separator"></div>
+					</td>
+					<td>
+						<span class="page_font">第</span>
+					</td>
+					<td>
+						<input id="current_page" style="width: 20px;" type="text" value="1" />
+					</td>
+					<td>
+						<span class="page_font">共10页</span>
+					</td>
+					<td>
+						<div class="pagination-btn-separator"></div>
+					</td>
+					<td>
+						<span class="icon pagination-next" id="btn_next_page"></span>
+					</td>
+					<td>
+						<span class="icon pagination-last"></span>
+					</td>
+					<td>
+						<span class="icon pagination-load"></span>
+					</td>
+					<td>
+						<div class="pagination-btn-separator"></div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="page_right ">
+		显示
+		<span>1</span>到
+		<span>10</span>,共
+		<span>10</span>记录
+	</div>
+	<div style="clear: both;"></div>
+</div>

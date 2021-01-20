@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>Insert title here</title>
+			<link rel="stylesheet" type="text/css" href="../../Common/bootstrap/bootstrap.min.css">
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+			</script>
+			<script type="text/javascript" src="../../Common/bootstrap/bootstrap.min.js"></script>
+			<script type="text/javascript" src="/2016-05-18_NBUT_OJ/Front/Scripts/problem_list.js"></script>
+			<style type="text/css">
+				body { padding-top: 20px; padding-bottom: 20px; }
+			   .navbar { margin-bottom: 20px; 
+			   backgroud-color:#337ab7;}
+			</style>
+		</head>
+		<body>
+			<div class="container">
+				<!-- Static navbar -->
+				<nav class="navbar navbar-default">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button"
+								class="navbar-toggle collapsed" data-toggle="collapse"
+								data-target="#navbar" aria-expanded="false"
+								aria-controls="navbar">
+								<span class="sr-only">
+									Toggle navigation
+								</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">
+								NBUT-HUSTOJ
+							</a>
+						</div>
+						<div id="navbar"
+							class="navbar-collapse collapse">
+							<ul class="nav navbar-nav">
+								<li>
+									<a href="#">问题</a>
+								</li>
+								<li>
+									<a href="#">状态</a>
+								</li>
+								<li>
+									<a href="#">竞赛和作业</a>
+								</li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle"
+										data-toggle="dropdown" role="button" aria-haspopup="true"
+										aria-expanded="false">
+										登录
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">登录</a>
+										</li>
+										<li>
+											<a href="#">注册</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div><!--/.nav-collapse -->
+					</div><!--/.container-fluid -->
+				</nav>
+				<!-- 表格开始-->
+				<!-- <div class="container" > -->
+					<table class="table" id ="problem">
+				  <tr>
+					  <th>编号	</th>
+					 <th> 标题	</th>
+					<th> 正确	</th>
+					 <th> 提交	</th>
+					 <th> 来源</th>
+				  </tr>
+				  <tr>
+				    <td>Row 1: Col 1</td>
+				    <td>Row 1: Col 2</td>
+				  </tr>
+				</table><!-- 表格结束 -->
+				 <!-- </div> -->
+				 <p align="center">
+					 <button type="button" class="btn btn-default" id="" onclick="nextPage(this)" value="pre">上一页</button>
+					 <button type="button" class="btn btn-default" id="" onclick="nextPage(this)" value="next">下一页</button>
+				 </p>
+			</div>
+		</body>
+	</html>

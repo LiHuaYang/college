@@ -1,0 +1,31 @@
+
+
+# 2016年12月5日
+需要加入的最小jar包：（官网可以下载 min-lib）
+commons-fileupload-X.X.X.jar
+commons-io-X.X.jar
+commons-lang-X.X.jar
+commons-logging-X.X.X.jar
+commons-logging-api-X.X.jar
+commons-lang3-X.X.jar
+freemaker-X.X.X.jar
+javassist-X.X.X.GA.jar
+ognl-X.X.X.jar
+struts2-core-X.X.X.X.jar
+xwork-core-X.X.X.X.jar
+
+开发流程：
+1. 先写 XML 2. 再写ACTION 3. 再写页面
+
+
+启动错误
+java.lang.ClassNotFoundException: org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,185 @@
+@CHARSET "UTF-8";
+body{
+margin:0px;
+  font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #565a5c;
+	background: #EDEFED;
+}
+.cpic{
+height: 600px;
+width: 100%;
+background: url('../img/vp.png');
+background-repeat:no-repeat;
+background-size:100% 100%;
+
+}
+.corporationsearch{
+	padding-top:245px;
+	
+}
+.corporationsearch-black{
+width: 540px;
+height: 90px;
+padding:30px;
+margin: auto;
+background: rgba(0,0,0,0.7);
+border-radius:2px;
+}
+.corporationsearch-input{
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-rtl-ordering: logical;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: border-color;
+    -webkit-transition-timing-function: ease;
+    -webkit-user-select: text;
+    -webkit-writing-mode: horizontal-tb;
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(196, 196, 196);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(196, 196, 196);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(196, 196, 196);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(196, 196, 196);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(86, 90, 92);
+    cursor: auto;
+    font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 40px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+
+    padding-top: 10px;
+    text-align: start;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: border-color;
+    transition-timing-function: ease;
+    width: 450px;
+    word-spacing: 0px;
+    writing-mode: lr-tb;
+
+}
+.corporationsearch-button{
+
+    width: 90px;
+    padding-top: 9px;
+    margin-left: -4px;
+    height: 30px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    background: #f47920;
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 1px 1px #f47920;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.corporationsearch-button:hover{
+background: #faa755;
+}
+.corporationsearch-button:active{
+background: #f15a22;
+}
+.corporationsearch-max{
+color: #fff;
+font-size: 14px;
+cursor: pointer;
+}
+.corporationsearch-max:hover{
+
+text-decoration: underline;
+}
+.hotcorporation{
+color: #fff;
+font-size: 14px;
+margin-bottom: 5px;
+}
+.hotcorporation font:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.corporationlist{
+padding-bottom:50px;
+width: 1200px;
+height: auto;
+margin: auto;
+padding-top: 30px;
+}
+.corporationline{
+vertical-align:top;
+width: 296px;
+display: inline-block;
+height: auto;
+}
+.corporationone{
+	margin-bottom:40px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);	
+width: 260px;
+margin-left: 38px;
+height: auto;
+background: white;
+
+}
+.corporationone-title{
+
+text-align: center;
+font-size: 18px;
+box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);	
+}
+.corporationone-title:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.corporationone-more{
+margin-top:2px;
+text-indent: 2em;
+padding: 8px;
+font-size: 14px;
+background: rgb(242, 240, 240);
+padding-bottom: 15PX;
+}
+#tip
+{
+    text-align:center;
+    border:solid 1px #ccc;
+    background-color:#fff;
+    margin:20px 0px;
+    padding:8px;
+    display:none;
+}
+.user-one{
+margin: auto;
+height: 167px;
+width: 167px;
+background: red;a
+}

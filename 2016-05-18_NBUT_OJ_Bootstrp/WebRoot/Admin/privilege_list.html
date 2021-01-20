@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../Common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" >
+	$(function() {
+		$.getJSON("../PrivilegeActionServlet",{"method":"list"},function(obj) {
+			var jsonArray =  obj.data;
+			for (var i=0; i<jsonArray.length; i++) {
+				$("#list").append("<tr>"+
+						"<td>"+jsonArray[i].user_id+"</td>"+
+						"<td>"+jsonArray[i].rightstr+"</td>"+
+						"<td><a href='../PrivilegeActionServlet?method=del&user_id=" + jsonArray[i].user_id + "&pri_name=" +jsonArray[i].rightstr +"'>"+'删除'+"</a></td></tr>"
+						)
+				}
+		});
+	});
+	
+</script>
+</head>
+<body>
+<div style="margin: 0 auto; text-align:center" >
+
+<div id="header"></div>
+<h1>权限列表</h1>
+	<table border="1" width="900px" style="margin: 0 auto" id ="list">
+		<tr>
+		<th>用户</th>
+		<th>权限</th>
+		<th>操作</th>
+		</tr>
+	</table>
+</div>
+
+
+</body>
+</html>

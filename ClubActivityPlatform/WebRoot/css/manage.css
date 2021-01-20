@@ -1,0 +1,309 @@
+@CHARSET "UTF-8";
+body{
+margin:0px;
+  font-family: 'Hiragino Sans GB', 华文细黑, STHeiti, 微软雅黑, 'Microsoft YaHei', SimHei, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+color: #565a5c;
+
+}
+.basic{
+width: 100%;
+height: 350px;
+padding-top: 100px;
+}
+.basic-row{
+width: 998px;
+margin: auto;
+height: 100%;
+}
+.basic-title{
+width: 100%;
+text-align: center;
+border-bottom:1px solid rgb(200,200,200); 
+}
+.changebasic{
+	padding-top:5px;
+	padding-right:10px;
+float: right;
+font-size: 13px;
+}
+.changebasic:hover{
+color: #f58220;
+cursor: pointer;
+}
+.basic-more{
+width: 100%;height: 300px;
+}
+.basic-pic{
+width: 400px;
+height: 280px;
+margin: 10px;
+background: url("../img/department/t-ban.jpg");
+background-size:100% 100%;
+float: left;
+}
+.basic-con{
+width: 550px;
+height: 280px;
+margin: 10px;
+float: right;
+}
+.basic-name{
+width: 100%;
+height: 30px;
+font-size: 18px;
+}
+.basic-content{
+width: 100%;
+height: 250px;
+overflow-x:hidden;
+font-size: 13px;
+}
+.activity-manage{
+width: 100%;
+padding-top:30px;
+height: 500px;
+background: #EDEFED;
+}
+.activity-manage-row{
+width: 998px;
+height: 100%;
+	margin: auto;
+}
+.activity-manage-title{
+
+width: 100%;
+border-bottom: 1px solid rgb(200,200,200);
+
+text-align: center;
+}
+.activity-list,.notice-list,.member-list{
+height: 477px;
+width: 100%;
+overflow-x:hidden; 
+}
+.activity-one{
+width: 100%;
+padding-top:7px;
+height: 33px;
+border-bottom: 1px solid rgb(210,210,210);
+}
+.activity-one div{
+display: inline-block;
+}
+.activity-one-name{
+width: 200px;
+
+}
+.notice-manage{
+width: 100%;
+height: 500px;
+padding-top: 30px;
+
+}
+.people-manage{
+width: 100%;
+height: 500px;
+padding-top: 30px;
+background: #EDEFED;
+}
+.people-manage-row{
+width: 998px;
+height: 500px;
+margin: auto;
+}
+.infoblack{
+width: 100%;
+padding-top:10%;
+height: 90%;
+background: rgba(0,0,0,0.7);
+position: fixed;
+top:0px;
+}
+.ci{
+	padding:10px;
+	width: 200px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	border-radius:8px; 
+}
+.gradeimg{
+width: 100px;
+height: 30px;
+padding-top:70px;
+margin-left: 50px;
+background-size:100% 100%;
+}
+.noticeimg{
+width: 150px;
+height: 30px;
+padding-top:70px;
+margin-left: 70px;
+background-size:100% 100%;
+}
+#loadify-button,#loadify1-button{
+background: none;
+border: none;
+}
+
+.sqlit{
+	background:rgba(0,0,0,0.7);
+width: 100px;
+height: 30px;
+
+overflow: hidden;
+
+}
+.sqlit1{
+	background:rgba(0,0,0,0.7);
+width: 100%;
+height: 30px;
+
+overflow: hidden;
+
+}
+.img{
+width: 100px;
+height: 30px;
+padding-top:70px;
+margin-left: 100px;
+
+background-size:100% 100%;
+
+}
+
+#loadify-button{
+background: none;
+border: none;
+}
+#loadify1-button{
+background: none;
+border: none;
+}
+.con1{
+overflow-x:hidden;
+font-size: 13px;
+}
+.grade-content,.m-content,.n-content{
+margin-top:10px;
+width: 90%;
+margin-left:5%;
+height: 100px;
+border: 1px solid rgb(200,200,200);
+overflow-x:hidden;
+font-size: 12px;
+}
+#loadify{
+float: none;
+margin: 0px;
+background:none;
+border: none;
+font-size: 13px;
+}
+#loadify1{
+float: none;
+margin: 0px;
+background:none;
+border: none;
+font-size: 13px;
+}
+.godsz{
+text-align: center;
+}
+
+.noticeone{
+
+padding: 10px 20px;
+height: 20px;
+font-size: 14px;
+padding: 
+}
+.noticeone-title{
+float: left;
+}
+.noticeone-time{
+float: right;
+}
+.pagecount font{
+cursor: pointer;
+}
+.noticeone-title:hover{
+cursor: pointer;
+color:  #f47920;
+}
+.member-one{
+width: 100%;
+    padding-top: 7px;
+    height: 33px;
+    border-bottom: 1px solid rgb(210,210,210);
+}
+.acblack{
+width: 100%;
+padding-top:10%;
+height: 90%;
+background: rgba(0,0,0,0.7);
+position: fixed;
+top:0px;
+}
+.noblack{
+width: 100%;
+padding-top:5%;
+height: 95%;
+background: rgba(0,0,0,0.7);
+position: fixed;
+top:0px;
+}
+.apblack{
+width: 100%;
+padding-top:5%;
+height: 95%;
+background: rgba(0,0,0,0.7);
+position: fixed;
+top:0px;
+}
+.ac{
+	padding:10px;
+	width: 200px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	border-radius:8px; 
+}
+.ap{
+	padding:10px;
+	width: 400px;
+	height: 400px;
+	background: white;
+	margin: auto;
+	border-radius:8px; 
+}
+.no{
+	padding:10px;
+	width: 300px;
+	height: 300px;
+	background: white;
+	margin: auto;
+	border-radius:8px; 
+}
+#p,#p2{
+margin-left: 40px;
+}
+.aplist{
+width: 100%;
+height:350px;
+overflow-x:hidden; 
+}
+.ap-one{
+width: 100%;
+height: 20px;
+padding-top: 3px;
+padding-bottom: 3px;
+font-size: 12px;
+}
+.ap-one div{
+display: inline-block;
+}
+#noticetitlein{
+margin-left: 70px;
+margin-top: 10px;
+}

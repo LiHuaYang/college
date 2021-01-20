@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>修改密码</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="../common/weui.min.css">
+
+<style>
+.button_sp_area {
+	padding: 10px 0;
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	font-size: 0;
+}
+
+.cell_Verification {
+	text-align: justify;
+	font-size: 15px;
+	float: right;
+}
+
+</style>
+
+</head>
+<body>
+	<div></div>
+	<br />
+	<br />
+    <div class="weui_cells">
+	<div class="weui_cell">
+		<div class="weui_cell_hd">
+			<label class="weui_label">原密码</label>
+		</div>
+		<div  class="weui_cell_bd weui_cell_primary">
+			<input  id="old_pw" class="weui_input" type="password" placeholder="请输入原密码">
+		</div>
+	</div>
+	<div class="weui_cell">
+		<div class="weui_cell_hd">
+			<label class="weui_label">新密码</label>
+		</div>
+		<div  class="weui_cell_bd weui_cell_primary">
+			<input id="new_pw" class="weui_input" type="password" placeholder="请输入新密码">
+		</div>
+	</div>
+	
+	</div>
+	<br />
+	<br />
+	<div class="button_sp_area">
+		<a class="weui_btn weui_btn_primary" href="javascript:changepw()" >确认修改</a>
+	</div>
+	<div class="weui_dialog_alert" id="dialog1" style="display: none;">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">修改密码</strong></div>
+        <div class="weui_dialog_bd">修改成功，点击确定后跳转到登陆界面使用新密码重新登陆</div>
+        <div class="weui_dialog_ft">
+            <a href="javascript:todenglu();" class="weui_btn_dialog primary">确定</a>
+        </div>
+    </div>
+</div>
+<div class="weui_dialog_alert" id="dialog2" style="display: none;">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">修改密码</strong></div>
+        <div class="weui_dialog_bd">修改失败！</div>
+        <div class="weui_dialog_ft">
+            <a href="javascript:togeren();" class="weui_btn_dialog primary">确定</a>
+        </div>
+    </div>
+</div>
+<div class="weui_dialog_alert" id="dialog3" style="display: none;">
+    <div class="weui_mask"></div>
+    <div class="weui_dialog">
+        <div class="weui_dialog_hd"><strong class="weui_dialog_title">修改密码</strong></div>
+        <div class="weui_dialog_bd">新密码不能和原密码相同!</div>
+        <div class="weui_dialog_ft">
+            <a href="javascript:tochangepw();" class="weui_btn_dialog primary">确定</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/changepw.js"></script>
+
+
+</body>
+</html>

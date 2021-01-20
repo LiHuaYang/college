@@ -1,0 +1,292 @@
+@CHARSET "UTF-8";
+
+
+
+
+body {
+	font-family: "微软雅黑","microsoft yahei",verdana,lucida,arial,sans-serif,"黑体";
+}
+
+#wrap {
+}
+.nav-img {
+	width:100%;
+}
+
+.search {
+	width:100%;
+	height:75px;
+	background-color:#333;
+	border-top: 1px solid #515151;
+	Z-index:3;
+	vertical-align: middle;
+	line-height:75px;
+}
+
+.cityselect {
+	height:100%;
+	display:inline-block;
+}
+
+.cityselect h2 {
+	color:#FFF;
+	font-weight:bold;
+	font-size: 21px;
+	display:inline-block;
+}
+
+.cityselect a {
+	color:#FFF;
+	font-size: 13px;
+	text-decoration: underline;
+	display:inline-block;
+	cursor: pointer;
+	margin-left:10px;
+}
+
+.subjectselect {
+    background: #f5f5f5;
+    border-radius: 20px;
+    height: 36px;
+    padding: 0 5px 0 0;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 36px;
+    margin-left:100px;
+}
+.subjectselect span {
+	padding: 0 30px 0 10px;
+    min-width: 110px;
+    width: 110px;
+    position: relative;
+    zoom: 1;
+    cursor: pointer;
+    vertical-align: middle;
+    display:inline-block;
+}
+.ico_select {
+    width: 24px;
+    height: 24px;
+    border-radius: 40px;
+    background: #0081bc url(../../image/cinema_public.png) no-repeat -212px -110px;
+    display: inline-block;
+   	vertical-align:middle;
+}
+
+.search-btn {
+	width: 100px;
+	height:36px;
+	border:none;
+	background-color:#0081bc;
+	border-radius: 15px;
+	display: inline-block;
+   	vertical-align:middle;
+   	
+   	color:white;
+   	font-size:14px;
+   	font-weight:bold;
+}
+#content {
+	width: 1214px;
+    margin-left: auto;
+    margin-top:37px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    padding-right: 4%;
+}
+
+
+.title {
+	border-left:10px solid #003b8b;
+	border-bottom:1px solid #a9a9a9;
+	width:100%;
+	height:52px;
+}
+
+/* 火热报名 */
+h2 {
+	font-weight:normal;
+	line-height:52px;
+	margin:0px;
+	margin-left:10px;
+}
+
+/* 大赛列表--大赛名字 */
+h3 {
+	font-weight:normal;
+	font-size:18px;
+}
+
+.contest-item {
+	border:1px dotted #CCC;
+	margin:0px;
+	margin-top:10px;
+	margin-bottom:40px;
+	padding:0px;
+	display:block;
+	background: #f2f2f2;
+	overflow:hidden;
+}
+
+.contest-item li {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	float:left;
+	height:250px;
+	list-style:none;
+}
+
+.contest-item li div {
+	display:inline-block;
+	float:left;
+}
+
+
+.contest-item li .pic1 {
+	height:100%;
+	width:200px;
+}
+
+.pic1{
+	background-size:200px 250px; 
+	background-repeat: no-repeat;
+	border-radius:3px;
+}
+
+.contest-item li .info {
+	height:100%;
+}
+
+.info dl {
+	margin:0px;
+	padding:0px;
+	margin-left:19px;
+	height:100%;
+}
+.info dl dt {
+	margin:0px;
+	padding:0px;
+}
+
+.info dl dd {
+	margin:0px;
+	padding:0px;
+}
+.item-info {
+	width:250px;
+	line-height:30px;
+}
+
+
+
+/**/
+.item-info .click {
+	background: #0081bc;
+    width: 98px;
+    height: 28px;
+    display: inline-block;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    zoom: 1;
+    margin-top:4px;
+    cursor: pointer;
+}
+
+.Nav_title {
+	margin-left:10px;
+	font-size:1.5em; 
+	line-height:50px;
+}
+
+
+.navgrade {
+	cursor:pointer;
+	color:#08c;
+	font-size:0.9em;
+}
+
+.competition_list {
+	width: 960px;
+    height: auto;
+    margin-left: 230px;
+}
+
+.competition_left {
+    width: 230px;
+    height: auto;
+    float: left;
+}
+
+.competition_text1_pic{
+	display: inline-block;
+	width:200px;
+	hight:240px;
+    background-color:#003b8b;
+}
+
+.competition_text1 {
+    color: white;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    font-family: "黑体";
+    font-weight: bold;
+}
+
+.search1 {
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #5c5c5c;
+    background-color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.search_left {
+    width: 170px;
+    height: 35px;
+    margin-left: 5px;
+    display: inline-table;
+    vertical-align: top;
+}
+
+.SearchBox {
+    width: 166px;
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+}
+p{
+	color:white;
+	font-size:25px;
+	margin-top:0%;
+}
+
+#contest_name {
+	margin: 0px;
+}
+.search_right {
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-image: url("../../image/titleSearch .png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+#number {
+	color:#003b8b;
+}

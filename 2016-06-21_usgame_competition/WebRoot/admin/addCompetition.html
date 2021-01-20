@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>addCompetition.html</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+</head>
+
+
+<body>
+<style type="text/css">
+
+
+table tr td {
+	padding-left:5px;
+	height:30px;
+} 
+
+.ti {
+	background-color:#F4F4F4;
+}
+</style>
+<form id="ff" method="post" action="../CompetitionServlet?method=addCompetition">
+	<div style="padding: 10px 60px 20px 60px; text-align:center; " >
+		
+			<table  border="1" align="center" bordercolor="#d1d1d1" style="border-collapse:collapse;width:800px; text-align:left;" >
+				<tr style="text-align:center">
+				<td style="display:none"><input class="easyui-textbox" name="competitionId"
+						data-options="multiline:true" style="width: 400px; height: 80px;"></input></td>
+				<td colspan="2" style="background-color:#F4F4F4;height:40px;"><strong>赛事信息表</strong></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛名字</td>
+					<td><input class="easyui-textbox" name="competitionName"
+						data-options="multiline:true, disabled:false"
+						style="width: 400px; height: 30px;" required="required"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛科目</td>
+					<td><select class="easyui-combobox"
+						name="competitionSubject" style="width: 200px;"><option
+								value="奥数">奥数</option>
+							<option value="英语">英语</option>
+							<option value="语文">语文</option>
+							<option value="数学">数学</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛形式</td>
+					<td><select class="easyui-combobox" 
+						name="competitionForm" style="width: 200px;"><option
+								value="1">笔试</option>
+							<option value="2">听力</option>
+							<option value="3">笔试加听力</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td class="ti">参赛类型</td>
+					<td><select class="easyui-combobox" name="competitionType"
+						style="width: 200px;"><option value="0">初赛</option>
+							<option value="1">决赛</option>
+					</select></td>
+				</tr>
+
+				<tr>
+					<td class="ti">比赛开始报名时间</td>
+					<td><input class="easyui-datetimebox" value=""
+						style="width: 200px" name="competitionApplyStartTime"
+						data-options="required:true"></td>
+				</tr>
+
+
+				<tr>
+					<td class="ti">比赛结束报名时间</td>
+					<td><input class="easyui-datetimebox" value=""
+						style="width: 200px" name="competitionApplyEndTime"
+						data-options="required:true"></td>
+				</tr>
+				<tr>
+					<td class="ti">参赛人员描述</td>
+					<td><input class="easyui-textbox"
+						name="competitionJoinerDes" data-options="multiline:true"
+						style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛年级</td>
+					<td><input class="easyui-textbox" data-options="prompt:'例：一年级,二年级(使用英文逗号)'"
+						name="competitionGrade" data-options="multiline:true"
+						style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">参赛费用</td>
+					<td><input id="ss" class="easyui-numberspinner" style="width:200px;"   
+        required="required" data-options="editable:true" name="competitionMoney">  </td>
+				</tr>
+				<tr>
+					<td class="ti">比赛奖项描述</td>
+					<td><input class="easyui-textbox"
+						name="competitionPrizeDes" data-options="multiline:true"
+						style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛考试时间描述</td>
+					<td><input class="easyui-textbox"
+						name="competitionTestTimeDes" data-options="multiline:true"
+						style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛报名地点</td>
+					<td><input class="easyui-textbox"
+						name="competitionApplyAddress" data-options="multiline:true"
+						style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛考试地点</td>
+					<td><input class="easyui-textbox"
+						name="competitionTestAddress" data-options="multiline:true"
+						style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛详细信息</td>
+					<td><input class="easyui-textbox" name="competitionDetail"
+						data-options="multiline:true" style="width: 400px; height: 80px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">比赛主办方描述</td>
+					<td><input class="easyui-textbox" name="competitionSupportDesc"
+						data-options="multiline:true" style="width: 400px; height: 80px;"></input></td>
+				</tr>
+			</table>
+			<input type="submit" value="提交" />
+	</div>
+		</form>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			if(competitionId!=0) {
+				$('#ff').form('load', '../CompetitionServlet?method=detail&type=3&competitionId='+competitionId);
+			}
+		})
+		</script>
+</body>
+</html>

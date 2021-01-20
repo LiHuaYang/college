@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>详情</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=0">
+
+<link rel="stylesheet" type="text/css" href="../common/weui.min.css">
+
+<style>
+.info_text {
+	line-height: 2em;
+	margin-left: 80px;
+	color: #373737;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+.info_text1{
+	content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(135deg);
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #c7c7cc;
+    border-style: solid;
+    margin-left:57%;
+}
+
+.info_text2 {
+	line-height: 2em;
+	margin-left: 80px;
+	color: #373737;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+.info_text3{
+	content: " ";
+    display: inline-block;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(135deg);
+    height: 6px;
+    width: 6px;
+    border-width: 2px 2px 0 0;
+    border-color: #c7c7cc;
+    border-style: solid;
+    margin-left:57%;
+}
+
+
+.info_list strong {
+	line-height: 2em;
+	float: left;
+}
+
+.info_list {
+	font-size: 13px;
+}
+
+.button_sp_area {
+	padding: 10px 0;
+	width: 80%;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	font-size: 0;
+}
+
+.weui_panel_access {
+	color: #999;
+}
+
+.page_title {
+    text-align: center;
+    font-size: 18px;
+    color: #3cc51f;
+    font-weight: bold;
+    margin: 0 15%;
+}
+.hd {
+    padding: 2em 0;
+ }
+ h4 {
+ 	border-left:2px solid #6f6f6f;
+ 	padding-left:10px; 
+ 	
+ 	color:#6f6f6f;
+ }
+</style>
+
+
+</head>
+<body>
+
+	<div class="hd">
+	    <h1 id="js_competitionName" class="page_title"></h1>
+	</div>
+
+
+	<div class="weui_panel weui_panel_access"  style="background-color:rgb(234,235,236)">
+		<!-- 基本信息开始 -->
+	
+		<div class="weui_panel_hd" style="margin-top:10px;background-color:white">
+			<h4 class="weui_media_title">基本信息</h4>
+		</div>
+		<div class="weui_panel_bd" id="showDialog2" style="background-color:white">
+			<div class="weui_media_box weui_media_text">
+				<div class="info_list">
+					<strong>主办单位</strong>
+					<p class="info_text" id="work_unit"></p>
+				</div>
+				<div class="info_list">
+					<strong>形式</strong>
+					<p class="info_text" id="form"></p>
+				</div>
+
+				<div class="info_list">
+					<strong>对象</strong>
+					<p class="info_text" id="object"></p>
+				</div>
+
+				<div class="info_list">
+					<strong>科目</strong>
+					<p class="info_text" id="subject"></p>
+				</div>
+				<div class="info_list">
+					<strong>金额</strong>
+					<p class="info_text" id="money"></p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 基本信息结束 -->
+		
+		<!-- 时间信息开始 -->
+		<div class="weui_panel_hd" style="margin-top:10px;background-color:white">
+			<h4 class="weui_media_title">赛事时间</h4>
+		</div>
+		<div class="weui_panel_bd" id="showDialog2" style="background-color:white">
+			<div class="weui_media_box weui_media_text">
+				<div class="info_list">
+					<strong>报名时间</strong>
+					<p class="info_text" id="sign_up_time"></p>
+				</div>
+				<div class="info_list">
+					<strong>考试时间</strong>
+					<p class="info_text" id="text_time"></p>
+				</div>
+			</div>
+		</div>
+		<!-- 时间信息结束 -->
+		
+		
+		<!-- 地点信息开始 -->
+		<div class="weui_panel_hd" style="margin-top:10px;background-color:white">
+			<h4 class="weui_media_title">赛事地点</h4>
+		</div>
+		<div class="weui_panel_bd" id="showDialog2" style="background-color:white">
+			<div class="weui_media_box weui_media_text" style="background-color:white">
+				<div class="info_list">
+					<strong>考试地点</strong>
+					<p class="info_text" id="text_address"></p>
+				</div>
+				<div class="info_list">
+					<strong>报名地点</strong>
+					<p class="info_text2" id="sign_up_address"></p>
+					<p class="info_text3" onclick="down(this)"></p>
+				</div>
+			</div>
+		</div>
+		<!-- 地点信息结束 -->
+		
+		
+		<!-- 奖项信息开始 -->
+		<div class="weui_panel_hd" style="margin-top:10px;background-color:white">
+			<h4 class="weui_media_title">奖项信息</h4>
+		</div>
+		<div class="weui_panel_bd" id="showDialog2" style="background-color:white">
+			<div class="weui_media_box">
+				<div class="info_list">
+					<strong>描述</strong>
+					<p class="info_text" id="describle"></p>
+					<p class="info_text1" onclick="down(this)"></p>
+				</div>
+			</div>
+		</div>
+		<!-- 奖项信息结束 -->
+		
+		
+		<!-- 更多信息开始 -->
+		<div style="background-color:white"><a href="javascript:void(0);" class="weui_panel_ft" onclick="toDes()">查看更多</a></div>
+		<!-- 更多信息结束 -->
+	</div>
+
+<br>
+<div class="button_sp_area">
+	<a href="javascript:;" class="weui_btn weui_btn_primary" onclick="qd()" id="showDialog1">我要报名</a>
+</div>
+
+<div class="weui_dialog_confirm" id="dialog1" style="display: none;">
+	<div class="weui_mask"></div>
+	<div class="weui_dialog">
+		<div class="weui_dialog_hd">
+			<strong class="weui_dialog_title" id="js_competitionName1"></strong>
+		</div>
+		<div class="weui_dialog_bd">您确定要去报名吗？</div>
+		<div class="weui_dialog_ft">
+			<a href="javascript:;" class="weui_btn_dialog default" onclick="qx()">取消</a>
+			<a href="javascript:;" class="weui_btn_dialog primary" onclick="qd()">确定</a>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/det.js"></script>
+</body>
+
+<script type="text/javascript">
+
+/*
+function show1() {
+    $('#dialog1').show().on('click', '.weui_btn_dialog', function () {
+        $('#dialog1').off('click').hide();
+    });
+}
+*/
+
+function qx() {
+	// alert("用户点击取消!");
+}
+</script>
+</html>

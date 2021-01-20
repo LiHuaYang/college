@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+	<bean id="person_dao" class="daoImpl.PerosonDaoImpl"></bean>
+	
+	<bean id="person_service" class="serviceImpl.PersonServiceImpl">
+		<property name="personDao" ref="person_dao"></property>
+	</bean>
+	
+	
+	<bean id="person_action" class="action.PersonAction">
+		<property name="service" ref="person_service"></property>
+	</bean>
+
+	<bean id="exception" class="exception.MyException"></bean>
+	
+	<!-- 切面配置 -->
+	<aop:config>
+		<aop:pointcut expression="execution(* serviceImpl.*.*(..))" id="pc1"/>
+		 <aop:aspect ref="exception">
+			<aop:after-throwing method="show" throwing="e" pointcut-ref="pc1"/>		 	
+		 </aop:aspect>
+	</aop:config>
+		
+</beans>

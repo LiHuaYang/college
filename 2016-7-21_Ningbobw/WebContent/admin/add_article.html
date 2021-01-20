@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<title>增加文章</title>
+</head>
+
+<body>
+<style type="text/css">
+table tr td {
+	padding-left: 5px;
+	height: 30px;
+}
+
+.ti {
+	background-color: #F4F4F4;
+	
+	width:200px;
+	height:80px;
+}
+</style>
+	<form name="form1" id="ff" method="post" action="../a?m=add" enctype="multipart/form-data">
+		<div style="padding: 10px 60px 20px 60px; text-align: center;">
+			<table border="1" align="center" bordercolor="#d1d1d1"
+				style="border-collapse: collapse; width: 1000px; text-align: left;">
+				<tr style="text-align: center">
+					<td colspan="2" style="background-color: #F4F4F4; height: 40px;"><strong>文章信息</strong></td>
+				</tr>
+				<tr>
+					<td style="background-color: #F4F4F4;">文章类别</td>
+					<td>
+					
+					<select name="board_id" id="js_cat_id">
+						<option value="0">请选择文章类别</option>
+					</select>
+					
+					</td>
+				</tr>
+				<tr>
+					<td class="ti">文章标题</td>
+					<td><input class="easyui-textbox" name="title"
+						data-options="multiline:true, disabled:false, fit:true"
+						style="width: 400px; height: 30px;" ></input></td>
+				</tr>
+				<tr>
+					<td style="background-color: #F4F4F4;">附件地址</td>
+					<td>
+					 <div>
+					 <div id="fileQueue"></div>
+					 		<!-- <input type="text" id="uploadify_info" style="margin-top:10px; margin-bottom:14px; width:200px; height:20px;"/> -->
+							<input type="file" name="uploadify" id="uploadify" style="width:500px; height:30px; margin-top:10px;" />
+		            		<!-- <a href="javascript:void(0);" onclick="to_upload()">上传</a>| --> 
+		            		</br></br>
+	            	</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="ti">文章来源</td>
+					<td><input class="easyui-textbox" name="source"
+						data-options="multiline:true, disabled:false, fit:true"
+						style="width: 400px; height: 30px;"></input></td>
+				</tr>
+				<tr>
+					<td class="ti">文章介绍</td>
+					<td><input class="easyui-textbox" name="introduce"
+						data-options="multiline:true, disabled:false, fit:true"
+						style="width: 400px; height: 30px;" ></input></td>
+				</tr>
+				<tr>
+					<td class="ti">文章内容</td>
+					<td><textarea  id="describe" name="content"></textarea></td>
+				</tr>
+			</table>
+			<input type="submit" value="提交" />
+		</div>
+	</form>
+<script language="JavaScript" src="../common/kindeditor/kindeditor-all.js" ></script>
+<!-- <script language="JavaScript" src="../common/uploadify/jquery.uploadify.min.js" ></script> -->
+
+<script src="add_article.js" ></script>
+<script type="text/javascript">
+
+	var editor1;
+	//
+	$(function(){
+		editor1 = KindEditor.create('#describe', 
+				{
+					width : '100%',
+					height : '450px',
+					autoHeightMode : true,
+					uploadJson : '../upload' ,//服务端上传图片处理URI,
+					allowImageUpload:true,
+					allowImageRemote:false,
+					resizeType : 1,
+					afterBlur: function(){this.sync();},
+					afterCreate : function() {
+						this.loadPlugin('autoheight');
+					},
+					afterUpload : function(url) {
+		                alert(url);
+		       		 },
+					items:['source', '|', 'undo', 'redo', '|', 'cut', 'copy', 'paste',
+					        'plainpaste', 'wordpaste', '|', 'justifyleft', 'justifycenter', 'justifyright',
+					        'justifyfull', 'insertorderedlist', 'insertunorderedlist', 'indent', 'outdent', 'subscript',
+					        'superscript', 'clearhtml', 'quickformat', 'selectall', '|', 'fullscreen', '/',
+					        'formatblock', 'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',
+					        'italic', 'underline', 'strikethrough', 'lineheight', 'removeformat', '|', 'image', 'multiimage',
+					        'insertfile', 'table', 'hr', 'baidumap', 'pagebreak',
+					        'anchor', 'link', 'unlink']
+		});
+	});
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div style="padding: 10px 60px 20px 60px; text-align:center;width:1100px;margin:0 auto "> 
+<table class="easyui-datagrid" style="width:1000px;;" id="article_list"
+url="../a?m=list"
+		data-options="align:'center',
+					title : '列表',
+					border:true, 
+					fitColumns:true, 
+					striped:true, 
+					singleSelect:true,
+					pagination:true,
+					toolbar:[{
+								iconCls: 'icon-edit',
+								handler: function(){toadd()}
+							},'-',
+							{
+								iconCls: 'icon-remove',
+								handler: function(){deleteCompetition(getSelect())}
+							},'-',
+							{
+								iconCls: 'icon-help',
+								handler: function(){alert('帮助按钮')}
+							}]">
+			<thead>
+				<tr>
+					<th data-options="field:'id', width:40">编号</th>
+					<th data-options="field:'board_id', width:40">博客号</th>
+					<th data-options="field:'title', width:80">标题</th>
+					<th data-options="field:'source', width:80">来源</th>
+					<th data-options="field:'attach', width:300">附件</th>
+					<th data-options="field:'time', width:100">时间</th>
+					<th data-options="field:'edit', width:40">操作</th>
+				</tr>
+			</thead>
+		</table>
+
+	</div>
+	<script type="text/javascript">
+		$('#article_list').datagrid({
+			pageSize : 30
+		});
+		function edit(thisId) {
+			id = thisId;
+			$("#tabsID").tabs("add", {
+				"title" : "编辑文章",
+				"closable" : true,
+				"href" : "add_article.html"
+			});
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<!-- 
+		private int id;
+		private Student ss;
+		private Long ll;
+		private String str;
+		private Set set;
+		private List list;
+		private Map map;
+		private Properties pro;
+	-->
+	<!-- 利用set方法注入 -->
+	<bean id="student" class="com.di_set.Student" ></bean>
+
+	<bean id="teacher" class="com.di_set.Teacher">
+		<property name="id" value="26"> </property>
+		
+		<property name="ss" >
+			<ref bean="student" />
+		</property>
+		
+		<property name="ll" value="11211111"></property>
+
+		<property name="str" value="string"></property>
+		
+		<property name="set">
+			<set>
+				<value>set1</value>
+				<value>set2</value>
+				<ref bean="student"/>
+			</set>
+		</property>
+
+		<property name="list">
+			<list>
+				<value>list1</value>
+				<value>list2</value>
+				<ref bean="student"/>
+			</list>
+		</property>		
+		
+		<property name="map">
+			<map>
+				<entry key="key1">
+					<value>val1</value>
+				</entry>
+				<entry key="key2">
+					<value>val2</value>
+				</entry>
+			</map>
+		</property>
+		
+		<property name="pro">
+			<props>
+				<prop key="prop1">
+					prop1
+				</prop>
+				<prop key="prop2">
+					prop2
+				</prop>
+			</props>
+		</property>
+	</bean> 
+	
+	
+	
+	<!-- 利用构造函数注入
+		1.通过构造函数注入 （原始方式)
+		2.根据构造器参数的类型
+		3.根据索引index注入
+		4.根据参数名称注入
+	 -->
+	
+	<bean id="teacher_con" class="com.di_set.Teacher">
+		<constructor-arg index="0" value="12"> </constructor-arg>
+		<constructor-arg index="1" value="name"> </constructor-arg>
+		<constructor-arg index="2" ref="student_con"> </constructor-arg>
+	</bean>
+	
+	<bean id="student_con" class="com.di_set.Student"></bean>
+	
+	
+</beans>

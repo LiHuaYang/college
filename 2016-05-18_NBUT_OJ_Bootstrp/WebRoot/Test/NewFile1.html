@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title></title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript">
+	    $(document).ready(function() {
+	    	$("#put").click(function(){
+		    	$.getJSON("./testCharsetDemo01?ajaxGetValue='Ajax提交'", function(json) {});
+			});
+		});
+	</script>
+  </head>
+<body>
+
+
+	<h1>Form--GET方式提交</h1>
+	<form action="testCharsetDemo01" method="get">
+		<input type="text" value="TextGet" name="formGetValue" /> <input
+			type="submit" />
+	</form>
+
+	<h1>Form--POST方式提交</h1>
+	<form action="testCharsetDemo01" method="post">
+		<input type="text" value="TextPost" name="formPostValue" /> <input
+			type="submit" />
+	</form>
+
+	<h1>Ajax--GET方式提交</h1>
+	<button id="put" value="Ajax提交" style="width: auto; height: auto">Ajax提交</button>
+
+</body>
+</html>

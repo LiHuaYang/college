@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 100%;
+	height: 100%;
+	 margin: 0px;
+}
+
+
+
+.user {
+	margin-top:30px;
+	height:auto;
+	background: #FFFFFF;
+	display:inline-block;
+}
+
+
+#on {
+	
+	width: 98%;
+    float: right;
+    font-family:"微软雅黑";
+}
+
+#size {
+	margin-left: 3%;
+	margin-top: 15%;
+	font-family:"微软雅黑";font-weight:bold;
+	color: white;
+	font-size: 1.2em;
+}
+	
+
+.dasai {
+	-moz-box-flex: 1;
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	margin-right:34%;
+	float:right;
+	font-family:"微软雅黑";font-weight:bold;
+}
+
+
+.head {
+	width: 100%;
+	height: 2.8em;
+	background: #0075c4;
+	padding-top: 1.5%;
+}
+.logo {
+    width: 100%;
+    height: 80%;
+    display: block;
+    margin-top: 2%;
+}

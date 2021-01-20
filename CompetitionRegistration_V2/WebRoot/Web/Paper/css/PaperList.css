@@ -1,0 +1,213 @@
+@CHARSET "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+.all{
+	width: 83%;
+    margin-left: 145px;
+    margin-top:37px;
+}
+.TestLeft{
+	display: inline-block;
+	vertical-align:top;
+	width:200px;
+	height: 520px;
+}
+.news_text1_pic{
+	hight:240px;
+    background-color:#003b8b;
+    margin-top: 10px;
+}
+.news_text1{
+	color:white;
+	font-size:30px;
+	padding-left: 25px;
+	padding-top: 60px;
+	padding-bottom: 35px;
+	font-family:"黑体";
+	font-weight:bold;
+}
+.TestLeftLine{
+	margin-top:10px;
+	height:1px;
+	width:100%;
+	border: 1px solid #003b8b;
+}
+.Test_Search_Name{
+	margin-top:8px;
+	padding-left:5px;
+	width:100%;
+	height: 30px;
+}
+.Test_Search_Year{
+	margin-top:8px;
+	padding-left:5px;
+	width:100%;
+	height: 30px;
+}
+.Test_Search_Subject{
+	margin-top:8px;
+	padding-left:5px;
+	width:100%;
+	height: 30px;
+}
+.Test_Search_Object{
+	margin-top:8px;
+	padding-left:5px;
+	width:100%;
+	height: 30px;
+}
+.Test_Search_Button{
+	float:right;
+	margin-top:10px;
+	width: 50px;
+	height: 30px;
+	background-color:white;
+	border: 1px solid #003b8b;
+	border-radius:4px;
+	cursor: pointer;
+}
+.Test_Search_Button:HOVER{
+	background-color: #003b8b;
+	border: 1px solid #003b8b;
+	color:white;
+}
+
+.PaperList{
+	display:inline-block;
+	vertical-align:top;
+	width:70%;
+	height:auto;
+	margin-left: 30px;
+	
+}
+.text_paper{
+	width:100%;
+	height:40px;
+	margin-top:5px;
+	padding-left: 25px;
+	border-bottom: 1px dashed #D9D9D9;
+}
+.paper_name{
+	width:55%;
+	height:40px;
+	line-height:40px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	font-size:16px;
+	color:#5C5C5C;
+	cursor: pointer;
+	display:inline-block;
+	vertical-align: top;
+	margin-ledt:10px;
+	
+}
+.paper_name:hover{
+	text-decoration: underline;
+}
+.paper_time{
+	width:25%;
+	height:40px;
+	line-height:40px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	font-size:16px;
+	color:#5C5C5C;
+	display:inline-block;
+	vertical-align: top;
+}
+.paper_diff{
+	width:16%;
+	height:40px;
+	line-height:40px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	font-size:16px;
+	color:#5C5C5C;
+	display:inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.gif{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+.SearchTestgif{
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	background-image: url("../../image/ExpressionGif.gif");
+	background-size:100% 100%;
+}
+.navi{
+	width:100%;
+	height:45px;
+	margin-top:5px;
+	border-bottom:2px solid #003b8b;
+	padding-left: 25px;
+}
+.navi_name{
+	width:55%;
+	height:45px;
+	line-height:45px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+		"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+		sans-serif !important;
+	font-size:18px;
+	display:inline-block;
+	vertical-align:top;
+	
+}
+.navi_time{
+	width:25%;
+	height:45px;
+	line-height:45px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+		"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+		sans-serif !important;
+	font-size:18px;
+	display:inline-block;
+	vertical-align:top;
+}
+.navi_diff{
+	width:16%;
+	height:45px;
+	line-height:45px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+		"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+		sans-serif !important;
+	font-size:18px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:-8px;
+}
+
+.paper_page{
+	width:auto;
+	height:35px;
+	margin-top:20px;
+	float:right;
+	margin-bottom:10px;
+	
+}
+.paper_num,.paper_num2{
+	width:30px;
+	height:30px;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+		"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+		sans-serif !important;
+	cursor:pointer;
+	background-color:#EDEDED;
+	color:black;
+	line-height:30px;
+	display:inline-block;
+	vertical-align:top;
+	border:1px solid #DEDEDE;
+	text-align: center;
+}

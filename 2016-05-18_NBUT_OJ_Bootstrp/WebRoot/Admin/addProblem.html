@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../Common/jquery-1.11.1.min.js"></script>
+<script charset="utf-8" src="../Common/kindeditor/kindeditor-all.js"></script>
+<script type="text/javascript" src="addProblem.js"></script>
+</head>
+<body>
+	<h1>添加新的问题</h1>
+	<p>
+		问题名: <input id='problem_name'>
+	</p>
+	<p>
+		时限: <input id="time_limit">
+	</p>
+	<p>
+		内存限制: <input id="storage_limit">
+	</p>
+	<p>
+		描述： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="describe"></textarea>
+	</p>
+	<p>
+		输入： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="problem_input"></textarea>
+	</p>
+	<p>
+		输出： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="problem_output"></textarea>
+	</p>
+	<p>
+		输入例子： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="input_example"></textarea>
+	</p>
+	<p>
+		输出例子： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="output_example"></textarea>
+	</p>
+	<p>
+		输入测试： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="input_test"></textarea>
+	</p>
+	<p>
+		输出测试： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="output_test"></textarea>
+	</p>
+	<p>
+		Hint： </br> </br>
+		<textarea style="width: 680px; height: 200px;" id="hint"></textarea>
+	</p>
+	<p>
+		判断： <select id="spl">
+			<option value='1'>是</option>
+			<option value='0'>否</option>
+		</select>
+	</p>
+	<p>
+		来源： </br>
+		<textarea style="width: 200px;" id="source"></textarea>
+	</p>
+	<p>
+		比赛: <select>
+			<option>是</option>
+			<option>否</option>
+		</select>
+	</p>
+	<button onclick = "addProblem()">添加</button>
+</body>
+</html>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>GetHotActivity</servlet-name>
+    <servlet-class>com.Servlet.GetHotActivity</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetActivestageByActivityId</servlet-name>
+    <servlet-class>com.Servlet.GetActivestageByActivityId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EnterActivity</servlet-name>
+    <servlet-class>com.Servlet.EnterActivity</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetActivityEnter</servlet-name>
+    <servlet-class>com.Servlet.GetActivityEnter</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChecksActiyityMembers</servlet-name>
+    <servlet-class>com.Servlet.ChecksActiyityMembers</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitActiyityMembers</servlet-name>
+    <servlet-class>com.Servlet.SubmitActiyityMembers</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateActivityBulletin</servlet-name>
+    <servlet-class>com.Servlet.CreateActivityBulletin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateActivestage</servlet-name>
+    <servlet-class>com.Servlet.CreateActivestage</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetActivityBulletin</servlet-name>
+    <servlet-class>com.Servlet.GetActivityBulletin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchActivityBulletin</servlet-name>
+    <servlet-class>com.Servlet.SearchActivityBulletin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetHotNotice</servlet-name>
+    <servlet-class>com.Servlet.GetHotNotice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetNoticeDetail</servlet-name>
+    <servlet-class>com.Servlet.GetNoticeDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateComment</servlet-name>
+    <servlet-class>com.Servlet.CreateComment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllComment</servlet-name>
+    <servlet-class>com.Servlet.GetAllComment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteComment</servlet-name>
+    <servlet-class>com.Servlet.DeleteComment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllNotice</servlet-name>
+    <servlet-class>com.Servlet.GetAllNotice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetHotcorporation</servlet-name>
+    <servlet-class>com.Servlet.GetHotcorporation</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchNotice</servlet-name>
+    <servlet-class>com.Servlet.SearchNotice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCorporationDetailById</servlet-name>
+    <servlet-class>com.Servlet.GetCorporationDetailById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllCorporation</servlet-name>
+    <servlet-class>com.Servlet.GetAllCorporation</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchCorporation</servlet-name>
+    <servlet-class>com.Servlet.SearchCorporation</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOrganizationDetail</servlet-name>
+    <servlet-class>com.Servlet.GetOrganizationDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOrganizationMember</servlet-name>
+    <servlet-class>com.Servlet.GetOrganizationMember</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetOrganizationBulletin</servlet-name>
+    <servlet-class>com.Servlet.GetOrganizationBulletin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetNoticeByBelong</servlet-name>
+    <servlet-class>com.Servlet.GetNoticeByBelong</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDepartmentsByorganizationId</servlet-name>
+    <servlet-class>com.Servlet.GetDepartmentsByorganizationId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDepartmentDetail</servlet-name>
+    <servlet-class>com.Servlet.GetDepartmentDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApplyingRegistration</servlet-name>
+    <servlet-class>com.Servlet.ApplyingRegistration</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetDepartmentMembers</servlet-name>
+    <servlet-class>com.Servlet.GetDepartmentMembers</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeUserGrade</servlet-name>
+    <servlet-class>com.Servlet.ChangeUserGrade</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitRegistration</servlet-name>
+    <servlet-class>com.Servlet.SubmitRegistration</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteGradeById</servlet-name>
+    <servlet-class>com.Servlet.DeleteGradeById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreatePlan</servlet-name>
+    <servlet-class>com.Servlet.CreatePlan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePlan</servlet-name>
+    <servlet-class>com.Servlet.ChangePlan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateMission</servlet-name>
+    <servlet-class>com.Servlet.CreateMission</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeActivityMission</servlet-name>
+    <servlet-class>com.Servlet.ChangeActivityMission</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllActivityByOrganizationId</servlet-name>
+    <servlet-class>com.Servlet.GetAllActivityByOrganizationId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetActivityDetail</servlet-name>
+    <servlet-class>com.Servlet.GetActivityDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPlanByActivityId</servlet-name>
+    <servlet-class>com.Servlet.GetPlanByActivityId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMissionByPlanId</servlet-name>
+    <servlet-class>com.Servlet.GetMissionByPlanId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetParticipantsByActivityId</servlet-name>
+    <servlet-class>com.Servlet.GetParticipantsByActivityId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEnterHandlesByActivityId</servlet-name>
+    <servlet-class>com.Servlet.GetEnterHandlesByActivityId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ProposedActivitiy</servlet-name>
+    <servlet-class>com.Servlet.ProposedActivitiy</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteActivity</servlet-name>
+    <servlet-class>com.Servlet.DeleteActivity</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitScheme</servlet-name>
+    <servlet-class>com.Servlet.SubmitScheme</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeScheme</servlet-name>
+    <servlet-class>com.Servlet.ChangeScheme</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamineScheme</servlet-name>
+    <servlet-class>com.Servlet.ExamineScheme</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExaminePlan</servlet-name>
+    <servlet-class>com.Servlet.ExaminePlan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeActivityToResult</servlet-name>
+    <servlet-class>com.Servlet.ChangeActivityToResult</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SumbitActivityMissionResult</servlet-name>
+    <servlet-class>com.Servlet.SumbitActivityMissionResult</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SubmitActivityPlanResult</servlet-name>
+    <servlet-class>com.Servlet.SubmitActivityPlanResult</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePlotter</servlet-name>
+    <servlet-class>com.Servlet.ChangePlotter</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePlanerId</servlet-name>
+    <servlet-class>com.Servlet.ChangePlanerId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEconomicsByBelong</servlet-name>
+    <servlet-class>com.Servlet.GetEconomicsByBelong</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeEconomicsSum</servlet-name>
+    <servlet-class>com.Servlet.ChangeEconomicsSum</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEconomicsrecordsByEconomicsId</servlet-name>
+    <servlet-class>com.Servlet.GetEconomicsrecordsByEconomicsId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateEconomicscord</servlet-name>
+    <servlet-class>com.Servlet.CreateEconomicscord</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEquipmentByBelong</servlet-name>
+    <servlet-class>com.Servlet.GetEquipmentByBelong</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEquipmentById</servlet-name>
+    <servlet-class>com.Servlet.GetEquipmentById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateEquipment</servlet-name>
+    <servlet-class>com.Servlet.CreateEquipment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeEquipment</servlet-name>
+    <servlet-class>com.Servlet.ChangeEquipment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteEquipment</servlet-name>
+    <servlet-class>com.Servlet.DeleteEquipment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetEquipmentrecordsByEquipmentId</servlet-name>
+    <servlet-class>com.Servlet.GetEquipmentrecordsByEquipmentId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateEquipmentrecord</servlet-name>
+    <servlet-class>com.Servlet.CreateEquipmentrecord</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateNotice</servlet-name>
+    <servlet-class>com.Servlet.CreateNotice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteNotice</servlet-name>
+    <servlet-class>com.Servlet.DeleteNotice</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPeopleChats</servlet-name>
+    <servlet-class>com.Servlet.GetPeopleChats</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetManyPeopleChats</servlet-name>
+    <servlet-class>com.Servlet.GetManyPeopleChats</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPeopleNewChats</servlet-name>
+    <servlet-class>com.Servlet.GetPeopleNewChats</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SendChat</servlet-name>
+    <servlet-class>com.Servlet.SendChat</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetUserById</servlet-name>
+    <servlet-class>com.Servlet.GetUserById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeUser</servlet-name>
+    <servlet-class>com.Servlet.ChangeUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetUserPart</servlet-name>
+    <servlet-class>com.Servlet.GetUserPart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeGradeDatum</servlet-name>
+    <servlet-class>com.Servlet.ChangeGradeDatum</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetFriendsByUserId</servlet-name>
+    <servlet-class>com.Servlet.GetFriendsByUserId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchUser</servlet-name>
+    <servlet-class>com.Servlet.SearchUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetMissionBymissionExecutorId</servlet-name>
+    <servlet-class>com.Servlet.GetMissionBymissionExecutorId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeDepartment</servlet-name>
+    <servlet-class>com.Servlet.ChangeDepartment</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangeOrganzation</servlet-name>
+    <servlet-class>com.Servlet.ChangeOrganzation</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteFriend</servlet-name>
+    <servlet-class>com.Servlet.DeleteFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.Servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetRegistrationByBelong</servlet-name>
+    <servlet-class>com.Servlet.GetRegistrationByBelong</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>QueryRegistrationByUser</servlet-name>
+    <servlet-class>com.Servlet.QueryRegistrationByUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RefuseRegistration</servlet-name>
+    <servlet-class>com.Servlet.RefuseRegistration</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetCorporationMembers</servlet-name>
+    <servlet-class>com.Servlet.GetCorporationMembers</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpLoadCommentServlet</servlet-name>
+    <servlet-class>com.Servlet.UpLoadCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetFileByBelong</servlet-name>
+    <servlet-class>com.Servlet.GetFileByBelong</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadUserPicServlet</servlet-name>
+    <servlet-class>com.Servlet.UploadUserPicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetActivityByUser</servlet-name>
+    <servlet-class>com.Servlet.GetActivityByUser</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadGradePicServlet</servlet-name>
+    <servlet-class>com.Servlet.UploadGradePicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPlanByPlanCreatorId</servlet-name>
+    <servlet-class>com.Servlet.GetPlanByPlanCreatorId</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>getAllUserName</servlet-name>
+    <servlet-class>com.Servlet.getAllUserName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeletePlan</servlet-name>
+    <servlet-class>com.Servlet.DeletePlan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetApplyFriend</servlet-name>
+    <servlet-class>com.Servlet.GetApplyFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApplyFriend</servlet-name>
+    <servlet-class>com.Servlet.ApplyFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>TobeFriend</servlet-name>
+    <servlet-class>com.Servlet.TobeFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RefuseTobeFriend</servlet-name>
+    <servlet-class>com.Servlet.RefuseTobeFriend</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CreateActivity</servlet-name>
+    <servlet-class>com.Servlet.CreateActivity</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Loginout</servlet-name>
+    <servlet-class>com.Servlet.Loginout</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<listener> 
+<listener-class>com.RunServlet.RunActivityModel</listener-class> 
+</listener>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>GetHotActivity</servlet-name>
+    <url-pattern>/GetHotActivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivestageByActivityId</servlet-name>
+    <url-pattern>/GetActivestageByActivityId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnterActivity</servlet-name>
+    <url-pattern>/EnterActivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivityEnter</servlet-name>
+    <url-pattern>/GetActivityEnter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChecksActiyityMembers</servlet-name>
+    <url-pattern>/ChecksActiyityMembers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitActiyityMembers</servlet-name>
+    <url-pattern>/SubmitActiyityMembers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateActivityBulletin</servlet-name>
+    <url-pattern>/CreateActivityBulletin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateActivestage</servlet-name>
+    <url-pattern>/CreateActivestage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivityBulletin</servlet-name>
+    <url-pattern>/GetActivityBulletin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchActivityBulletin</servlet-name>
+    <url-pattern>/SearchActivityBulletin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHotNotice</servlet-name>
+    <url-pattern>/GetHotNotice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNoticeDetail</servlet-name>
+    <url-pattern>/GetNoticeDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateComment</servlet-name>
+    <url-pattern>/CreateComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllComment</servlet-name>
+    <url-pattern>/GetAllComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteComment</servlet-name>
+    <url-pattern>/DeleteComment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllNotice</servlet-name>
+    <url-pattern>/GetAllNotice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHotcorporation</servlet-name>
+    <url-pattern>/GetHotcorporation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchNotice</servlet-name>
+    <url-pattern>/SearchNotice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCorporationDetailById</servlet-name>
+    <url-pattern>/GetCorporationDetailById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllCorporation</servlet-name>
+    <url-pattern>/GetAllCorporation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchCorporation</servlet-name>
+    <url-pattern>/SearchCorporation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrganizationDetail</servlet-name>
+    <url-pattern>/GetOrganizationDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrganizationMember</servlet-name>
+    <url-pattern>/GetOrganizationMember</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOrganizationBulletin</servlet-name>
+    <url-pattern>/GetOrganizationBulletin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetNoticeByBelong</servlet-name>
+    <url-pattern>/GetNoticeByBelong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDepartmentsByorganizationId</servlet-name>
+    <url-pattern>/GetDepartmentsByorganizationId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDepartmentDetail</servlet-name>
+    <url-pattern>/GetDepartmentDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyingRegistration</servlet-name>
+    <url-pattern>/ApplyingRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetDepartmentMembers</servlet-name>
+    <url-pattern>/GetDepartmentMembers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUserGrade</servlet-name>
+    <url-pattern>/ChangeUserGrade</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitRegistration</servlet-name>
+    <url-pattern>/SubmitRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteGradeById</servlet-name>
+    <url-pattern>/DeleteGradeById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreatePlan</servlet-name>
+    <url-pattern>/CreatePlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePlan</servlet-name>
+    <url-pattern>/ChangePlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateMission</servlet-name>
+    <url-pattern>/CreateMission</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeActivityMission</servlet-name>
+    <url-pattern>/ChangeActivityMission</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllActivityByOrganizationId</servlet-name>
+    <url-pattern>/GetAllActivityByOrganizationId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivityDetail</servlet-name>
+    <url-pattern>/GetActivityDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPlanByActivityId</servlet-name>
+    <url-pattern>/GetPlanByActivityId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMissionByPlanId</servlet-name>
+    <url-pattern>/GetMissionByPlanId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetParticipantsByActivityId</servlet-name>
+    <url-pattern>/GetParticipantsByActivityId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEnterHandlesByActivityId</servlet-name>
+    <url-pattern>/GetEnterHandlesByActivityId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProposedActivitiy</servlet-name>
+    <url-pattern>/ProposedActivitiy</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteActivity</servlet-name>
+    <url-pattern>/DeleteActivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitScheme</servlet-name>
+    <url-pattern>/SubmitScheme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeScheme</servlet-name>
+    <url-pattern>/ChangeScheme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamineScheme</servlet-name>
+    <url-pattern>/ExamineScheme</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExaminePlan</servlet-name>
+    <url-pattern>/ExaminePlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeActivityToResult</servlet-name>
+    <url-pattern>/ChangeActivityToResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SumbitActivityMissionResult</servlet-name>
+    <url-pattern>/SumbitActivityMissionResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SubmitActivityPlanResult</servlet-name>
+    <url-pattern>/SubmitActivityPlanResult</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePlotter</servlet-name>
+    <url-pattern>/ChangePlotter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePlanerId</servlet-name>
+    <url-pattern>/ChangePlanerId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEconomicsByBelong</servlet-name>
+    <url-pattern>/GetEconomicsByBelong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeEconomicsSum</servlet-name>
+    <url-pattern>/ChangeEconomicsSum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEconomicsrecordsByEconomicsId</servlet-name>
+    <url-pattern>/GetEconomicsrecordsByEconomicsId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateEconomicscord</servlet-name>
+    <url-pattern>/CreateEconomicscord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEquipmentByBelong</servlet-name>
+    <url-pattern>/GetEquipmentByBelong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEquipmentById</servlet-name>
+    <url-pattern>/GetEquipmentById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateEquipment</servlet-name>
+    <url-pattern>/CreateEquipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeEquipment</servlet-name>
+    <url-pattern>/ChangeEquipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteEquipment</servlet-name>
+    <url-pattern>/DeleteEquipment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetEquipmentrecordsByEquipmentId</servlet-name>
+    <url-pattern>/GetEquipmentrecordsByEquipmentId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateEquipmentrecord</servlet-name>
+    <url-pattern>/CreateEquipmentrecord</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateNotice</servlet-name>
+    <url-pattern>/CreateNotice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNotice</servlet-name>
+    <url-pattern>/DeleteNotice</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPeopleChats</servlet-name>
+    <url-pattern>/GetPeopleChats</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetManyPeopleChats</servlet-name>
+    <url-pattern>/GetManyPeopleChats</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPeopleNewChats</servlet-name>
+    <url-pattern>/GetPeopleNewChats</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendChat</servlet-name>
+    <url-pattern>/SendChat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserById</servlet-name>
+    <url-pattern>/GetUserById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeUser</servlet-name>
+    <url-pattern>/ChangeUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetUserPart</servlet-name>
+    <url-pattern>/GetUserPart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeGradeDatum</servlet-name>
+    <url-pattern>/ChangeGradeDatum</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetFriendsByUserId</servlet-name>
+    <url-pattern>/GetFriendsByUserId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchUser</servlet-name>
+    <url-pattern>/SearchUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMissionBymissionExecutorId</servlet-name>
+    <url-pattern>/GetMissionBymissionExecutorId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeDepartment</servlet-name>
+    <url-pattern>/ChangeDepartment</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeOrganzation</servlet-name>
+    <url-pattern>/ChangeOrganzation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteFriend</servlet-name>
+    <url-pattern>/DeleteFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetRegistrationByBelong</servlet-name>
+    <url-pattern>/GetRegistrationByBelong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryRegistrationByUser</servlet-name>
+    <url-pattern>/QueryRegistrationByUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefuseRegistration</servlet-name>
+    <url-pattern>/RefuseRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetCorporationMembers</servlet-name>
+    <url-pattern>/GetCorporationMembers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadCommentServlet</servlet-name>
+    <url-pattern>/UpLoadCommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetFileByBelong</servlet-name>
+    <url-pattern>/GetFileByBelong</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadUserPicServlet</servlet-name>
+    <url-pattern>/UploadUserPicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetActivityByUser</servlet-name>
+    <url-pattern>/GetActivityByUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadGradePicServlet</servlet-name>
+    <url-pattern>/UploadGradePicServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPlanByPlanCreatorId</servlet-name>
+    <url-pattern>/GetPlanByPlanCreatorId</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>getAllUserName</servlet-name>
+    <url-pattern>/getAllUserName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePlan</servlet-name>
+    <url-pattern>/DeletePlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetApplyFriend</servlet-name>
+    <url-pattern>/GetApplyFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplyFriend</servlet-name>
+    <url-pattern>/ApplyFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TobeFriend</servlet-name>
+    <url-pattern>/TobeFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefuseTobeFriend</servlet-name>
+    <url-pattern>/RefuseTobeFriend</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateActivity</servlet-name>
+    <url-pattern>/CreateActivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Loginout</servlet-name>
+    <url-pattern>/Loginout</url-pattern>
+  </servlet-mapping>
+
+  <welcome-file-list>
+    <welcome-file>jsp/main.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

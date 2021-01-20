@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	background:#ececec;
+}
+/*标题栏*/
+.titlebar{
+	background:#0075c3;
+	width:100%;
+	height:9%;
+	border:1px solid #0075c3;
+	display:inline-block;
+	text-align:center;
+}
+.title_fix{
+	height:8em;
+	display:inline-block;
+	width:81%;
+}
+.title{
+	color:#ffffff;
+	width:auto;	
+	height:auto;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+.backbtn{
+	color:#ffffff;
+	font-size:2em;
+	width:10%;
+	float:left;
+	height:10%;
+	margin-top:2em;
+	font-weight:bold;
+	display:inline-block;
+}
+.collect{
+	float:right;
+	width:5%;
+	height:2.0em;
+	padding-right:0.5em;
+	padding-top:6em;
+	display:inline-block;
+	background:url(../image/w-wujiaoxing.png) center no-repeat;
+	background-size:100%,100%;
+	margin-right:2em;
+}
+/*页码提示*/
+.testPageNum{
+	width:100%;
+	height:4em;
+	background:#ffffff;
+}
+#currentNum{
+	width:1em;
+	height:1em;
+	color:#ff3131;
+	font-size:1em;
+	font-weight:bold;
+	display:inline-block;
+}
+.totalNum{
+	width:1em;
+	height:1em;
+	font-size:1em;
+	font-weight:bold;
+	float:right;
+	display:inline-block;
+}
+.fix{
+	width:3em;
+	height:1em;
+	float:right;
+	font-size:3em;
+	font-weight:bold;
+	margin-right:1em;
+	display:inline-block;
+}
+/*分隔线*/
+.line{
+	width:100%;
+	height:1px;
+	background:#cecece;
+	overflow:hidden;
+}
+/*试卷内容*/
+#content{
+    width:100%;
+    height:auto;
+}
+.titlepic{
+	width:100%;
+	height:90%;
+	background-size:100% 100%;
+}
+.anspic{
+	height:100%;
+	width:100%;
+	background-size:100% 100%;
+}
+/*显示更多、收起*/
+.morediv{
+	width:100%;
+	height:7em;
+	display:inline-block;
+	text-align:center;
+	background:#ffffff;
+}
+.packup{
+	width:100%;
+	height:7em;
+	display:inline-block;
+	text-align:center;
+}
+.more{
+	width:auto;
+	height:auto;
+	font-size:2em;
+
+	text-align:center;
+	font-weight:bold;
+	display:inline-block;
+	color:black;
+	
+}
+/*前后翻页*/
+#goprev{
+	width:20%;
+	height:15%;
+	float:left;
+	margin-top:30em;
+	background:url(../image/toprev.png) center no-repeat;
+	background-size:100%,100%;
+	opacity:0.4;
+}
+
+#gonext{
+	width:20%;
+	height:15%;
+	float:right;
+	margin-top:30em;
+	background:url(../image/tonext.png) center no-repeat;
+	background-size:100%,100%;
+	opacity:0.4;
+}
+
+#size {
+    margin-top: 9%;
+    font-size: 3em;
+    color: white;
+}
+#size2 {
+	padding-left:2%;
+    margin-top: 9%;
+    font-size: 2em;
+    color:black;
+}

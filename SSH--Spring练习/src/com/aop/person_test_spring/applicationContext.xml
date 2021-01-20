@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+
+	<!-- 目标类 -->
+	<bean id="person_dao" class="com.aop.person_test_spring.PersonDaoimpl"></bean>
+	<!-- 切面 -->
+	<bean id="logger_manager" class="com.aop.person_test_spring.LoggingManager"></bean>
+	
+	<!-- aop配置 -->
+	<aop:config>
+		<!-- 切入点配置 -->
+		<aop:pointcut expression="execution(* com.aop.person_test_spring.PersonDaoimpl.*(..))" id="per"/>
+
+		<aop:aspect ref="logger_manager">
+			<!-- 通知配置 -->
+			<aop:before method="startLog" pointcut-ref="per"/>
+			<aop:after-returning method="endLog" pointcut-ref="per"/>
+		</aop:aspect>
+	</aop:config>
+	
+</beans>

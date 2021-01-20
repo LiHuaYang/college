@@ -1,0 +1,257 @@
+@CHARSET "UTF-8";
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	background-color: rgb(235, 235, 235);
+	font-family: "微软雅黑"
+}
+
+.head {
+	width: 100%;
+	height: 2.8em;
+	background: #0075c4;
+	padding-top: 1.5%;
+}
+.logo {
+	width: 100%;
+	height: 80%;
+	display: block;
+}
+
+.dasai {
+	font-size: 1.2em;
+	color: white;
+	margin-right:40%;
+	float:right;
+	font-family:"微软雅黑";font-weight:bold;
+}
+
+
+.next {
+	width: 100%;
+	margin-top: 0.8em;
+	background: white;
+	display: inline-block;
+}
+
+#in {
+	height: 2.1em;
+	border-bottom: 0.1em solid #edefec;
+	letter-spacing: 0.2em;
+	margin-left: 1.5em;;
+	margin-top: 5%;
+	padding-right: 10px;
+	padding-bottom: 0.5em;
+}
+
+#in span{
+	line-height: 3em;
+}
+
+.in-info {
+	line-height:3em;
+	display: inline-block;
+}
+
+#size {
+	font-size: 100%;
+	color: #F7EFEF;
+	float: right;
+	line-height: 3em;
+}
+
+.user {
+	width: 100%;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+	background: white;
+	display: inline-block;
+}
+
+#user_pic {
+	height: 4.0em;
+	border-bottom: 0.1em solid #edefec;
+	letter-spacing: 0.2em;
+	margin-left: 1.5em;;
+	margin-top: 5%;
+	padding-right: 10px;
+}
+
+.pic {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-right: 2em;
+}
+
+.bodymiddle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.middleClose {
+	margin-top: 8px;
+}
+
+.middleFrame {
+	margin: auto;
+	margin-top: 50%;
+	width: 280px;
+	height: auto;
+	background-color: white;
+	border-radius: 6px;
+	border: 1px solid #cdcdcd;
+	padding: 0 20px 30px 20px;
+}
+
+.middleClose {
+	width: 100%;
+	height: auto;
+	text-align: right;
+}
+
+
+.Frameinformation {
+	text-align:center;
+	margin: auto;
+	margin-top: 10px;
+	width: 90%;
+	height: auto;
+}
+
+.Frameinformation input{
+	width: 180px;
+	height: 30px;
+	margin-left:1em;
+	padding-left:1em;
+}
+
+.Frameinput {
+	border-bottom: 1px solid #0595c7;
+}
+
+.Phonetext {
+	height: 30px;
+	width:100%;
+	padding-left: 8px;
+	background-color:#0075c4;
+	margin-top: 10px;
+	color:white;
+	border:none;
+}
+
+.Verficationtext {
+	width: 70%;
+	height: 30px;
+	display: inline-block;
+	padding-left: 8px;
+}
+
+.Verificationget {
+	width: 26%;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 25px;
+	vertical-align: 1px;
+	text-align: center;
+	border: 1px solid #588cb3;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.inputVerification {
+	width: 100%;
+	height: auto;
+}
+
+.Verificationselect {
+	width: 100%;
+	height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.Verificationselect_subject{
+	width: 100%;
+	height: 30px;
+	padding-left: 5px;
+	margin-top: 10px;
+}
+
+.Frameclick {
+	width: 80%;
+	height: auto;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.clickButton {
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.ButtonRigest {
+	width: 100%;
+	height: 40px;
+	border: none;
+	font-size: 16px;
+	font-family: 幼圆;
+	font-weight: 500;
+	border-radius: 5px;
+	background-color: #5dafd9;
+	color: white;
+	cursor: pointer;
+}
+
+.ButtonRigest:HOVER {
+	background-color: #3bb2d9;
+}
+
+.clickText {
+	width: 100%;
+	text-align: right;
+}
+
+.clickText div {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.Textlogin {
+	color: fa7c28;
+	cursor: pointer;
+}
+
+.Textlogin:HOVER {
+	text-decoration: underline;
+}
+
+
+#font_size {
+	font-weight:bold;
+	margin-left:10px;
+}
+/**
+#input_style {
+	height:30px;
+}
+
+.name1 {
+	height:20px;
+	border:1px solid red;
+}
+**/
+
+
+.sex1 {
+	width:180px;
+	height:35px;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+	<bean
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<value>classpath:jdbc.properties</value>
+		</property>
+	</bean>
+
+	<bean id="dataSource" destroy-method="close"
+		class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+	</bean>
+	
+<!-- 	
+	<bean id="jdbc_template" class="com.spring_jdbc.JDBCTemplate"></bean> 
+-->
+	<bean id="person_dao"  class="com.spring_jdbc_transaction.PersoDaoImpl">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	
+	<bean id="person_service"  class="com.spring_jdbc_transaction.PersonServiceImpl">
+		<constructor-arg index="0" ref="person_dao"></constructor-arg>
+	</bean>
+
+
+	<!-- 声明式事务处理 -->
+	<bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>	
+	
+	<tx:advice id="tx" transaction-manager="dataSourceTransactionManager">
+		<tx:attributes>
+			<tx:method name="save*" read-only="false"/>
+		</tx:attributes>
+	</tx:advice> 
+	
+	<aop:config>
+		<aop:pointcut expression="execution(* com.spring_jdbc_transaction.PersonServiceImpl.*(..))" id="perform" />
+		<aop:advisor advice-ref="tx" pointcut-ref="perform"/>
+	</aop:config>
+	
+</beans>

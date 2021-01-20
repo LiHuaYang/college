@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<!-- 前台请求 -->
+	<package name="admin" extends="struts-default" namespace="/admin">
+
+		<!-- 登陆拦截器 -->
+		<interceptors>
+			<interceptor name="loginInteceptor"
+				class="com.jiqiren.interceptor.LoginInterceptor"></interceptor>
+		</interceptors>
+
+		<global-results>
+			<result name="to_login" type="redirect">/login.jsp</result>
+			<!-- <result name="login_success" type="redirect" >/login.jsp</result> -->
+
+		</global-results>
+
+		<!-- 登陆 -->
+		<action name="login" class="com.jiqiren.action.BasicAction"
+			method="login">
+			<result name="success">/index.jsp</result>
+			<result name="login_fail">/error.jsp</result>
+		</action>
+
+		<!-- 学生 -->
+		<action name="student*" class="com.jiqiren.action.StudentAction"
+			method="{1}">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<interceptor-ref name="loginInteceptor"></interceptor-ref>
+
+			<result name="getPage">/WEB-INF/student/student_list.jsp</result>
+			<result name="detail">/WEB-INF/student/student_detail.jsp</result>
+			<result name="success">/WEB-INF/student/student_list.jsp</result>
+		</action>
+
+		<!-- 老师 -->
+		<action name="teacher*" class="com.jiqiren.action.TeacherAction"
+			method="{1}">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<interceptor-ref name="loginInteceptor"></interceptor-ref>
+
+
+			<result name="getPage">/WEB-INF/teacher/teacher_list.jsp</result>
+			<result name="detail">/WEB-INF/teacher/teacher_detail.jsp</result>
+			<result name="success">/WEB-INF/teacher/teacher_list.jsp</result>
+		</action>
+	</package>
+
+</struts>

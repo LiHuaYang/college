@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+.ww {
+	width: 100%;
+	height: 12em;
+}
+
+.user {
+	border: 0.1em;
+	width: 99%;
+	height: 90%;
+	padding-left: 2%;
+	border-bottom: 0.1em solid #edefec;
+	background: #FFFFFF;
+	margin-top: 30px;
+}
+
+input {
+	font-size: 1.15em;
+	color: #292929;
+	background: #FFFFFF;
+	font-family:"微软雅黑";
+}
+
+#on {
+	width: 98%;
+	height: 30%;
+	float: right;
+	border-bottom: 0.1em solid #edefec;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+	color: #292929;
+	font-family:"微软雅黑";
+}
+
+#behind {
+	width: 98%;
+	height: 42%;
+	padding-left: 2%;
+	line-height: ;
+	font-size: 0.9em;
+	color: #292929;
+	letter-spacing: 0.2em;
+	font-family:"微软雅黑";
+}
+
+.box {
+	width: 60%;
+	height: 55%;
+	margin-top: 4%;
+	border: none;
+}
+
+.bbox {
+	width: 40%;
+	height: 40%;
+	margin-top: 4%;
+	border: none
+}
+
+#identify {
+	height: 1.8em;
+	width: 6.5em;
+	text-align: center;
+	color: #0075c4;
+	border: 1.2px solid #0075c4;
+	cursor: pointer;
+	border-radius: 40em;
+	font-size: 1em;
+}
+
+.submit {
+	width: 85%;
+	height: 26%;
+	border-radius: 0.4em;
+	margin-left: 7%;
+	margin-bottom: 5%;
+	background-color: #0075c4;
+	font-size: 1.2em;
+	color: white;
+	font-family:"微软雅黑";
+}
+
+
+.item {
+	margin-left: 5%;
+	margin-bottom: 5%;
+	font-size: 0.9em;
+	letter-spacing: 0.2em;
+}
+
+#circle {
+	background: #B3EE3A;
+	padding: 1%;
+	font-size: 0.6em;
+	border-radius: 50%;
+	color: white;
+}
+
+.blue {
+	color: #0075c4;
+}
+#size {
+	margin-left: 3%;
+	margin-top: 15%;
+	
+	color: white;
+	font-size: 1.2em;
+}
+
+.sort {
+	width: 100%;
+	height: 15%;
+}
+
+.key {
+	width: 24%;
+	height: 80%;
+	float: left;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin-top: 3%;
+	font-size: 1.1em;
+	border-right: 0.1em solid;
+}
+
+.head {
+	width: 100%;
+	height: 2.8em;
+	background: #0075c4;
+	padding-top: 1.5%;
+}
+
+
+.logo {
+	width: 100%;
+	height: 80%;
+	display: block;
+	margin-top: 2%;
+}
+
+.dasai {
+	font-size: 1.2em;
+	color: white;
+	margin-right:40%;
+	float:right;
+	font-family:"微软雅黑";font-weight:bold;
+}

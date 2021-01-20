@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+.all{
+	width:100%;
+	height:auto;
+}
+.TopNews{
+	width:100%;
+	height:460px;
+	
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+.news_detail{
+	width:75%;
+	height:auto;
+	margin:auto;
+	margin-top:10px;	
+}
+.news_title{
+	width:100%;
+	height:auto;
+	margin-top:5px;
+	font-size:30px;
+	color:#383838;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	font-weight:bold;
+	text-align: center;		
+}
+.news_content{
+	width:100%;
+	height:auto;
+	line-height:30px;
+	font-size:20px;
+	color:#5C5C5C;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	text-indent:2em;
+	margin-top:10px;
+}
+.news_time{
+	width:auto;
+	height:auto;
+	margin-top:20px;
+	float:right;
+	font-size:17px;
+	color:#5C5C5C;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+}
+.news_from{
+	width:auto;
+	height:auto;
+	float:right;
+	margin-right:-80px;
+	margin-top:50px;
+	font-size:17px;
+	color:#5C5C5C;
+	font-family: "Hiragino Sans GB", "华文细黑", "STHeiti", "微软雅黑",
+			"Microsoft YaHei", SimHei, "Helvetica Neue", Helvetica, Arial,
+			sans-serif !important;
+	padding-bottom:15px;
+}
+.goleft {
+    width: 7%;
+    height: 460px;
+    float: left;
+    line-height: 461px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+#goleft_1 {
+    font-size: 42px;
+    color: white;
+}
+.goright {
+    width: 7%;
+    height: 460px;
+    float: right;
+    line-height: 461px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.38);
+}
+#goright_1 {
+    font-size: 42px;
+    color: white;
+}

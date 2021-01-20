@@ -1,0 +1,278 @@
+@CHARSET "UTF-8";
+.friendlist{
+width: 100%;
+position: fixed;
+right:0px;
+float: right;
+top:45px;
+height: 100%;
+width: 251px;
+background: white;
+box-shadow:-1px 0px 1px rgb(100,100,100);
+display: none;
+z-index: 1000;
+}
+.friend-title{
+width: 100%;
+height: 23px;
+padding-top: 2px;
+color: white;
+background: #f47920;
+box-shadow:0 1px 3px rgb(200,200,200);
+font-weight: bold;
+}
+.searchfriend{
+width: 100%;
+height: 30px;
+background: #FFCE7A;
+
+
+}
+.searchf{
+background: white;
+border: 0px;
+height: 30px;
+border-top:1px dashed rgb(200,200,200);
+width: 220px;
+padding: 10px;
+
+}
+.f-list{
+	margin-top:1px;
+width: 100%;
+height: 500px;
+overflow-x:hidden;
+box-shadow:0 -1px 1px rgb(200,200,200);
+}
+.f-one{
+width: 100%;
+height: 50px;
+border-bottom: 1px dashed rgb(200,200,200);
+
+}
+.f-one-pic{
+width: 50px;
+height: 50px;
+
+background: url('../../img/activity/wall.jpg');
+background-size:100% 100%;
+border-radius:50%;
+float: left;
+}
+.f-one-name{
+float: left;
+width: 80px;
+padding-top: 20px;
+font-size: 13px;
+padding-left: 10px;
+}
+.f-one-bu{
+width: 102px;
+float: right;
+height: 100%;
+
+}
+.rightf{
+	z-index:1001;
+position: fixed;
+right:0px;
+top:40%;
+width: 30px;
+height: 60px;
+background:  #f47920;
+box-shadow:-1px 0px 1px rgb(100,100,100);
+padding-top: 20px;
+color: white;
+cursor: pointer;
+transition-property:right,color;
+		transition-duration: 0.25s;
+		-moz-transition-property:right,color;/* Firefox 4 */
+		-moz-transition-duration: 0.25s; /* Firefox 4 */
+		-webkit-transition-property:right,color; /* Safari and Chrome */
+		-webkit-transition-duration: 0.25s; /* Safari and Chrome */
+		-o-transition-property:right,color;/* Opera */
+		-o-transition-duration: 0.25s; /* Opera */
+}
+.f-bar{
+width: 100%;
+height: 50px;
+
+}
+.f-bar-m{
+width: 83px;
+padding-top:10px;
+height: 40px;
+cursor: pointer;
+text-align: center;
+color: white;
+float: left;
+
+
+}
+.s-list,.c-list{
+display:none;
+margin-top:1px;
+width: 100%;
+height: 500px;
+overflow-x:hidden;
+box-shadow:0 -1px 1px rgb(200,200,200);
+
+}
+.chats{
+width: 600px;
+height:400px;
+box-shadow:0 0 2px rgb(100,100,100);
+position: fixed;
+top: 20%;
+left: 30%;
+background: white;
+z-index:12000;
+}
+.chats-headle{
+width: 100%;
+cursor:move;
+height: 30px;
+background: rgb(81, 33, 13);
+box-shadow:0 1px 2px rgb(100,100,100);
+}
+.chats-more{
+width: 100%;
+height:370px;
+}
+.chats-more-left{
+width: 400px;
+height: 100%;
+float: left;
+}
+.chats-more-right{
+background-color:#f6f8f7;
+width: 200px;
+height:330px;
+padding-top:40px;
+float: left;
+background-image: url("../../img/chatback.jpg");
+background-size:100%;
+background-repeat: no-repeat;
+background-position: 0 250px;
+}
+.chats-people{
+	margin: auto;
+	background: white;
+	padding-top:10px;
+	height: 110px;
+	width: 110px;
+	padding-left:10px;
+	box-shadow:0 0 1px rgb(100,100,100);
+	border-radius:50%; 
+}
+.chats-people-pic{
+background: url("../../img/chatback.jpg");
+width: 100px;
+height: 50px;
+padding-top:50px;
+background-size:100% 100%;
+border-radius:50%; 
+}
+.chats-people-name{
+	font-weight:bold;
+padding-top:3px;
+	height: 47px;
+width: 100px;
+border-radius:0 0 50px 50px;
+text-align:center;
+color:white;
+background: rgba(0,0,0,0.7);
+}
+#chat-show{
+width: 100%;
+height: 250px;
+overflow-x:hidden; 
+}
+.chat-show{
+width: 400px;
+
+}
+.chat-send{
+width: 100%;
+height: 120px;
+box-shadow:0 -1px 3px rgb(200,200,200);
+}
+.chat-send-text{
+width: 100%;
+height: 90px;
+overflow-x:hidden;
+font-size: 13px;
+}
+.chat-bu{
+	padding-top:3px;
+text-align: right;
+}
+.x{
+width: 80px;
+height: 23px;
+
+background: #f47920;
+text-align: center;
+display: inline-block;
+border-radius:8px;
+margin-right: 5px;
+color: white;
+cursor: pointer;
+}
+.he{
+padding-top: 5px;
+
+}
+.my{
+padding-top: 5px;
+text-align: right;
+}
+.photo{
+width: 30px;
+height: 30px;
+background: url("../../img/chatback.jpg");
+background-size:100% 100%;
+border-radius:50%;
+display: inline-block;
+vertical-align:top;
+}
+.ctext{
+display: inline-block;
+vertical-align:top;
+width: 320px;
+padding: 2px;
+margin-top: 3px;
+
+}
+.ctext div{
+padding:3px;
+background: #f6faf9;
+border: 1px solid #57AF01;
+color: #ee7821;
+border-radius:5px;
+font-size: 13px;
+table-layout:fixed; word-break: break-all; overflow:hidden;
+display: inline-block;
+}
+.mtext{
+display: inline-block;
+vertical-align:top;
+width: 320px;
+
+padding: 2px;
+margin-top: 3px;
+}
+.mtext div{
+padding:3px;
+background: #f6faf9;
+border: 1px solid #57AF01;
+color: #ee7821;
+border-radius:5px;
+font-size: 13px;
+table-layout:fixed; word-break: break-all; overflow:hidden;
+text-align: left;
+display: inline-block;
+}
+.my .photo{
+margin-right: 15px;
+}

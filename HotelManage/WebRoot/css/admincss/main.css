@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+
+
+body{
+	background-color:#EFF5FF;
+}
+.wrap {
+	width: auto;
+	height:auto;
+}
+
+.head {
+	height: 65px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	background-color:#00796B;
+	max-width: 2000px;
+	min-width:1200px;
+}
+
+.content {
+	width:100%;
+	height:100%;
+	max-width: 2000px;
+	min-width:1200px;
+}
+
+.foot {
+	height:25px;
+	bottom:0px;
+	background-color:#00796B;
+	clear:both;
+}
+
+.mainleft {
+	width:10%;
+	float:left;
+	margin-top:20px;
+	border:1px solid #CCC;
+	border-radius:5px;
+	color:#00796B;
+	background-color:white;
+	/*#00796B;*/
+}
+.mainright {
+	width:80%;
+	height:100%;
+	float:left;
+	margin-left:40px;
+	margin-top:20px;
+	border-radius:5px;
+	background-color:white;
+}
+/**************************************\
+	页面头部样式
+\**************************************/
+.web-info-wrap {
+	height:auto;
+	width:auto;
+	display:inline-block;
+}
+
+.logo-wrap {
+	height:100%;
+	margin-left:10px;
+}
+	
+.title-wrap {
+	height:100%;
+	padding:0px;
+}
+.title-wrap p {
+	height:auto;
+	display:inline-block;
+	font-size:20px;
+	font-weight:bold;	
+	color:white;
+}
+.logo-wrap i {
+	display:inline-block;
+	font-size:50px;
+	color:white;
+}
+
+.admin-info-wrap {
+	width:auto;
+	height:100%;
+	float:right;
+	display:inline-block;
+	margin-right:10px;
+}
+.admin-name-wrap {
+	display:inline-block;
+	height:100%;			
+}
+.opration-wrap {
+	height:100%;	
+	display:inline-block;
+	padding-left:10px;
+}
+.opration-wrap a{
+	width:auto;
+	height:auto;
+	padding-left:10px;
+	display:inline-block;
+	color:white;
+	text-decrotion:underline;
+	font-size:12px;
+}
+
+.admin-name-wrap p {
+	color:white;
+	font-size:15px;
+}
+/**************************************\
+	页面左侧样式
+\**************************************/
+.mainlefthead {
+	width:100%;
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#00796B;
+	color:white;
+	text-align:center;
+}
+
+.mainleft ul{
+	padding-left:20px;
+}
+.mainleft ul li {
+	list-style:none;
+	font-size:15px;
+	font-weight:bold;
+	cursor: pointer;
+	border-bottom:1px solid #00796B;
+	margin-bottom:10px;
+	margin-left:0px;
+}
+
+/**************************************\
+	页面尾部样式
+\**************************************/
+.foot-text {
+	margin:0 auto;	
+}
+.foot-text p{
+	color:white;
+	text-align:center;
+	line-height:25px;
+}
+/**************************************\
+	页面公用样式
+\**************************************/
+
+.lf {
+	float:left;
+}
+
+.rf {
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

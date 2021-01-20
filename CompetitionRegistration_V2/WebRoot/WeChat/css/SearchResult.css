@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+body{
+	margin:0px;
+}
+/*标题栏*/
+.titlebar{
+	background:#0075c3;
+	width:100%;
+	height:3em;
+	border:1px solid #0075c3;
+	display:inline-block;
+}
+.backbtn{
+	color:#ffffff;
+	font-size:2em;
+	width:10%;
+	height:100%;
+	margin-left:0px;
+	padding-left: 10px;;
+	padding-top: auto;
+	font-weight:bold;
+	display:inline-block;
+}
+.title_tip{
+	display:inline-block;
+	font-weight:bold;
+	color:#ffffff;
+	font-size:1.3em;	
+	margin-left:20%;
+}
+/*成绩查询*/
+.searchResult{
+	background:#ffffff;
+	width:100%;
+	height:10em;
+}
+.search{
+	width:80%;
+	height:100%;
+	margin-left:10%;
+	margin-right:10%;
+	display:inline-block;
+}
+.division{
+	 background:#ececec;
+	 width:100%;
+	 height:0.8em;
+	 border:1px solid #ececec;
+}
+.input_tip{
+	display:inline-block;
+	color:#0075c3;
+	font-weight:bold;
+	margin-top:0.9em;
+}
+.input{
+	width:60%;
+	height:66%;
+	display:inline-block;
+	margin-right:1.2em;
+	margin-top:0.5em;	
+	float:right;
+}
+#comName,#stdName,#admCard{
+	width:100%;
+	height:1.8em;
+	margin-top:0.4em;
+}
+
+.input_style{
+	display:inline-block;
+	width:32%;
+	height:70%;
+}
+.btnstyle{
+	width:40%;
+	height:20%;
+	margin-left:30%;
+	text-align:center;
+	border-radius: 40em;
+	background:#efE670;
+	display:inline-block;
+}
+/*分数列表*/
+.competionrank{
+	font-size:1em;
+	font-weight:bold;
+	width:3em;
+	height:auto;
+	margin-top:0.2em;
+	border:1px solid #0075c3;
+	text-align:center;
+	border-radius: 20em;
+}
+.resultlistitem{
+	 width:100%;
+	 height:7em;
+	 margin-left:0px;
+	 display:inline-block;
+}
+.resultinfo{
+	 margin-top:6px;
+	 text-size:10em;
+	 margin-left:1em;
+	 display:inline-block;
+	 height:auto;width:auto;
+}
+.competionname{
+	font-size:1em;
+	font-weight:bold;
+	width:100%;
+	height:auto;
+}
+.itemstyle{
+	font-size:1em;
+	font-weight:bold;
+	width:100%;
+	height:auto;
+	margin-top:0.2em;
+}
+.gradestyle{
+	display:inline-block;
+	width:30%;
+	height:100%;
+	float:right;
+}
+.grade{
+	font-size:3em;
+	font-weight:bold;
+	width:50%;
+	height:50%;
+	color:#ff3131;
+	margin-top:25%;
+	margin-left:25%;
+}
+.line{
+	 height:1px;
+	 width:100%;
+	 background:#cecece;
+	 overflow:hidden;
+}

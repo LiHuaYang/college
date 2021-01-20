@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+
+
+
+
+/**************************************\
+	页面左侧导航栏样式
+\**************************************/
+#mainleft {
+	width:230px;
+	min-height:500px;
+	float:left;
+	border:1px solid #CCE0EB;
+	color:#00796B;
+	background-color:#F9F9F9;
+	margin-top:20px;
+}
+
+.left-head {
+	background-color:#F5F9FB;
+	width:229px;
+	height:50px;
+	border:1px solid #CCE0EB;
+}
+
+h3 {
+	color:#444444;
+	margin: 0 15px 0 10px;
+	display:block;
+	line-height:47px;
+}
+dl {
+	padding:0px;
+	margin:0px;
+	height:auto;
+	color:#333333;
+	font-size:12px;
+	background-color:white;
+	cursor: pointer;
+}
+dt {
+	padding:0px;
+	margin:0px;
+	height:30px;
+	line-height:27px;
+	border:1px solid #CCE0EB;
+	padding: 0 15px 0 10px;
+	background-color:#F5F9FB;
+	font-weight:bold;
+}
+
+dl dd {
+	padding:0px;
+	margin:0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+dl dd a {
+	padding:0px;
+	margin:0px;
+	padding: 0 15px 0 10px;
+	text-decoration: none;
+	color:#333333;
+}
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>报名的比赛</title>
+<meta name="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport"
+	content="width=device-width,initial-scale=1,user-scalable=0">
+<link rel="stylesheet" type="text/css" href="../common/weui.min.css">
+
+<style>
+.info_text {
+	line-height: 2em;
+	margin-left: 80px;
+	color: #373737;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.info_list strong {
+	line-height: 2em;
+	float: left;
+}
+
+.info_list {
+	font-size: 13px;
+}
+
+.button_sp_area {
+	padding: 10px 0;
+	width: 60%;
+	margin: 0 auto;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+	font-size: 0;
+}
+.weui_panel_bd{
+   padding:4%;
+}
+.weui_panel_access .weui_panel_ft {
+	color: #999;
+}
+</style>
+
+</head>
+<body>
+<div id="list">
+	
+</div>
+<div class="weui_dialog_confirm" id="dialog1" style="display: none;">
+	<div class="weui_mask"></div>
+	<div class="weui_dialog">
+		<div class="weui_dialog_hd">
+			<strong class="weui_dialog_title">报名的比赛</strong>
+		</div>
+		<div class="weui_dialog_bd">您还没有报名比赛，点击确定去报名！</div>
+		<div class="weui_dialog_ft">
+			<a href="javascript:qx();" class="weui_btn_dialog default" >取消</a>
+			<a href="javascript:tobaoming();" class="weui_btn_dialog primary" >确定</a>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="../common/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/baoming.js"></script>
+</body>
+</html>

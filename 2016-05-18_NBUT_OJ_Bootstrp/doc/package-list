@@ -1,0 +1,12 @@
+com.factory
+com.nbut.bll
+com.nbut.bll.impl
+com.nbut.bll.proxy_impl
+com.nbut.dao
+com.nbut.dao.dbutils_impl
+com.nbut.dao.impl
+com.nbut.entity
+com.nbut.filter
+com.nbut.servlet
+com.nbut.utils
+junit.test
